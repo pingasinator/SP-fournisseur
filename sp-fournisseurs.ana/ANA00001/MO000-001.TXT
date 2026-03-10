@@ -1,0 +1,4 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Fournisseurs		NFI		nouvelle table
+Contacts		NFI		nouvelle table
+Contrainte_Fournisseurs_Contacts		NWL	Fournisseurs (id) et Contacts (fournisseur_id)	Nouvelle liaison entre les tables Fournisseurs (id) et Contacts (fournisseur_id)
