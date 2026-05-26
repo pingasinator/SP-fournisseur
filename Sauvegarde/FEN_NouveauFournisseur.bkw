@@ -1,0 +1,836 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_NouveauFournisseur
+ major_version : 31
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_NouveauFournisseur
+ identifier : 0x29a5ae3301cb2e40
+ internal_properties : IQAAACAAAADlgA5D12ynKweC9H7Rgd9hs6OSigdFVy6UjnBORl2/zzvxE8qsFEJnFk4BrjgjJagDFTJ7GzL3rDeF+wrQMNuNb8TmQ2L47mhWln3+w3aP+234OX6O+TK8SiVZlYVaDGtoHtN5IXaOSNN4o6EWPWmnqiXbmsabCuSlLXSVHxNpFMmkBwOtjWbnJADgEWQpF5foNjIERKr+wCeSMm/AKsQsxiJts7kg7IyGDN2XbOTnA39IosFu9EycR5rFK7FZwQA7uIioTE9GI2aDjkNFJEkGAdXYYHoy4AtvxgXARIm5Hrusku9NJyN2tkyplrTsuLAXzMmvVICt4nBRkD8FD+ZEqKkUEPFWhgosXglWA6zxJK1quQQLofjn05z4Ga0u/Sz8g0DVEe6GhaTqwAJM2DX1aI4fCK0hCl2J4Ru9yamnX5F16oAM6kW+Sk4M7OTKczKAIg29kmz5gN+fhWOZTf5P3X8vX0ZrHzVkgJSPZ4+kfSr8Awt+M+rVA+yTW2QIglVCrdQO5mcHCPOtF0mv5H6DIAiRAwVxJF5wStRYuP4rhzm6U77apDSEMNDjCORqh69e8biwdkhZrO3LVnv1eQ9cww80wQ8/lEb/KgM7Qb7NUGn3xC24fnyNuktbQaCRtH4rUr8B++xf9yj9wI4cI9HM03eofNRhd+9iahvCnqjGLW6lO6n7UevXpgL1WjzoZnZMhPEPcfQSAfekjDggQE0HDnFln3vU5EyQwOCXVxj4SNh+xD2UOlW8pGn7HufoJzUF4FeeoqhvLCEN
+ properties :
+  width : 1338
+  height : 783
+  widthClient : 1336
+  heightClient : 751
+ controls :
+  -
+    name : SAI_RaisonSociale
+    identifier : 0x29a5aebe01e64c3e
+    internal_properties : IQAAACAAAADNGPZL7MXveNuzg+opB4e8C+S3oFVP5GRjZ4cDrLeLFdeR0IJHxJusMWWmEhXazVUTwSkN0ogAQXQ7E+lN/PfvHrDmCqc7zhmaIksjDkrX3yGK0YZzu5Z16tfyC+RddZ84isWv4kK1mU+E+zUVhHjivFFqoJ3iSxJROnqLc0vA2uSQ7A/ax5lQKGLWUP4iOjYFg1pfZhHgdp6MsVEZpqwtyog/PLc8Em6F4jCF+mbyk6KsyFtdHDfyhuEDAD8tPWmhKFEpN1Cu8resPVEw5BKyzhlwB/QNZmu596ZstUoFF8vJdkKyRqmqu1Tg7WHS9svxIzljJUO+yRTBPoUIItIDoMeDfD78S+GtBkpo1tzFn2qKCWa2ltsesZxEUipaXv5ewJWJkI+qwTrbe7GOttayH9wPZrl+gQGLoZRXzRp465c+8hLvPx3VIUNXn2zFABTkzdhMRbTCQIbQjlsrqeUksXDVvCACszr/H8SD/mqAW6D1V4cw6HRyi7Ruq2aFgEskQ32FsIJCGxR473YTNGTzx+uom6N2pSw2HI5M/pPt3hoIyd1hEO6eILXWfsqyrSolwzRfAJ0KrO2uwif1hWoVJtykGY3YFWI9upQ7Lsn0wn7mbUUQTXd2HRMPcOZr5jYSN8cot8pVrOiHn3RbwwCysUcAwPgxLDgMt1AxRiJoVn/vhTroTR0pBnsV+QqYyzhKYXGZpzkCF4N3l/gMoqwH6XfYYxqYAegOIHf8Q5dK2jFXx7siNcOJ4lXzrQ0ZMCjgYW/gWwRaN2yI0zKf6abM8uJO88LS6oFPkPUCpRGGwTLd/gB+Hpz/qb688dSTFln0em/JMaOVPSo61kAnFy6Jjuk02zrgPmhFeBd75PfKKapxvNh1Cwwo1087lwbJ3y/FVMcImS0EeCHaFVvag12u9aYcrv5euzO9aYTFh6b3fsnP+t/5ZE5Egal2mlTTPZZwtdoJZ0ODxXAQR1Xhyufy16Z86HygMQOzi+NhPeSdr+VnKR/g8mrkWql7EeaVGeaqxhqpiEXRa5O9S91BV1t2fybsylFLLsbM21JcO+Auz8iFZ+e4CZDOiGGZGZgC5OEArRV7+XWtBI87AX2Tx/i3kMd0yAKE//dtN5CWMMIPcMYnYnNtstXUiHY0U6s1MvTZbUHc70vj3aDhmVNrLQhxPK+eF9xB4Mlc5f22qVe7XzAw1FwB4wGCbEA/ugZqxAO36v2PwUSUUnioDqoNz04XHbHkka24EyGwHJDT+g1jM2nRoIbLI76g4Dvc/qZRvIX96CbvoTG5yO4Fzy3zZ5BK+ip2GSrL8wPAvoDCdO4lalI1EbrptAyvKiw2KUuArVJ5NFc+Gyh3c1Md5K/V
+    properties :
+     x : 24
+     y : 68
+     width : 596
+     height : 32
+     caption :
+      fr-FR : Raison Sociale (*)
+     data_binding : Fournisseurs.raisonSociale
+     accelerator_key : 65535
+     tab_order : 0
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         SAI_RaisonSociale = Majuscule(SAI_RaisonSociale)
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_IdentiteDestinataire
+    identifier : 0x29a5aebe01e94c4e
+    internal_properties : IQAAACAAAAAw0RWh6vDtH7G/vnB7EkqkwnseLLkWhIcM4ybRcE75ZPQ+4PvFz6YlONRByM8xmT0txgQRQ6C8Emvi++rN2NMwPzRZj1i8ZFBp14TowBsWCfQ9hamTyddTaaobwirGZ7G7mz4VJqZFJh/XSGWjmM26cTJ2MWEIZSVf0RICNsVkx2TnP7KGH3IIRCBWdryVr8tGjWqM86g1XzZUKVdLbCAtXiaCOGKpwFfmdGYpN3S0OMzDdZcjLNcA9RFpvZndZQtNQIy3jr70E5Oal3MLK9W0Gsp1IA59hYDq7pyotlH2omtL3uCjalWOkJTmhW2ruNzwD6Y2YhrCwZq2pfcrJnsqsvra9aHPQFr/HcOi0WQMRou15WLWr78acM0Vnr52GeP8Mukhft9SGxYfDe9KOjPlvo3fA055QkxoayfpeIRzoYjcdev0pnlP6ixgweaRDVuOXzYG5J2dHgpf7cuwqyABtVkNu4I8pe4mGgj5VVE0dRpzpAg4V6CWYCxuQT1sKp4u07+UXrOO+0JEY7X9oKNW8q6me3g9lBS9wuu2CMSnas4Gn0rKQ542twNUL3c7eCELpjlUmKHh/+qJy1mEvMMf2jnzw4Y708VoYAhnfZ/kgBXrJt96RY/NTAYSw/8+S2s9aqCrdEt2M7rjKcCIWvDEJCukG/Er5nNXt007fUGwkN9mWG2yXKET0XoPhR50Z6mPNkz+cYvAhKFXT1niyJm0gLui5wiJuUyomWeRYrZbLeum1Esrs7mqGrOJlnkIyCH1zFHJu0asFxEsK/oSuZ7QlFYSzQsFf8VLbCh4W3U1CoSr22Cb4kzpzPz8D0pOfkTq2ShHwtmmYxj+nOkrTu+wP1wS1bxFIbVnmjgblr/X1+4DdpPgETtEs8pWAvFZ25OLBx5oQjmIDsxGGi4JeIaMGwqaqDi3W3jk5uSKUO3Kvvw1qdJ/lASP1olAobm6PEZ6BiWqKXV/qg4/yKttZaU/nGlMuPtLe4isekLg5S3WrzqzXAnITR9LqlFAV+5dyH7CaU+oz7zUTpPo70eNGEqvqizrOXk8Cp253zkgfrljk3QVBkxn3nIaLmvpafnQK8nvzTIStcoCo6HVPZzuwvKgLGEd+5bwmPH7uNO6liGKLaarjOHwADMndvsYxqt0SEDKvyHwTaTVK350CqgTB/PTeX3xEZ/Ht35WkrFXsPcFwVkUISEJcdntWu6bGnXLVWXMw+Nxn/aeb8JYe2Yss8pGtJu3mLDut9N100PhyfOb1WyDhnUopYOpMtKc1sBlyx+E5uXv1wYg6hC88OZ011NZ+8zdPh1y5Opn92xIxjH4YtwzatRHWN0dK8T4Tp9uHRo+aNO8YcOur8OvFama9A0fMg==
+    properties :
+     x : 24
+     y : 108
+     width : 596
+     height : 32
+     caption :
+      fr-FR : Nom prénom destinataire ou nom du service
+     data_binding : Fournisseurs.identiteDestinataire
+     accelerator_key : 65535
+     tab_order : 2
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_BatimentZi
+    identifier : 0x29a5aebe01ec4c6d
+    internal_properties : IQAAACAAAACo7qedJg+/PwHG7bB/OSEGU/ww56kvg1+sPASIo/pndoFn41iYo5/NT63xpEksS8e/8w3LZRKyIoQ/z2EBS1TK2ksqsyW6e6amed3fY4Y6qjBaOuax5fpODEKWZiiLV8RNjgXVDmzJuMWzt0ms/MLfmHT+pfeHt69/SJD7Lu963aoeMyshIxNyY09dowq1Lk8FnMh8dRSFjrJ9EDApHvSKyFHkRz8j/+61Qc2rdNp7APsYUWvRuvkhS+Jy3PC+bIjLH0ItsyiBJtrPjDNVklX13UOe7projdyu8n7QCHryWGiNqNX1Qu4vyeljl6CJ3EX0IhkLiD11ZHfZITEvhoEhGIOLUSC6ovvaZJPwj/KT6rg4f8GGmcl95y7geYOP61uF6k9xf8kuiOJ0NiTBWJwss0otiqYT8uUJSXjtpjgZQEL7JoHcz0eMl0cbUbEhGMJ/aw6DE1VrBz0XHsYbQwo0tlgPSejumZJHhoVhIS1TNYmjPs+pyj2ckuomUcFu7jGlsPVo6Ks5skzosYh1zGgS7kmYjX7Aq5O3Grq4fhZNofTq+IA0b6iAMU+mutkkfLtmYYo2TO9XDGzgRjXx+PWlJBFq2kMWFl2OY1HWSXicswku1w4Cky1xksNjeYMiYpUhijjeVLfE2mj0UOQvgSmXeEADFsF934yJmV6zgMNUyQRQ/+Pvo9yv90joxRksJLJZ3PMqrnpfHnFd6kczonzneLd9W/Hk0F4eIQoTvzw6FO2mcX+chhCguNv45MqEtRbn5ILFKA3v2bFCAMKP+dHv1BjFNzpCsJ8vYoEGegFwNU61lHgCdwmf8pj9YbUOees4QwsTV0BFg94+I8E+FvxBZwLh6RlMnHNjhq9Tn/N4fFz1S4+X9uQslTZ5/IaR+IjL0bmKtXqhcoDU5TrC6ic9E3p95kOQxJw01mf0C3Vb2+xvhDR80ysxUDULkUTsy5HEkJZq8Np8IErt+zeMgwxe/M1nUOTWJvwyChc2kF2vTIYr/ScLDqxhKMu51QGd8ROmaZauIBd76pvsVs/AaK02ysQE0zJ3lU11Pb4Gt41MGIBFf4SW8zswGmseddI6FtC7Kw9iCDMj3VE/WFRRuoWD4KWmlamRySUPrmKu7YVf2vQbmZOXNXw3Dk9ZODoIXxfgr87w3LnqE1ae26RGv3KuVZ20gZrQbMqmLEorj10s1C2eYKXsAtrPgIR6rhKL+uZ4E1pLLoM3G1zYbrLXy6uPIhWm1te7ZNOBxcq3ss92HPw5ia93gqRfmmafbJ3TsgYCXKbrjlMtk7/6IxmMc8bG9oqBH+ub1Hjofglp0Ji44SOUBaHDogrBh6mfImC+RsSXDDLDoelrUU7cSccz4yVBjak=
+    properties :
+     x : 24
+     y : 148
+     width : 596
+     height : 32
+     caption :
+      fr-FR : Bâtiment Zi
+     data_binding : Fournisseurs.batimentZi
+     accelerator_key : 65535
+     tab_order : 4
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_NumLibVoie
+    identifier : 0x29a5aebe01ef4c6d
+    internal_properties : IQAAACAAAABLmtbgqT82HgRjey0audWxUdCJ33eidt53jnmQy+8+PWd7ZQJ49ktAa7d4qy6iCo58I6H8eqP1FigydwiHNypptkEw9huN3dG8XG1Bu2phcvsq+Pw+2rzD4WpTiho+Vxmb85adBj41nm8PSEXruHUqufLGgdnY3WWX8SqKhj3UjzRfl2o2F3JARCh29iTl9+uuXUo8u1hNv44EwW8bxHDlnu6KICKRIA/mXPbZ3+Q8qLSTdacLLC9QffHxZYkFhdPt2OQv3qaUy6Ni1/NTa/1Uwtp14CbtHVBSToQg9omWypsD9ljjkgU2ADymxeXbcJzYT1bW+lo6wYKWbR+rvptCAjLyXUH3kKJ/lbOS2SRkpiOl5cLe/ydKaE2dNq6euTuMGnE57udSE7a3fc8iCotFxk2PQxap6jzgK5/xeGzDifjkfXMUHkm3OnRAYQ6RBVuG30ZW3J2lXhK/VQPw8/D5FSEV06LEFcaW8oj5LRHsBSKjRDhAlyimqIxWCR00esb+u8cMTnvOczJcE+WVIKtGOg72i/DdPJS14qN+yNxHgl5Ox6Kqey6ex9vU/x/7oEGzdlnkALEJH5LZk0HUVEN32tErq4aTQ004WIi3NX9cMA27Jv9C1TctNHbqy08WmyMN8qjDhCPmO+rrWSDwmpiU/AtUS4lb7pPfF1UjTUmw6Fva1OE2wBX/xUaDKdqwS5XrSljiRY8k4PXDM60ONA0grM/OO3y9vVi8hVtlDuJ/mQdacD8/l10m/n/NyuW0nC3RAC3db9qAk7V4v+4OtWIcQPq+gZ/5o0HP+KyclyH5RiDvJ5SfZtDV4MjwA7ZqAhAWTRRbdq1KjxyqAF2HmhNMS2CeWfAZJdFLlmwP4vvboxo3sse01f9gl1aqZm3VH6+3y9o8Zg2MikAyzuIl1ErY107W7Kzrr9Q4ojh+fNk+yugZ9XaDaHj7WjXk1fV2oBKWepE+3WmDBqKLjH85IbnLWE2Y7P+v7wTAhgaEQXmq6yZHaA2MMfNHjo20K5qJHMqebVuc06CYuhdkY/tJJO471jBnve2ATkk9a/3kaiX3H+D54mBrokbGogfNLYWs/yXbMR4WuX6Wv7WxEUCqPha8WBVJP6qEHF0/lDdOEl0+KULvyDWUNGczasecWjdAHKxGMy3UUWjZp9Igrmz/o0fPBcFdldMLCyp6PhW7zNMZrTWIPQXtla25fnrfvvFHudFIp1/103ry63bkT2rYb67i0L/j7GQy+49pHwdLU8OjxW5jZhPOb6lt1A5Q6MIZp3dGZmVt2qyNKvCVATnnfDS8SN3uMWj/QyNALGlHNSph/SVA/1uGCViejGWI1X0W7SLo8HsC52W0vm7C1Orbs8xYzQ==
+    properties :
+     x : 24
+     y : 188
+     width : 596
+     height : 32
+     caption :
+      fr-FR : Numéro et libellé de la voie
+     data_binding : Fournisseurs.numLibVoie
+     accelerator_key : 65535
+     tab_order : 6
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_MentionSpeciale
+    identifier : 0x29a5aebe01f24c7d
+    internal_properties : IQAAACAAAAAnWy6UIwS8MopbctnQ4jitSpXb0rYEqPoJqTVdkF/qgTSEgie5TGg09CYaTaIdenbOLNz6tiOrLVTsOCTYoutd/YZN3ozZltd7IBp4/gE9Yau9qX1IHJXTKTqG3rAjN/xN/iXV/kRRyO1jD0n8zGqvEPwGPW9H1ze/cEDDVjdKpfrOE3tx29viy++lI+o1tj/95JA0vdSlRgIVUJgRdhQiaHEUx6+bR24d4QV7ZHpTACNA2XNZemlZC9qiJPiWjPCbr4JNI4C5tqJvNNMFMk3l9ZvWVgKoDaSO6s4oMJLikOjtmMUVesbfMTlbhzBpZPXs2hHDsJ21DKcBQYl3/kEZONPLsUDCesvCFAvgHyLLasDAZ+l++Un1Z8ZwoRsHSwO1Wq+Bj6GGGKpUjqRRaNQcK4LlMm5j8j1ZsbhVHqAJGGILhtF8xx+8X0fjUdFh0CIno+Y7ixVbby0fnr6Tu8pcxvi/OQjGQZIPZi2hgW0bReHbNreR2s3kAlIGaZkG3nkVIHXY+JMBsnTomYjFTHCSNvFAhWYQGzsXsvqgJi4N6YRqqLAEp8DgeX9e2pl0ZNtuOSIe9E/XpOxYVt1JQAWtlKGKarOeLr2mQ9m2udjEQwEWP7ZKky15wsuzUUuqcn2xWngelB9calAEmLRvofE3YGhLfvk9L+RZcQ772Ct0gUSka3dbN9ijY8ykecVg8MZFMF8uuq6L0j2RhuuPVsirxBs5Hy0YLLKa1ZaXO4AGaFka/dNIivyUVD9UeLaYkcoj2I45pNE7/W3W7JY7PQ1zEAxRu6ZmfNMbll0aRiVMyapJIHwe2+WTHkz5pUGCFe80t9dXE4QBp7pS/2Xqaiglsyb9TZUQ+Cdfuks326dUILj5p5ODipCgEYrlEOIFBKxXdTWeoZ6NlhwoQZ5+DgMhTz7ZKg/E0LCAWjNop/lX76hDMBiYx7e1TFl3JcBwx5XA9LJeHP7YRLZxV9tI5xiiSEHz1HA60sBO/hM6/OEbwBJPWctXAlg1hL+VOU0hbeeCnaICzFvXnmcwYvMMTDlqlmhgd57LYYEBoSqag+HobLwpG3iSt8eUlu/6iZ5u4kTH70s2JBcvsd3T5Ii9frHnjPmyGRU1pTmbAn4CGWnrrgDPhaeTeQjrSgM13OZ867sMU2pUeN0218IyBzjyE56iQaGwhYYk2H7i4Mb/qzFISOnSLFkoFoZTvFjmMr6v5hoEl5aP2ifDzwhc+jaz36ejfolyCqPvoIfdR0I/qNlaMPT36V/VLJoFSrSj2JfpphI+BsLPqKkp19fzLBC7JJcVpzsy7hq06xFx9/JA73lZAMApkhRezz3y9EY8TUujW9+wJduqyIIC5tNRPso+6B64AiY=
+    properties :
+     x : 24
+     y : 228
+     width : 596
+     height : 32
+     caption :
+      fr-FR : Mention Spéciale ou commune géographique
+     data_binding : Fournisseurs.mentionSpeciale
+     accelerator_key : 65535
+     tab_order : 8
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_CodePostal
+    identifier : 0x29a5aebe01f54c7d
+    internal_properties : IQAAACAAAADiqc0GNNTSI1Ez9tJNw0CRT/EaDSAHsoi6aNpJsBQSB2fROwZ/3nh66Pl5ArET5u+bKG43CJN2h3Dy3/z0QWjGRESyYP0SE1T10vD1IyBuoKNCjODR1+rC6v4IUJODtrSU/aKON4PRJKwoHPS15Au5RUwayDvvKerebKMAxsfK7PsZHZ+x5YF02W6POq5gblBwDrumoM4ZSRxdGngb9qG7KCRkAg00CTezOEGSFZQicN+jLu+u0qjcbyYDLZzFSbfg8TzNF/YQ3wVw7IQXm5V0mIUrw/2WZIx/BBBAKuMUUDGp/5h1uNnuWf2nu7zREwFekzIrEo6WKoDEtmJ5OwJtxtG79u8R8AflUvs3HCqs6Yyzh3h3la4ocgc1y7MJAjk3KdKV0F9KYgk22Ujd0t2uROpMlN+YOfva3Fs3wxCDspwGTd69bxRz8rDUAusqBaUQE7m65dAahYAqOIu8+LxqYIrFnfrx/MEDlPT/B4ii2OS4luEY7pFHdTcwUa6piPNyZKJ4dGPyFiOix366GCtGHVmmiymA7ErIpPjT5WEHJBBUWxPxf3MSF0Y9ARkYkic+v0bIk8i2Av53JieAB7zkGiWVMundNtTBFpwe1b0PsCE2f2wI/ki2Kp3lOYORulEBCIgONxbkdsKusGuJhuiZe+jj2uwoFZAZwOxLQp68AH09eiYtKQCYGqDFp5ztpnuYV0rh0u0VZhMm2ciuE29+NbvxSen2MkvgUc0k0ebbc5fdsoe/raoi8Mrh2R/KHwlSM5Z4ksAtpNZJlYKTcol/3MSxz/H4hUq1Fz9msUYloqpFG1zTmokoOyH0b6z0kTakOohfIpO0dsy75pqjvhPQ6m1FWy+Ile2/A2OlKhqbFu6dt6Skjz/5WeBBA+QGwlhF5EwiKLX7F2HhBQWOAkKhH/g/IjGWbK6jVopFQ6UUfzvpvzEsmlGvcTik+iAK1sMu+0PvZF8WiITLFSGlx7bzo8pTKkncxEKnho8DlcPeCI/5TsnjMhtvTvaptYgAiq+m6imJH52wXH3IvT2r1LbRMXBlEnhTrw32VrCstyd7WurnzlHTLUvtTg75Wx6XeyCKVwh/Pifqk1MY3S/n0hWiRGONhnEO9gQnkoJupCe67WydM5PiHMStwtEc/bfIz12VYZDkbJmGNlAwhxtfxlcMwjULS3t/6TZO9l+SeZgeEtraPVz4wzBJpuOlWhiXM+zRXBw/YiR9gxAfLP6PfC10jQGlZ2rcaDBwpSQ9lGA0LjPL+e7Mm92LBnLSGviMiTJ97LjhczIsDFSwnRO7+1nEw/gZHQXF6uLXUKOafR2e/YgbOxFUAJ5usynDYXdR+gEO2Ubnlk3QaUFTabvxhu1u
+    properties :
+     x : 24
+     y : 268
+     width : 365
+     height : 32
+     caption :
+      fr-FR : Code postal (*)
+     data_binding : Fournisseurs.codePostal
+     accelerator_key : 65535
+     tab_order : 10
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Ville
+    identifier : 0x29a5aebe01f84c8c
+    internal_properties : IQAAACAAAAAV/HZ//c8p5Vio4+fIvmUqLO7RrB0i+z9TQcMiezN77Jh6nllA8S1lOsMTy0gyz/Zx61fgLzgNQBP1NCohiCkhxX0pH/zL8vuUVUfg3B3TdyiX28fgZPWRsdWP830BloqQkRo2tWn/iF5mKvqjthcz8XiC8BENxwbgan1W5Gmymic94dvvG69A65gV8HwyWqI8Um+KLiRXwWZ/5MK1vO0FZPhYNgPyTw/9Fg9kLwJCji+TEjN8qIZ8wXDd/2bDlWnstRRFzRTuKxd+HqYx4el+rIkPJ4/opsxxCpLecDVwwkGxN0gTts8Sd8eJ4aLrx8Na5/YPRODophK+FASbCb5/duEDrimz+jMTbDV5bnAER9jnV0hZZ0g0NGnLOYkTwv8z1SJdNi0gHnMgB2rv6NmgtGroeBkyc1v8Ahm5jT7nHCBS4QKLVfqPHEouyJk8iSeslxW2w6bg6U6UjmlqEkwIfA5dXUAnWlW9mk5x+eY6zpSgLuH+LIdDl71ah+xzlFUWCAbkfq3URmmwcQzQendg/THCH8N6jg5KZirZG5OvSiCMg1Mj+Z2WrZzLd5fS6qWCs+7ogX4MRgxFICH6/Szi3jHNiltnuCxP5Ab083+vxm0K8zDaKPK+GOdbN7H7Xvt1ZAiO3fzqLlAc+j373Dhn8zgTGp46H5hf9v7B0PhwSpC4j1FgwpnVPUN6+qH4mU6r0s9UzcICT2bB9vufIhL5bHI6iAjPs9S/MN7LPpnebu7Eq5YOGh+jd0FqQIC5IlwN9tO73YXyhT34dpGY5RhuyysCPsDx4jPgmuSpRrmw3WX4uH/+62YJHpwBOu2LVDnnhUXqVWQFy9/Gi80UdaIXcQTmMnYdqvpmotTU51Xe+RHIZHd3FBzOWOdaKknJ+Regz6EdcyLIBGjwxkRPUenYMotE5WwHWY+mIbcQEPhPIoIwAMjbf9oYJJNZbVkJ2TapfthSd0hnRaeumkQGXllWQmn8sVCd/RdG5WByBnKpW2bQl3gy48icuWnOeFUj5cIZ5R7EIt6ZUSxvLox4F/nsCN/WuXdoEPa1lfEDVJKOlaWKW8RevtxOrW36enPCFrP9su1CuUQPUEoP7i4cTaz54/IupTAvc4Vilb8ZkXqpnGOkNNJBkd1G6bD9DLj3FiTYLOUXr1ZvG9NzVKY0EYI/lQBY/rYEdkdVzQjZCv+9EfkJ/hNXSF0OSQaK7Wn2Vu/4ez1WeeVCwHNK4TF4wzgnvLDWdjnxeyElqp2kK+Gx/dzslhnnzPT8q9/LEfcdyp0q+bvu5YrioALusQc9QbtHOvUuMDBDDYqlVgMac9ckRY6hs2nMSGS2iT+zQR2D8DmE117HBmX+MzhcYoK4zxoZ
+    properties :
+     x : 24
+     y : 308
+     width : 554
+     height : 32
+     caption :
+      fr-FR : Ville (*)
+     data_binding : Fournisseurs.ville
+     accelerator_key : 65535
+     tab_order : 12
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         SAI_Ville = Majuscule(SAI_Ville)
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Tel
+    identifier : 0x29a5aebe01fb4c9c
+    internal_properties : IQAAACAAAADMgkvx2nPDK41CaTzr1f3qD9isgwWL35PgcEjcF95rArV751yM51OZa4ltMMWHh6GfRdUDO5j0SPdtj7c5E7QCVjseF21SY6oaKbGzs/5KysTCvqLxtaI7wRZGdoR/g/iVMiUFUkCleHUP17EASOYjAMAONXsjMzcfNEh7WpP22eJ6+yOVN/ciq4Mtw34BQjsFYEhEKahh5kphaIjt6oiuwC30f5Ofk56dpcWTYHY3bIOUqRMlrnUxy26qPGRawEQ7o2IVN5SVnoqLnNMpdoGx3Z9WPrbE4axGpv7QZJ5ejEgZWA3RhvLPCVWLB0z9EPmsZuljHJnZXPeV2XH7Ss2loF/7MbRu9hOKoMOoI/6fzqBUF3lSPb11jyKAyR9DF19dfqcB+02qeHIgRpydRGhQ+07VmirHXt2hrRDt2pRVnLLv5sGY+3MMh5MzET1F9Mb338azbwHP/9Xr5l5fVw64Ptz/uQQCzRpfynVZbbmH+cmPxie9FgnsIna2SdUisk2lhO0YrMd1eoxUAcAZSGwmnlWY/ZqEh1tHhvK4EsrxBURuSMiY+9TA6TMOQnUokP+epZpuoJPjrFRUVi115PGplLXSOv8a6j1WR3Gm/cyo/zEy1wb2x0EZ2tfjIc/mNvFJxoh+wDNgSpA4gJR7XfV7OKwD3hUBW5ShTf4DXOc4jbwG4ZExIf6lAXYi+/sqpggDasVYiFgBdLsbdAXFIAYdAq0HQQNCgkSI37SxEcq0kn80o03GVKLm8ply2tR6N7wx2ozLArMp93OYArgBd0vN5gY/zZQoep2J4Av0vM+ao9Ar3q7cpRtVXFY3J+cMe+k6UR0RYbafAdg8LTcoDAZfWagDJ8vSJoF9hOkRQTFCUoaD/U3BlEbC/6QjysgPcn7F17uIx7D7IGrij0i88KFrdeh3jK1mjvo2rInKtdt9OV7NDipm6YW/2tM1p0bKbReOLhBwApDmTgQL9UWWiYbMHqOJznYEeIIMCEHU8su5QnABL/U9HN5nqpE7C0sTe4mQp7AE2l1lKP2COCUCNl98dArGoVQV13Ov+2icAWPubqo7STrgaWU+bDGQ89wwIC49WRn4YpEFM1M1KroDGKf5uks4Eyvfy+spjIw8J0sJQI5pKwFJu+a1KA2DzoymORUiFYBeZi8EIaA8dcoo3dx8d3t+R8xerkAAyhShKYOGGidsUqPmCDTdkop8rCSZ9OwygYSR6AnxmUYWiGCR4aX1jPuYZEERHjGDuQgxqMn0brJDn5mtVIJBWKgNvjsl2FjoTvSdxG0JhyGL8gKrVFkzTf+2in8PQOQEWlUllKS03T+oEZXfTr51S+1TdrxSKih7aJZv9V3nzcpYNdMHP0FdqU0=
+    properties :
+     x : 24
+     y : 348
+     width : 428
+     height : 32
+     caption :
+      fr-FR : Téléphone principal de la société
+     data_binding : Fournisseurs.tel
+     accelerator_key : 65535
+     tab_order : 13
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_AdresseMail
+    identifier : 0x29a5aebe01fe4c9c
+    internal_properties : IQAAACAAAAAQNl/l3nfXJ4leddjX4TmuS5T4P9Eni1ekBByAq/JPbmlP22Bwizf1t+XZjGHTR2fjxaE3c2A0tKGdH6fJO5Sqtkted22qS0oS6WlD4w5CKrzKBgopZZLj8e5GDpwXU9BF8vUF0lj9+O2P71FwqI6jOHgm3VNDI38vzAiTYqvGEfKaS2N134+yMxO1E45BmgsN6PC8MSihTto52PDV0ij24J10z7N3yz61hT2TwDaPPAsMwSsdDjV5Wya6BIyCYLyrI/KltzxdPoKrpGNJZlmRlTdulk4EcfSGHt5IfKYuBLjJOL2hvhpfQVWDd/wNSImUznE7xOkpNGedCdkTgv0tYP/LAXS2DsNCkFvYA97HDnh8P/HqvR1N34ogcffr9xctridBu6VCyIpwbmwdVACg45adAiJXjlWhpaCl8lwFdMI/5qHI84scj5MLQQ2VzBY/l76Lp5GPVxVjpuYHD85A3kyfaUR6ZYrXCn3ZDUnP6bF37h/V9tkU8g4mMR1q8tUFVM1YfN/t+tSEGTB5yIQWhr3glULkJ2PXXqJQ2rIhndS+iBjIM4xAcbP2QmU4mM8mnXL2iOPz9BT81kWtTIEBJDWier+Cos0O55k2jbzQn6lafz5uF6Ehqi8j6Zde1gmZZniOMOsoSkjouOS7fV0rYFQrJs2x+0yhpR7r9H9IFfyydQ21nbKhBSJWl4+GyiQnJknEHNQlcD+XSCFpjIrphkmrLSeuJtBsG6j9pTbI/vMQh+k64MaCZlVmdlgWG+gV9nBHlt/9E3eEBoSl818ZuhJzqcgEbulNTC9QIEsuf8RHwsrAsY/xIGLLU1u430WezeFNFYITrZxoMTOcuNq7LYQng28+2t0h8H3Nhe2GzsqfIblVMHpOQ4A3BjzbNqpJk9/ka8wv3F7Ow2SQDIWn+XSLeLFiElZaiI3WuachRUIJ0mZKFRn7Dn8ZQyoWoSNCmsQ8Juz6ujj3KcFq1arYQn9N+loQPK7AZBUwZpftDsTtIwEheLKzHh0vZz8P/xVUk4SgPik5ZIE+3EHGYiP4OKYqvUhhyx/j95xota8i6v43bRb0VbmakO3U/yDcdPoRRS1UFi2pT0chXhY3xOtFfpdMDz/7fweNKHAYmxdNHLIlT329F6oRrJl32sCyvcFGYXTq6ut4vQSoibZM2dBIiwfS8wBq0lwU1tjt7e+KJuv4Jm8aZGiZVtbAGEg1WKh2LRh97NX19Roi3AzVvTkxQMfskCWtwr0HJcy9DFXo+ma/AyUBADbtDBTBOq+hbLQcSrhZCOGNk4098FRBroclc4leplNzrFCwtjEBqLCgyQv8/bm7qhLJn7GXKmiGfvyvJNqryYED6dZUMd8LO01pVfE=
+    properties :
+     x : 24
+     y : 388
+     width : 680
+     height : 32
+     caption :
+      fr-FR : Adresse mail
+     data_binding : Fournisseurs.adresseMail
+     accelerator_key : 65535
+     tab_order : 14
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_NumSiret
+    identifier : 0x29a5aebe02014cab
+    internal_properties : IQAAACAAAACo46wnaAtvFJoISqvxcAgD7AusubTAO4BakFXJaZhZhFvgr8FscpW6LhimYkDZJrL11Pzku3ubrewlcBdn0OAlLEZY5zklTJ+02p2TnHAyPt+/fIwzCdZ8kABvQ7+j87AW1q07Q4vCQDF84tmW+7wyqeqnT/URLltkEBcsyhu4XRzCSmFiYNIpisEgc+PGGlt/F99QunFN4NO8S2+FViBHs746ORORB4LNKNOHhsgUHVhwYNczHDYUOH8HUbFWBqVag2OEtNnWcYDSiBtyVCIDpHTdRdZ3nWu6iTLz7JD91zS4+BYP9kmxOqElhxPbH1ATzAgkDrjDq7hHmyBZvHE9odpwjoVi3ZCsLOfviCAJZm6WrfmN7wVZBXOtYNfCEiAeHhy7zyJOgKbc2T9hAmRmJ1W7O2pHN8vCaOkuYmYFEuZg4UP23LTkGLPVdamEkG9YVQrC5hsFZOQ7LCMycAOEIPX8qQL5fz3VACkZVObO0vYi8G70m98xaM9BCRqpoI4WkIzIqbW90Iuvzp08erDqFdFtW2fXYn2E8LGyPemaN9g59zOdHvO28b9NvPbFPi/f+Vwukbptg8e6V6gdgtbnNiz+aI7IciGjNIpDkZVIWsFEfIFi7jY/ZK02kyy4DfOA8HZG55UnjFsT5KEIj9KAwyFCCsJjdmf8ZvHL0PsUrZ27aLtVuR4KfBuqMQeTptE9xhXPQIRXLT+jiLJ3n3mM3MToN+8j1qqinPxsgGLBlcLib+u7hgrv+jXMt+aUXxW3ek8GwK8XYy5YFIBoNiOXn7WgK1VBm98D9mh+cqYbEiXuslxzGdEBwe4Jt8Noi5Zzt0ehvCbSKayi8db+BokeTb4YuY0ffxbtoMCfS0KxWs3iYsa25ply66GWV1/IHq5qs90E6vbLQKustNPF4M7hFqF2rEtN7DEBu08tlEMw8eq+9pGMUXlgByXPBAlE8pP/fjxXbGbg72i+2KeCzQpV0F3IPtUdrF2T2/R14H3amAS4o//JOasSJs/gy8fuZvvB02Jde1qkj1lN/F1qVorz2juW1BrEpd5CKyuAopEfhqH0LUGzOIkKRt8YIXtVWyLrAlM9/BA61AFdcA2crF1moRbUkuWnXKN36yVSKb+4U7uSfqt6q8QGrFxxAdycNa+aUNHUvLBOGQa94A2yYv2em3zGX+cE7dUKwejgcPSEWJMN9tpOtAjIwIZIRBlhHyaYudMdgIuVQMTqw/7uHBsinoAmMy4hOmUGOuODc/7AxGBCIgZkfNUapJdJbKnIZ+qAQVjaSWsyCYS/+KFwUY2AvsX9ykjF2Ew7p1tMg3wlFNwiZDEHgm410XgCmihdFwVhIyF0nWnL0V+k5IzPMuI/kBgi6WRjPmRxf5ZR6V+P2HSkqg==
+    properties :
+     x : 24
+     y : 428
+     width : 456
+     height : 32
+     caption :
+      fr-FR : Numéro Siret (*)
+     data_binding : Fournisseurs.numSiret
+     accelerator_key : 65535
+     tab_order : 15
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_UrlSite
+    identifier : 0x29a5aebe02044cbb
+    internal_properties : IQAAACAAAAATN1rg70B49t6vxg3kpoz5Punf1ro4rPY11TFZnEv2hTDwbtP1GOQImDoeQaYQgirekihO8OWpOzoiMEGWWOlX+zQzzKovrPX9jtS+rOfDe0HLB5sWEgNj8a4GrkzXEyClAoVlAqjdKF0/P6FQWH6DKBhmLfODs59vLKiTMgtmYXIKGwPFj8/C48Plw86RyqsdqBDMMQgRjlqZuLClskgGQO1E74PnCw7F1Y0jICZ/fPssYTt9zsVZuyZahByi4OwLs8Klx+wdjtL7NLMpFslxZTdO5o4k4XSG3l4oLGbOtFhZyJ0xbtovscVzJzwd2MkErtGLBIlZdMd9ibkDQl29wA97IUTmDhMyYOvoY04XTijcXwFKfS2tf6pAMcfLt6dt3lcBC9XCWJpgnlxdpHDAc9b9suI3vhUhJUBlwjzFRAIvFsGY4wusn6ObkW3F3HYvN977J7E/1/XjJoZ3T45QnnxvCRTqZZpHui1Jzdk/6eHXLu91duk08g6Gca3KkqVFhP14TE+tSsS0KcCZ+FQW9l2ABeKkt4OXHkKQ6pJBDVSueHhYYwxQwSNmsuXI6K/23RJmKCMDlPR8luUdDMGxxEUyum/Sgn0+F4mmjczAX/kaX24u91HhKs9jSUeeFnm5dmgOwBsoWviYKJS7Dc1L8JRLFs3Rq0yBpR5LZP9IBRwqncX9FRqZDTo+r5fecpzP/lG8BGwNCGdPkNmxRNKhziEzBU8GLqjUk/C1Da7QlnuID8FCmA66Dm1uLuBOY2CdDnjf/ndFqz/cjnxNKydxQoq7wbDclkG1xFdoiOMWF2z/SkJIKTdpKHqzq2OQBz0mBUnlnXrbJQTgGQtEEIKTFfyvG9fW4vVpiOWlzYXuRnI3CbF9iKKma1hfnmSzXkIxi4c8EyS3tEYGq3wYZK0fYcwzsJk6ei7i4FUOgR8pPQohGp7yrSGT9pchu9JO6fvq8kw0ToRi0gAvkZlS7RJw6jc1EiKI5CboXN2oDs+15uyFq3nJkNpLRtX3XwdHx018i4y4BmHhnMnWhFnOeoswgB7SFfD5M7drLwTAnceKQkaP1S78TaGSuOX8l2i0nPIZvZXsfsVR5w+Z5o4//LO9po+UJwdzp39VYJhwo+/1lDrd11Xl7xJplNE/EkjqhTnO+byCUkPAFawgMQ4U8TiAcx/6y0gimpTc7uCltSfSHpMwTqfiHFBRHu7oMJANAOAeRQAVVO2dDWLaZEQddYEpqP80yO3l6nXPnRR1Zguwko4J+03r3lhL1FbN/p3zlLQImGwFZhuwtOLCdc/EKwCcyGaj4Raw7xV1y8a0Gy0tVLQllhBS0znu8EI4SU+vV9uMeadeBE7WOmelgo76LFJsVvI=
+    properties :
+     x : 24
+     y : 468
+     width : 680
+     height : 32
+     caption :
+      fr-FR : Url du site web
+     data_binding : Fournisseurs.urlSite
+     accelerator_key : 65535
+     tab_order : 16
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_ZoneObservation
+    identifier : 0x29a5aebe02074cbb
+    internal_properties : IQAAACAAAACeLqQC2BNid4Tu55poJEt9ZvuP3A1zSqTGkJ/3Y0LeBCTjcticE0ayjyblPGvBaiLYpR9QDjBg7J5yIglCISAw+I50lfHvz7DSI08X2+doaINMN8vfFqVbmdQdmubcX0d2eflxtFQS8T9+9H2ySO/Y6Z2Mwtl1z/DevMGxII3Ei8rsMt1wjNCXhB4kLY3bhdMBxfhE/DOZrTHpTNX8/da6KOxwpWJJd7Ix5pFXbsdrVtNjSDlvb6PhW+zSqwIIpP8MvAUHKhIeAzutKPKgL4Ae7AUftAtCxJT0uCn53vG/a+qUwiH+/p/ZMmbJ0NC28ojtbXDiK+dJMfGYgWEUk4H0yI4yLQHLdxjCpyOdCvDeBmVesl7Ruc79v5qA3EuJ+nZim5iAQfiCO2/UlSVM5w5XlljsZ4e5CuhZXDnzpWnTf/SvEirAtPCupojjXSAwm/oLnwRPcV+7Zsq0J+x1/dnTej2D97hv4GitJfysan0lCMfpWctQmk4mALawpVwGsfadvbNrmPttlT+zwPi6U8QjL/jL93PRv5Fip3+k5+UWOcXPZ6bgxwh0SvruVnxylkwVRwVSTyBt2wK5YkgUgNfImkxOFlTU7IHFmBxgJK6oHqqRd09mK4Yb1NNk5LC5QXN8jWdJJ/hOQyh7hdXzmr4Ss/sVCI9vY/7cAQzM2N3EZT5cFm4KmcNiXmIYPbw84pDq2L5RPXrU44qncIlMJsj3RxkQDuYQNRunIZh98JxwqvLBj8Pym7a4BAIh60SbTJNHC0DBbLp3E1UrgenjUiIqvJWRvYrvYG3fLQgn7P6DxoLSYoBqZAn1rE8ovvNhGPAU2G+JlZcZZcD/vuZancP2gaF/VcN1iIV3N+7MKebZR6AsH20Dl6iCr4sI5U4WYUvTWM/WqTmP3rrrKCe0q9bC4cGRQCkF9CKeyWZFxQpc9rIWGmBmrLGNaoDWZgStHvKUgyqQOBUMhvKkzpzQAJOTroptsNRJYsaoNWwJVPjY/+geVzfHOQrlcAYUMjfqENCG4tAC8sifCGPT8VxoL0p1UP9mq/i8ZRwD7+iDbxRp6e+u2VB+/tdx/nQGQjjJcmZsZoH4QEx4ESKTJDq1pyG8DyWWhykdRfHVonj3oTZ2BJLgIa1TzSXY6JbD3sX8c2e/Y32vforyuWr1rMvseGlTj9wgkBXZ6AzXJ4Q+kOHHzMKqtjMa5iXttweRAuyGGkqGC2HPz0DrcD8uPvvQMBxKiyG6fRFCffoL4FkInkuA15g6XVi+SMyW8Ts900BpiNCVHN+quiPNNAIK7/U1SbigzZSixlZ8AfWTk8K4Ipk7uaFbuU2OxujjNI7Y2Yfc8uRpXwgYWvdBQb6iqnn1og==
+    properties :
+     x : 24
+     y : 508
+     width : 680
+     height : 185
+     caption :
+      fr-FR : Zone d'observation
+     data_binding : Fournisseurs.zoneObservation
+     accelerator_key : 65535
+     tab_order : 17
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Prenom
+    identifier : 0x29a5af7c02233378
+    internal_properties : IQAAACAAAAAh4AS2/+TVEqwvD9G2bRl1PbQdQ7U2hiTneCzRFG9Kp4mxBIP1yhDttVEOqRU/yaI26Jr4F4JexBG4geC93sGwvyT/rTkTNk6faq3sviTWmh6Yb9N1+3YyY/fk7FXsmiRMxqYlGJu3DQb9FnGI4CdHkoF1fcmXq/G850YpJfN+Bs5VpDID+04lvim315dU+pyRvukrLpmC8Hhr4J66/VHSE5YZt8U3Smi/I8ngAM0xownO+jT0Qzo7AnJ8LB6SJt18uY2cDX01mgwQKAS30Gwn8+1i0avvW0F0dwENkdTps56gkQPCE/iKq195gmCIvd2LlDtEka6ay5M7WQV4ME86cZEDcIL5Dkba3IJeBcHVtzqrs/1Bls6PvHJyV4bgqtY0M1dpRBGaBOFjxcI7abvsne1Qh2c/LhCol0EJaWqG0fapUvUhc4XZg/gzqO971LA5P37np3fI1yt51vEcZTLK/0ysPxWCU5yf1lYlvYeOP7fppWSrvN6q57q+m8a6VyDUIccQtV89rW+NMXxqJfnkrZ9bGQTSqEkYfVg/sCg0HMnYSKxyQWgbQGkZYMZmYb5KagEA51Pdo8D3ScIzUp07Ow/oyD1mv1cfJ/ogGHzPCd3sYZiD+T4SSnzm9IJsqKbGM+IVqt9dGvC3BbbW/+TuyKpN7VotVK0wnQKIpQrdg27cqzAjqBI6ksc51grHD+p6yTkdGme+NH6IT5xSq6b5YfRWugcgB6WQFuqzXEdFJhDvAr4hOGr9hIsJLER6pQaFPmja3LezrJDxVCsA67CK/Hu9hqyUJeHByj6TblEB0wnnt2tMoGjP8HB0AVT0mnzLyEjoOkHphIHV4bboh/w7D477s9tHIi7vxqmg8/5QUfL6Q8I+TM/1xbz6jaM6z5rp/pnnKUmPn/YRfaOFoRudWY2UiJsB4ivIYWZSvcxsrHuAlYHrL02A4EQIc+b8NDqBXM8eM/aGDmtPbk3deFkDzIps5JfQw8omBDzsmZmy107EuF9wqiSvlc0F1nZQ5K53Rhwv/s3bX8hTUgBWLU+eF51kxKx3NyhUKz8kig+tjTTv6Gwf1vKQZQyJ5o6zLNisQi8P8yS4OAhE7E2/l79XiaFtLYCufsOnNlFqdse8twLNnu2kFPPBehsh0IVwLAPhniDxTjuOosAopupN8993tzE9S2ndGdoTWQUeq6NB0JsQNPV1a2hL/skT5Fyx52XsiSrJO2fgiBuNJyBDj/tdOZB8IiadnpLCFK9BHecPzl1LorL5RNeQLcPrHD9S5Fb3t6acbKkNG80fAUcxG6n5gGZtYv116FsLGzpPAzhzNCmF79T95H7y+HsWwxXmlUKYAIsC7z30djLm8ZSN4R4uIw==
+    properties :
+     x : 746
+     y : 68
+     width : 553
+     height : 32
+     caption :
+      fr-FR : Prénom du contact
+     data_binding : Contacts.prenom
+     accelerator_key : 65535
+     tab_order : 1
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Nom
+    identifier : 0x29a5af7c02263387
+    internal_properties : IQAAACAAAADEHWud3jTzMbP9JV+gflHrD+H/qMtsbS9qlWokdPSn9KJSuXZb/sW4OFYZW9QzGOiPIgwWQ/qsdM++tSAQQtUG2yYSNyTXofb4WOsCJjVaVU3PZvQlIsnpeW/cSL6MXxfMXVt4lVwkv/Go7ndTup0rZdyFC7bU3P9DpFtKPgC60G1OUbjId4SEu6l+BrrOJ67OcVAID/Ze5t1Rc4HHmTyEWvkgxKVP3hgaGJ+SupB0BH/IXyCuFffYReG4tuy9EzGcV8Diw1M1IYEqK1Nex7aM8b5svMbXhOCkU+zI70H8j0LcNT1Vwb41dhslCRRYO+QC7E3h9oi9CoykjOYeKeoyVGvu3wOCK+Yi3h5PzEsDXBKM+9/atzYd5YA28t/y7YxEPxe70UZdbnjCMRr0UVp+3sUHgpimLwnw1pZhczfwjHNdfZto2Hbo4RpOvBhMN0qwn1IJVBl9/1+sPj3t9nRSdQhBaXBT7ZJ9OcvGPjI6P7ul+KK6MwPWlDslt1PRZSPnFFht6UZfEH4r84OGL3aT6Fegv7hdSzyachf0+iJNOqWqeBjF+y2AS6cMVzR/EGuNvCbxTeKFuuyleI1Npr82x1qZLG7X/rvsR2zkUjc5R8PS5LoqfJn4/tYA3tVpV095CprMXPyLpSw55pYS72EOkN+1XR2I8Rg+Q86mKv5yHC17I/kJgv3+1dO/d0jwCGX9V+yw5shlGlPsSSrQ+DkNdWREPjF25HDAjMm3jb5g9B1w6tIzbnVC70Yf2t5zwywkAgQJnyLHoG1hbMdh6s9rBScgeDuFsjE27IJqof91SYcDX8j2HZk1GlXnG+l82+F2jqXcjJ1c77IuGcfUFdmsmywQHSCBCezHFwct+qyNtnFzajicengel1GmfyKk6Wi3Kwfg8+/TVQm7L2FuUS/QvZHrrzq5KGFCXTFIf4JzzWviMBjmqgGEo2GDYxNvCfV+xoB6sn+W6IWAu64wZbOTehQniNRDt5y83B/DJCuSr8qnyFqzn7aNkxgTKIJ/eYneB9tv/3Q/4KFzayURzpzh5rJGkHPOipFEQdc1wrwKzPz4D9gwsmKhCLkefQYO9vxs+kTnaU6dPahqARNNsLJAKs2ycbwJ0rVBBdfxdcajaXpP6TzCzjaC+vHjn9vhtgCQuInHDGxwuQPLhEfxRU9qANQqgo80tnih8ploSmc7NBZrl4qtcPO22Ei0GppzZUMl0/kacLeSU866HSd2PRSQAxQ67isqziS4xHje3J+j4kaPrxfPxCT4+jgBU6Xrmm5Wne9lvvnhb0KzhXjkMGAb1c2de4kEYHaH6yP90D/cJmCBhWc0zGMzxmImB9E/TyufeaNbCcD9p/oi
+    properties :
+     x : 746
+     y : 108
+     width : 553
+     height : 32
+     caption :
+      fr-FR : Nom du contact (*)
+     data_binding : Contacts.nom
+     accelerator_key : 65535
+     tab_order : 3
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_TelContact
+    identifier : 0x29a5af7c02293397
+    internal_properties : IQAAACAAAAD78MJ0RVPQEpDchvifpegIbgASQz5HbixnADvV37/Kwelt9K1ireppSYXqdC6qH4do2SdRcuFhvZPWwscbkcIdIFkF4lNG0i8PJ0zP5XQfkJoKNVtsKdKKDD6Vjf5E/x/IfWscnUTEW52YLgujUgXDIRSdlz5EXNPHHGs2toAqwLHeCQxo90zAF/FG0hpuF37SQVjkr5Y+yjGhSw2f8dS87lHQMG1nHozukA8+GjBsBHuoTxSm5cekoYlI0gzl02H4rzgOS5u1rYUS86fGt96chQ4s+Fa/3FwoI0ycD2nsd/48DWEFsXbZojtd7bzY02Q29B1lXkC99pg0FHIOEToiSGOmSzuqYxKOnkY7XOMTTI4UQ3PiZ9YZGTBGRo9iZXQ4t08XgXYVcvQy0e6UsZIuMsXPPngmr90s5lbd01dQbE91laeg0H7MVar+ULisT9I0DxollEm1Q4NUflE9RjRKSQhJ9dgDrZZ5ebuCvkr65w/FaCZqA8uSoCO9C0tJxVsDVCgRCYaHpBIDY1c2Hz7LxHfoe7C1E3gOuv8YYspVSjE60BzNAwXEt7csU8z/wAvp1K6NFTrl1hDNKKlVDq8uG2IJOA5PvhfA94wwyl8pr+finJaCRJHMum44en25F/dduhoYdOQbycjJhqqaZ9kebFe98c0YeUwKQ65yWsAgQnMdobvf9ONEE52NMQ46xrvTiWJyLIIbgBle39yOMjfTmy7ikH/AKs62nj85E3h+6pOKgExh2OMwLfilXKT9iboqJPoDTVyFhqtLeuFvtCXxi6mm4kFP8N+EttC074Hbp2VtJYqkvz+TuL9dHf+WUX/sAFtWeo/KdTjYn/kKjzfSIbbu905TZwLdWb13EM4zjKfViBLiDB789bMcwRjex94F5U0qoSkBi3c1jdP0G7Wea8OZcfjrXg9Ah69KfcThc9FUFir0tBcyEfsplXlJN5vkqPa0EAkcBvsaObg2bxlp8N5tMspFNSoCdp1duo0QfTAJXoyB6fyr4cJJQphRr1ekuQmxhc4VXmedoW9fiIp39KxcSpHICD86g7UX6K7IIlJyNSp+HEA//usM/4R4PHpq5PIJ3yDr8wbUH70zovA2yE/gAyrruKNn/9XjG2AJ1/DBX36o0Lx44PuxyTmD5BYeyq8pKg6ebzl98lHvh+1YTqaYbD1mZPYXLE8iCKGBgkwttdTjOjF85soSRPjNw2HjHXdcthlwKYQEEzlER5KWk/pO2i04XrQ0TvTa3p0tdFadqysJsgjk5lIVR1f11ubR29PBQE9FAyLRJXYI4zdshHzMTLrLKUFSJu4qBeqrd9N8iGRJ94jWpYHFoKpWtox+WIJ86idmDh0F
+    properties :
+     x : 746
+     y : 148
+     width : 301
+     height : 32
+     caption :
+      fr-FR : Téléphone principal  (*)
+     data_binding : Contacts.tel
+     accelerator_key : 65535
+     tab_order : 5
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_AdresseMailContact
+    identifier : 0x29a5af7d022c3397
+    internal_properties : IQAAACAAAADaH2GXIC7tJ53nP0GyeEu1xau96pUuJ3UkT4wGro55zvh8xxC14D8mssijPWVei+BrdM7MiTjuNDuY+1FE7Fco6QAAYY6hG2zKArVUWNcct0PZjI7XTIMXe8my/vZEtwfwXftsFTz8o7XgboNTuqVjUcwFf66ETFNnrLOGLmBi2Fk+mezgnzQY3/kmygqm1z7iORDcDyaOmoHhox13Yax0hjHwEAX/RhQ26N/marjc9OtQ5/y25ZcEkVnwEsTl2wlQnxgeY1MtFQ1a8w+2b968pUa04JZvTMy405Ts90kkTyZM3YHtCe5hWsPdJazg8wQmbMUNTpBNhoh07CJG0WKqMBNWu/NS+xpm9qbjHNsTPJ4861tCZ5ZZiaB+hncCLWxwlw+HKc7NOmzaMYYEWQKe8r1nZkgWH+0Mpm49q+eIpPflxTc4KJaETRJu+CjUz+LEF1KtNBl1k2PUxjGV5owi8WiZFbC7JY5B4QvKjoKKp08d0P4Kg/tiEENliwN5zRMrhBhR4c6vbCrbsy8mB55L5O+AU3C143i+2hdomrrdchlaYOxV2928D88MWxxXQOvZ3DZ11ZoFlvBt4Nl9XqeWsxLJKEYXNv/Yr+zouoepX7fK9K4ydPE8Oo7w6kUpj39VOrrorNzTEbABViKqj1me7E/VGa0Iaaz684YCcvQkXuexxY+bAP9of5mJLTKuupcHTaa22A439IXauyjSxms/7+LGpGs8NsJi+vtFZwzSRlfOhPDNtD8k6SRRGBgx3Qa+uK7XWWiB6vfXtj2DyMk9/z0qlp0LPINw0vxAQyXPk8kxaf5gy8uHVEuJKfO61YsAdN/q9ns2OTT0e6Xu45vupSoSGyqfI+b59XmDZFLHSHt5PNaOaOog4f/I7VzSi9qpGbF+fQXtXyOhOW94nxkK36fd5aR36rOc40vm0VglD6WYOk7A8MMG7edFMd2t2+d47JpYjIWY2kcG1SSqEy21FKJRFvYB8U5uIsmZzpGkmbSN4nBdNThfbZ6VrgzFQ+O4Xf0FsZph8rPpfcvjHI4jqPAgDm009MO270GDHFLMXuaGiR4KuOwzqje4izj8IEYOeGadG/zX1zKAS0m3ZrRynKOUB4ZXpLdT68HPD5RNozTlEwJkPBgsrBe9de2HyNJC3uO9Zspas2VZHv1T6xGkwmrsgClSUPojaEu+/JVVLjBheahvlp3wEjau4FyxF30H0YvwwgXcLZDwz8X4uyY2MSIA0CUAEJ6eGi7wLjWVaCT1zcEBiuYCOKa/7S/bJ/FtejCkfwh0+Osm1kSBmv61T0cHgXcWfhRhNf3b9hn6wJq7Ty1yjiFxACxw/c8xXTWJY5Vp/8oDrfwk
+    properties :
+     x : 746
+     y : 188
+     width : 553
+     height : 32
+     caption :
+      fr-FR : Adresse Mail (*)
+     data_binding : Contacts.adresseMail
+     accelerator_key : 65535
+     tab_order : 7
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Fonction
+    identifier : 0x29a5af7d022f33a7
+    internal_properties : IQAAACAAAADVvLYvHZAFfOD29m1y1FmYpRcEj62XYmxm7qQe/EuK+xJWKdhFWGFOeOuMn+Zo14urE1UWBcGXNjjb+hSuJ3tD7nU3izGH6PdWt1HpnJ+OQ0rGYslTP+F0qtjTMfuthTwTrDTJhWz4549sxkFtL7u2osUq7en+4eK8g9DBakHb4RWq6GIEPJFn2C4iT0H12tncQutB2Cs1KTrex+zMdchIWxsOPkbSkAdkEnOtHDrhDBZwAEzYqV1hkRHDwW9RunyLWwdFD3SIffI81HuDmL06LlCkb11JBHD3/ckB2JxJZoYmoAfOaiqIDLrvp3J0pg1O8zCguMVdeMDFdUGYBsRLa4HrH35qUXs/VaGfKTvtcfd9lMWZSjlMm9ZDJV+v7pKwcA1jKKHy3Kj7pTKl6EOpA6f2VYj0zzujbErN4eAq0H4L97C5BIZoR4ZvF64XSZN+cSacLDkQtDi96WmOG44f6H4mTd+L3ST/KzY/Fm6nKW6+yI9mCjujMutMee64g0TkXSGkE6isD+mwFakemngfu/cn0YnD412agNs4lWn2QaoU1QPrXrxrvMQ5Zo283KK7qTm7BvXWb486t+FjUVqkxrt55U+/Q7CzUnrO4T5NkyNlTqWemq8KmftlMOeVvVLGLXj7KH29I7Z2XKLhRGnYYBs8mVaMYlvIq5R8ud8kA6kqulq5/I977x3EgI+hQ6ePL8B5UqWh+9ECZiqDqT4MfPKVEmNWSsjR+uHXRV9LNw1rVwBXFLEiwQHaUuVCu21yFAvGXBXmnZW/0UF7IcjvqRUUlJ4AkJCIsJMxMa+ZbGbfek2idOMmB/A1sVE28uEY4BcquO2yb/ZhCh5N83KMJG4Wya3vhfumnrjs4p7mBtM+Tl4eDp5gbIRz6ZTyWRHYgMin9cMUYFfvJjuopwueOjH3+gnlh5BtU51aQlAupTQyArF/xUgdgRxD2+u2zFv2YPr2z8zZOQZD4e36xP/mN+Z1vvXUOmn7urU0HHcGeKlik926BoXs9hdkdDcwVgF+dGH9kL0KZv/TCd7ZA6srjFdTuLxVWpcDAW6Km23NXk1rEcY19hP3tjhGEo0DLgl3PFDD48IJ65uSCT9m/6FQhj/O0bhkcQ46zJAU5SmIjkfB30mMqvyuDR2ktogGuNTUXBtHqF//0xFwJyTyb3WOFk+ue02faGnO76QYQmurpeby18+rswsus29GnvHD024trQVNa/lPtTRRWJQK6Xvk2M7j1u4/HVWt/nL7dDGjmxQJN4xnWPAX5qWwJOoIqGFaWYce6hU45NBMc/TTYPCbpDsOpP9GKelEv2y7lDKVsk4G8v/2WODs3dtBnjKmFyLRzEHkX9VukWPdkrL4j9pZ
+    properties :
+     x : 746
+     y : 228
+     width : 553
+     height : 32
+     caption :
+      fr-FR : "Fonction du contact "
+     data_binding : Contacts.fonction
+     accelerator_key : 65535
+     tab_order : 9
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Commentaire
+    identifier : 0x29a5af7d023233a7
+    internal_properties : IQAAACAAAACWtzMHSBUcW8XIsKqfJGAkDissMEnyfS0Ee25ASGslF7lLyX4me3nfDCQSS8Qie39tNWdbSq3zgCL4rHdgRyaRok2YcmgiHtuQl8L5ncvhHbTdJH2sHBPYQ0ijzFCa5RQjSlPZJOg+aUzHh2/HOpqw8TuKbJkYtMXBlQ185foWvIMPg/VEw+Z+289bIA0PCrZjVPEhqJ0CcM7nON493TW6xwZRv8Fn3mSK+ZNvMN3JUx5H5pCs9pxaBhLtP3Zq9xxB1IoaMpt1cNcFkGa4L6cK25XdL2UrpJU75sMhSbr11E0QtwtyMnaVKEA3oqRW8+PlAimq6yTs0R0x08syxr0o6++h9ixHyHTk8ixkP9djJXTpQUuDtHDtzsAknXA+gFyOIdXnTpckmvOxH1A1d7EC/7OulQnVyM569fsXY0hct6i/mNu7YU+ftZb9Hul5yj7LXWw1qd0iTU3nyJe+e9iQQaJyBc9YhdopHJBz34WMvSFP88rtKrB4MTC4EQDoJWZeb1VGb+2fM0EL08LcQw8SDyXhR1bAqvdqu2IlSq7Cavvu1pqEr8rJskf7rihk/0S0CL+euXn3MXptk+hVeDsh7ZXeZr+k+e0pHYTu4opVH7wuDRJZYWC2dHR29Igc2PAs1UbrcI83NsLPOWJIc+yQguRJT9w5sh3GmeKowwrlNZUl7HmcF6PnWeSGW+cY5P199m56v3qbFRnpIMVbMGss4DUXe0CPSP4bBxustZDaGUDTfjb50J5Z1GdV/DRinRKlmtxaFL+HIAiVgHNIOyhG/D/57vQsaaWZXgJT/qGZD+kjixtEaPzrMJwooRSsojjL1FzAWoEVkPEB3d7QtwyPP5oPu9v33vJ3Wj1Qc/6wZZoufwrmZNNxRThuNRsylybJOt0nKQl7g44lAbOVKcPJ8cGw4HtBThf4XWr6ZbRsYFuMGXEjd5GcIOCUe45cdK5x4LseM1aSMkOTOgWVMBm3bPawLJ8oR9Y2UIi0sfHya9aoFP/YoogrFZmZbv7YLGrfwoCnvu0Xmwg/9liedTdat/FA1PJDV1+oCNBeWDlFdRuvGu4LFCjTDwgOZwtU7kCqFwMCI8py48Bmvl0mUiH+wzqTR5KjmjnHA3pccMXeflql/g1Eyzi6eD3LGp9WhhUvKKrjmUB56ZFjYxfiwIBGsnZ649c0BCH9bPCz99w75rxXezd/aEY9g9CLNU1hEryC2vCnWMpiVnlF7iatvfzAT/bXWd4/Pxrb+l11WcRwoUFHGjB/vhXYWXUGWRxz1QH0SLeHN46Ure/OeEgikujyY3XD3mWK9tt3wNFsFEGKhOaFl8NdviNrWfgzjyjzhrFpUVTJFtaLjxsfusP8ku99kA==
+    properties :
+     x : 746
+     y : 268
+     width : 553
+     height : 185
+     caption :
+      fr-FR : Commentaire
+     data_binding : Contacts.commentaire
+     accelerator_key : 65535
+     tab_order : 11
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : Annuler
+    identifier : 0x29a5afa904fde061
+    internal_properties : IQAAACAAAAC5Ez+v53d64BpKcdiM0qy43jkSVIMRau66QPu6OOWa3ezV1DblVBwz7H2sHHpV2ZEUcmesfmBVECTDlMd029p/tLPeepBypKk0NuUIQGVjHnx9cz+Sxuwtp496OgPE8G9xr5Sxfwqn4OjHi3EZ9J0O4mL9GgI72Gcw6q8h0gFzdWosUS20cPCA4r8MF1sDEPvOQnpNrUXX+OnP2EjhGfM+kvBmk+f4b5PqyatHwiT7GZyWJ1Ep3UN8ybdbCn6KX4QgN9q7SfEPHtxoCI2HDjX1T6S7F6XfXtHqGdg2zikOKufTYvWepSOht4Dii5zmYEGYDHaz48LxjofIA8m3zNwdsW2pinzgz/hkegsw54PbqaAetlAfakdMmg0DRxm9Tj/KaTqUJB5bgPel5lDPmL69Zbbt6SaHfm1j+t8qHKfZ5bg35D4EzuCkkna39GkoVohJ6+HPtsmVlKMNgPUUf41mKS/t1tWzH4obHxf4jRyhpGbAJZInW1Wey2Swh9pHxsQ556nleAH5I3svu58qh0oG7bZBB17uQYT1VpCVALxC/vNb4FaBIvXkbrtIzcAkia3XGp1J1Tz5r9QTr8yWmzZk7+rmX/Ymtcdi4WpGxazpSvij8BSAAMRrs7RpggGs1t5YJTciQYZbUT4Bzear5T5+xS/iBUzpUAjDtYVb+YBqeRLuyr1+WQg/WodKVLyT8SfJKSkvhdnl7s6DKrH3skTqQE6rdx9npIytCuKLEKKfUPBJWsLSnRVbQlgC54oP2WfDdvFJtZrBLRv4Fl9Th20iTjrmMXhAWdSPpbsw4va8ygOmx+dlx8yyGIgIoTJNfvJqbTWMfxMZg4EMCeqhck6u18haSvVX0SyXML4E+dFXuSeNfapWhey41it/NkXaoDzdbBlxGAB0rwhQmA==
+    properties :
+     x : 20
+     y : 697
+     width : 103
+     height : 30
+     take_focus : 0
+     accelerator_key : 65535
+     tab_order : 18
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Bouton en annulation
+         
+        type : 14
+      -
+        code : |1+
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Valider
+    identifier : 0x29a5afbc05102cdb
+    internal_properties : IQAAACAAAABTV3n/FZePzzmuhJ+79wgmp4iD8F1+8d2xInx5m/vFtGrfCQ3ImM7UI4qUQjYYg0mR/x0OBVHUTIbPc7TJlMxTQw6jEpTccMSBkmqW/NZFoM6YClbAqSys4p8t/XCudK7CRs8HuDRMC6+XDjY68giJpVHiKPIN3Ff0I/o8l9Z345aqLcVzO5K8mpJdT1ATulhiy84gCHSExlDLKbBq6CIDj4FYuW7w5enA9QN+DNorngUGq0YTWbcA0Fbw1gDBaKz1BxqiwAoG2YXFJ71J7ixVj0Uh5qpsRPXwhwF78VmZvgcU/4/pqoDXBrFJayUoh5/+KOnOVIdVp6W73va7ZkZF8N5j2NvXI2p0VJXISY6n6vv6CgHTgl/KvhtviEbGLPrO7s4pV2V11sjw1Vgr9Ut/1SJxPS7/rwKoYHg2nOZVTpKFBBvsY3wkObcxpojA5GjidkpJwFbbHGNumfpXrRKdwxX4YGj0HtGqOSGPNBnK+nqkhpHrEWV8I4+nB+n7ulWvNVnCLOOeyQfzfcEsrmay8Audc6Heco1mtWFBS4unswSRZZ2z0UsNNExakbHxNihD0Bd/07FNKOitkJxY4BB35vIeB5G/U2vYqEJHjc/x+0IMi9904bUbJsfu4aV0HRdZgC595F3s9gfvSiMt0Eltr3O1Dzkmv0Ei7PBGjQ9cKJQa2h3u0Q42xTPzotRK+1CKU7mG+ChbPV/hoBocNXJ4Z5IULxMPzvpZ6kenrFw5Rf9QG39su056gzMB1odKozeeLv49NSGRmFrZHiTy4tYidTU91HHjceJFvgTWzi5J86xJBZ33w4IR7CISpRrKmuJVnXEILoXLN57PcGGJTUYc4gd30FbfFpIiArom9GzGECG/4wf0VNoXgItH3EqwBxs9BFGWqqpR3Ymx
+    properties :
+     x : 1200
+     y : 697
+     width : 103
+     height : 30
+     accelerator_key : 65535
+     tab_order : 19
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Bouton en validation
+         
+        type : 14
+      -
+        code : |1+
+         
+         
+         //ESPACE CONTROLE DE SAISIE DU FOURNISSEUR
+         Si SansEspace(SAI_RaisonSociale) = "" OU SAI_RaisonSociale ="" alors
+         	LIB_MessageErreur = "La raison sociale du fournisseur est obligatoire."
+         	RepriseSaisie(SAI_RaisonSociale)
+         FIN
+         
+         si SansEspace(SAI_CodePostal) = "" ou SAI_CodePostal ="" alors
+         	LIB_MessageErreur = "Le code postal du fournisseur est obligatoire."
+         	RepriseSaisie(SAI_RaisonSociale)
+         fin
+         
+         Si taille(SAI_CodePostal) <> 5 alors
+         	LIB_MessageErreur = "Le code postale doit contenir 5 caractères et uniquement 5."
+         	RepriseSaisie(SAI_CodePostal)
+         FIN
+         
+         si SansEspace(SAI_Ville) = "" ou SAI_Ville ="" alors
+         	LIB_MessageErreur = "La ville du fournisseur est obligatoire."
+         	RepriseSaisie(SAI_Ville)
+         fin
+         
+         Si Taille(SAI_NumSiret) <> 14 OU EstNumérique(SAI_NumSiret) = faux alors
+         	LIB_MessageErreur = "Le numéro Siret doit contenir uniquement 14 valeurs numériques"
+         	RepriseSaisie(SAI_NumSiret)
+         FIN
+         
+         HlitRecherchePremier(Fournisseurs,numSiret,SAI_NumSiret)
+         SI Htrouve(Fournisseurs) alors
+         	SI Fournisseurs.numSiret <> 0 alors
+         		LIB_MessageErreur = "Un fournisseur possède déjà le numéro Siret saisi."
+         		RepriseSaisie(SAI_NumSiret)
+         	FIN
+         FIN
+         
+         //ESPACE CONTROLE DE SAISIE DU CONTACT
+         si SansEspace(SAI_Nom) = "" ou SAI_Nom ="" alors
+         	LIB_MessageErreur = "Le nom du contact est obligatoire."
+         	RepriseSaisie(SAI_Nom)
+         fin
+         
+         si SansEspace(SAI_TelContact) = "" ou SAI_TelContact ="" alors
+         	LIB_MessageErreur = "Le téléphone du contact est obligatoire."
+         	RepriseSaisie(SAI_TelContact)
+         fin
+         
+         si SansEspace(SAI_AdresseMailContact) = "" ou SAI_AdresseMailContact ="" alors
+         	LIB_MessageErreur = "L'adresse mail du contact est obligatoire."
+         	RepriseSaisie(SAI_AdresseMailContact)
+         fin
+         
+         
+         // ESPACE ENREGISTREMENT EN BD => LE FOURNISSEUR
+         //Attention à ajouter aux spécifications : Raison sociale et ville toujours en majuscule
+         SAI_RaisonSociale = Majuscule(SAI_RaisonSociale)
+         SAI_Ville = Majuscule(SAI_Ville)
+         
+         EcranVersFichier(FEN_NouveauFournisseur,Fournisseurs)
+         Hajoute(Fournisseurs)
+         
+         
+         // ESPACE ENREGISTREMENT EN BD => LE CONTACT
+         Contacts.fournisseur_id = Fournisseurs.id
+         EcranVersFichier(FEN_NouveauFournisseur,Contacts)
+         HAjoute(Contacts)
+         
+         info("Le fournisseur " + gPoliceGras() + SAI_RaisonSociale + gPoliceGras(faux) + " a été ajouté avec succès.")
+         
+         // Attention à venir gérer la fermeture de la fenêtre et son retour
+         ExécuteTraitement(FEN_ListeFournisseurs,trtInit)
+         Ferme(FEN_NouveauFournisseur)
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_MessageErreur
+    identifier : 0x29a5b386075df99d
+    internal_properties : IQAAACAAAAB11rPUcGW8qALZ9tnHryv0EP4ygABHx9IJ5PrAuU83n4Mk8DMnupFSsjOyvP2bhrSW3Ix1knwNqZ7pmI73kt73HBvYKwRkqTaOD5UC36WIO1MmhnRpADuPqGt0ZpNNg8qCdUif5KaVyCUhMxsApAL13kToIMnGHC+G2rClHOHhARtNTzTDwMKnu0/I84q9eM1MpYo+BVgjVoZLON/jdZGagSO4rTKEnpBPkaI0FIpx33LZzWN6Fc0EymzN+1JXbLMcp9Z6BOYwctcOtDR4nGteO5t+yeU/AiYnWCUpfEwLgmtTPn9ck/vcSWxiYbSgPk85srLcIdCzy+MIUZB+dxwr2qWlJEMYGXKtEl2chvjLk7yq0SNXJdmunHvMD31LYJsno0ys0A151AUOX4Kq+QLaJdNuAdjAK0eaevQHSAQO+/z9t7SFIexEr91HCl7KtUJVlyq9R267U+DeBS+nt/UHwp9YYj6TGkBxcijpLwkfJYIym3gTQqePp0wymWlQTgvFOHabKw84IL9h6cxLw0e/EKB+kmB3XUSB9ALbhbvP92FLeA8=
+    properties :
+     x : 214
+     y : 24
+     width : 909
+     height : 18
+     tab_stop : 0
+     take_focus : 0
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Libellé simple
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : IQAAACAAAACYfnoj3Zaa2aNnqriIjkMmsfGZ34fTjRur+dJY73UIkfAf761y5mLQP1Uw4IjHdYIV780HaLWKBKRQ6NruldNiRLvYqwMlms7S1dUpS4dSY7X6Jr2jWNw99SjHLcY8GfAzfE2fXaJ0EkNZxFFFAj0RCcxWonb3NTqP4+ma2eIPff9hma7IW9q/kvx5kAtRjyaNH3zmUyqTQhOO3/dvVA3koNjrRhKi0BrqF2GZJRQiKb4w4YeaQd24eR5mnfW4I9hZ3HiLjnN22kCf0w0IQixdDn6FfBNrav4N0FQCqdbnWK4XGw==
+  properties : {}
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : IQAAACAAAACVj5ddYvJ30qjdpzs5eNUAsqSCm9SI5d2xI+tTSrbtbUIPdl3QmSH7bsUtsGeDNzY/j1/RIRi/hnefp117YOqtQvkagyVUvACg5hD5u3kOtf4EiB3s1juUxbsOdbBOPETQdA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : IQAAACAAAAA7DJ4vFwXpXFkgSYJm1KBm+pI1Z6cLVUJuN5jUNtC4+Lz8WOmCt+Nxt+v5KGaQfP3CgIz4KNVKfBQVN+ntsJ5byVyLN+EvpKCvjHO7AzOQuXNQ1ssQroXu2TE=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x19a5ade50005fa64
+  internal_properties : IQAAACAAAACv91HtDRwIFMbRzFhwbGI4HP1+I8THuHfrcoM7qe9Rg4hoTDFXFcJD8Zyx86/1UHC/BSUHXzk2JGrE
+custom_note :
+ internal_properties : IQAAACAAAAA4zjYLyWv3dktwUyAundgOH3+4/XziLlqiaqgwr4Dmp0Dm3KP264JgDg==
+rad :
+ internal_properties : IQAAACAAAACZM/kb7IvKRWO4ZaUcQrDzKT854FAu0KdYt3OnizA/nBqITcp+

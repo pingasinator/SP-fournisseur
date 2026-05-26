@@ -1,0 +1,419 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_NouveauContact
+ major_version : 31
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_NouveauContact
+ identifier : 0x29c4f37237ce0253
+ internal_properties : IQAAACAAAACuI6W+TUepLpkGpdoB7w2PwrVCjiw7RoWaPjmxRxUA8zrlLOMCzTfa3GRyz72kpNbrCJrR3U4VnwBstCeZLOM8fwKF8WgKXCcjy8MxiLgg1gewEKYLo2XKLVgBJG3HDu6u9aN0/yGcjRr4+cktBlTLPyqCAO5UbonL1D/0pOg4faCk35grYDQcQz1jUZe8ejwiELHN97AsjiO76hoIJZGJG1mvS4dqU9fxo3XIbr2O1F3AvYiqq9tfGbSCU3+IexXIWpaebbc5QNLGgKqEY6Z16u+Qk2Do/3dVMHdNgziRqGW2FxuWp02PNMSkM5jzRKRA9+h7Vo7K5wqlcHPwKAyo537YJ7H79suoDBX/uxTRqu0UDEJyxUhU1MUE26q6hyqcwDyTzbyWBoNJu5SDlYEEwZDJEH1RRoNDegKOthxc5BIZwZ+N08Yf0WIi/p0tP26XFQk2Pfd1Z6YTi8vG4ApNOdIrvvx0jxF1p4ymxHQ1bcCxe1K6ODpYuXlqvvzX5wMGwgkd5nuaSLzlj2zG/Zzey9sFzAGtlIONmmARXXvTM3RZlLBa66whScrv7yhI/KNMX2zNn2CTP49awXmRNg21DD0w02dnnjE/yonG0m2XD9CPxZxizqLD5AcnJmQswZwVYlpQwNdepqlvVEijkBZy69+c37GaXvI7DbBd8L7abPdvFKOZCU99/kzc8vJikotcHfJE3rILgEVYb744AriY+e6lNqXtiFSKYT8RW0hykNOgoZvso8MK7qHfWvnzCbjCxqNU
+ properties :
+  width : 648
+  height : 637
+  widthClient : 646
+  heightClient : 605
+ controls :
+  -
+    name : SAI_Prenom
+    identifier : 0x29c4f3a337edc371
+    internal_properties : IQAAACAAAADqqOHf+A215bMEfw5V1QPUwTbujQJhl43MMsCbv4YDOm6PgHVKtfeM/qJo/e+F9lv4Hon+nG9Hr4ls/eigmaGL6wYb0YBGrpebTAQLf44zFsOH7goAhCNDmRskBGXcZc0Hhmk1QOVBwoHe++GHHiZ8CnUO25IC9nWZ7o8jpy1GVxhLpvYysnBrLwmnwsjm40YuoGxek5QuVUn9TuHmxTYXXjBAiAkDoN2zNNLtsasIykjI+zgTIsF1eGqpGh5+54te111Ng+1I2l5jhxnvQSuh0mxyS5iTOXz3R/fx+g3ZKICBFplIIiWVXXzAWAeKknMgwcJ1Dq77n6tsVvnqpaIQCwvo9m1LB0FXu9VyBu44IWDZjvn2u+OTrrWuiF4UjmKDyPV29Na/4LdNQQlqvxvnHnfotf8k80SuqgfxYzfY17m+Ou5ZzMxbeBTg/t5uTzWi+G1iMDrwSv68+1t4SKF3tRWmSPk3Uk2c/ZY6jhom+Mhg7d6GL9LHe59LAn57JONXQHseoAvdhiqIHyIdzF7sADnOK8ZYt/MtIpBecimWJmUNDXVHsuV/uMr9KWwHGVgHDKfrs0Z2IUPn0eAYB0J2yQptCyx333Az/K5beqNh0Pbt8F9NvnCy8cUrWcWcql2lQATqVlHQkMBCoAyVR28n1J5HUou3xUJRkzbDEtVksajNPqQuJHsoEjEvvvAltzdo8dqlM/WUkZJYN3Bqi5ekhxT8TPDlv3/5TGX4dCdR3WQt6Ih17SkH27p7GRszeimIsdt8UxoixppnGenylrL+8TnqEmFjH8gMa4I9RVadoC+Kvc+9hHw0+bGQlkyHBOBfDIK8ytXg9FG7ilKBo3OSwtfMbnJr3RbmHVLoeAprGY+0jjzQpTXT4tP+fxH2lQNMoqopFCPIE5nVPlmx86RQTGOW3Wphw1Vlf4jTWmZSDU7zZsKoCTLykfaMEPslEFRJXStFKaH1+6PEIxfWaaCKtAYoHytHFazlZfRZXZD0b1OiSNxSx5PaUcwYvVsThddC0woaQ8HuZ2eq/H73rXXoNINiQFOMuP6UFz3B1+2tuCcLaBP/a0kAVH2xIS5fEXK/g7C6XBQpS0T1eb32wPbuvP1OTwLvKZwOrFhCcq1FjU45LsoUlryrkNj6G1rv0qvuLucOPM+IVrxCFULfwR/gpmBvYMkeWmPGHbH0ilLd12aoOsU8efelPNrA7hb5iaxM1lWtHr6aMhfUwWaP6V0ZzI2tT6ksBe7vAiBhBWX1DQZ5X1juE+taBtY/4F6YYELifQcs2BiDed0+wESLRG8tu3O1a4k9IgJA4KUNQzWdzODI8SVfjp6Y0Gz0w79uHvxbrHaPx0spR3DG260pHWMDz2s=
+    properties :
+     x : 29
+     y : 62
+     width : 566
+     height : 32
+     caption :
+      fr-FR : Prénom du contact
+     data_binding : Contacts.prenom
+     accelerator_key : 65535
+     tab_order : 0
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Nom
+    identifier : 0x29c4f3a337f0c371
+    internal_properties : IQAAACAAAADzEl54MatYZFhbRwludXFdZcxF2lMODUKbjMv3M5I1MNj+MM8aLOzLcb88lTyToWIoYjeEDdUt+qp3P9zXCjmtbhwcVeksiCQ8cEwRJRkdDm9aHaaFegqQOOr5ufGKmAuTS8w3qKIxqjx4ft6R9SiGxgiOuobNIv/9qhr7nuGeVH8c8sk3pD0mVgC1BP/m2noKYdBM7a0ggJpgIr7AVNHVXZxjzu5G9T9p25QqoiU0xSivqIPVpe+XVSIzQgfistDXt/zV3ysA2c9Xjftg96vZBeo8vHn5gYUZA5Xeh0SA7knDOLF7JcnG4ZHXJGTvVCaTxqhZuj7pone+t2vuOmytM/4nDAxpLDDq3Fd2fjQl28GWCHT+jTlYZPJm8z1XxsUzRLFYUX58Gr80bgKpFwhA80zYJEtAfa/lhmvcvTea8AGUXAylIbTK8ysTmBPuUpZn4uuzORQcnbPWGFYxNI2Uslg6YMvnuCHhSdu8usIdUKsaab2lKgsFbZflcM7dnGS02W3yFJHkfUiWcauDBg2sILzs6U7jIqYrnEFcLss2G9EHGnWxOKkdqrjtkMJiGyoWpzhrn6bqxJ0GQGZD+3KEycj+rK+yVqwNYx/+HqZjlWwcjR4B/sgON/J2g4OO/zNR4igTkMnuy0JbIYiArMSUkLt8Mx3bctcTw0mb0TkMWJX4eqd8Kmf5l5QRr0DSQVMdALYGeeM43OnP9wuMPiM+HuVUoVpPl7LsU6G5arwtD/twnnMz68G0dlEXFsnanH2zwG0bFeyWg4NIN/QUuZ7Qll4qI6GvJWkthDBuQZ1lxlL/N4JleEbDitqayWys+ALIn+YZ/AeoRd5UovMNbDkOrcKIZexVgReLSF67dsn1udK1sMf0daeyLUqe1LOROwcN+wpmQDuWFsZGGigzNIJIFWZ+thaBfZzSMvBgTi08wcGS/v3O1zqnEFGAc6uqPEZ4xuVsVZGbnCQxOZYQeo7eaRn8CtUhYcf+bLRWM//8UbzTbHkQ5Z9RnpnAMvGizXH3Jgw1kU8O+Gq1Uu+lshnOByBYGSEiCMHpfNdiY5S/iFjinqrDU5vXM15d7BYip7o43IYXgAzPqiP011aYk9rQt8Lw6sxpqSt7fTQjzChR/5H8UFv4Fo6I82E+Vi7e0t1/V2PBFnmsq2eFA7f16Idem0+HqxliQOKDJh8D/oOtBQ/beNp+o5+g2WUC/TYEf1Dz27t41Hw2M1BlD4m5Cr33KVRx2suuHTkEEwxQe1x9r7tu/wmY5UtR7cF577LJns4lEoVt/FDNPG9sKUrQwnjGwSEQPxrgRZQ28MbXu2hLRJt135p7Jnzo3lPXPi7+vaqgyIMaBxVs0hKcbGJTK1TgdQ==
+    properties :
+     x : 29
+     y : 102
+     width : 566
+     height : 32
+     caption :
+      fr-FR : Nom du contact
+     data_binding : Contacts.nom
+     accelerator_key : 65535
+     tab_order : 1
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Tel
+    identifier : 0x29c4f3a337f3c380
+    internal_properties : IQAAACAAAADbfxKoJwS82ipLYtE4KKy5egnz4mqUfJKDnNbZ4CHb/q4kpQ7pXCbfMGft+ocUI9GHMFkRFWJoQ/i1eU/znAoY+EnANqOBWXQipx8amnn8m4BKO5+Hdw8jkSnAELcOcVmzIG1Z2hfHQLm803FFXPponn/614zclOPx9AebnVO6uwSNdv4guIKps6MXFjKow3bWbpjqEULgC0Hrhu1AH4rrgvLk7BPV1jujOhL1r2GoohwqD0wZ2Dt3oKiNyjyUt8PiuRF5bYfu6L6RExXJA+upRiaG53pVx6r7gRspEDPRmNwD5hnueCfbcS5Q9PHMPveQBwpNRFQVkWd+zuHw25pg82EUcuMpYcNrZUWGyFhkjaTjiuUATQl5fqtqdHheTjLnYsVmmqwJmmP/nf2swXczJv1UyX1SzTJa1HvV9bn8A90w1hqX4o7VxL74knDYGyF6zmGuGly29Iq22x8yUh3bFevybEOR+DtU29q63EimcFjeWWrwuUBFV+mPKvSpVLtPvheKTkG3vOJWb+Kb4j4kQLeav8SGGZ0VuHA6fIu+TlmXFQVJnHPVULCxaTLlPSwzrmOHfYhMyxPduXiGraoGQdBNs9aJjTZjIrqrmEG13EYLVMO3AK5Y4YsT6QPiGqW5UiCmnLdyoogg+MxTNZ9/+OCTzrldfyQZ8W67iAs0kaSMYx+TvzArG1T84X3IiF79aGcoqHiRlHtblNsPxtir9NsZr63Y3ALKpyJDAdqm4Ck8lVuyYPb+bAXI1Mh2uwA1kNB3YN2vsVPKJqSX4W/pKtSr4ZIy4AtBUuPcJmWKq8RxmmIq1ykD7pip9RXeKfssow+vxwjNz8pO30VupmzR25rN7fPyxhEXwFfjbRVgDISjgzf9aCIaE647+j7JOp7pwU902R5NqupYW4TG7hkraWqzQOf0YORWsuV2Z3k7HLuCW23tzA/ViuH544ioicvqqPx0+tg+muiTtEYXCIEJ5YGxFjy+zpN2oPEcKqPZkgSNWVvrrqyt7gMhrEQKgqKfol+lwER7WhQBhS2ozFaH6cr/M3jnTWWNEuqkbFgycxwyZSbU5v6fCZyKUBeWUhGEqs2NiSfm5sF00iTvx+edCYTLQh+KPruXP4VlLwBm9JNI44VpcVEGEUNXxg9ab8avcbgtHTZRSdU1Om2MFMDnV0uAX7q1s3ZTlAKTE9lWtrdLs1yVILC84VGBZR/wmgMxnbLA+5HXjbg/vmGs3GJsteB+/gq7Jo1AjRkwODImrKOCDDv9zHIPa5c0K7XhIVGPVgQv70F6n1Vwa6NSl9i3qp7lQzGsC/G3lLG5SdP39OrPBdpe0wC1yGTWq8ntGTlW53mMxJa+GofN0rYy5Bq0Hjo=
+    properties :
+     x : 29
+     y : 142
+     width : 314
+     height : 32
+     caption :
+      fr-FR : Téléphone principal du contact
+     data_binding : Contacts.tel
+     accelerator_key : 65535
+     tab_order : 2
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_AdresseMail
+    identifier : 0x29c4f3a337f6c380
+    internal_properties : IQAAACAAAAAm5wO3+NrjfVMT5NrZfEw2iL34JllHDWkU1TzIXFXcQ0lJo5jrXb/YwgBt5i62d2cX19xrcGS1HpCd89dAL74gh0/lzkp/hzNBi3vkproqLUzpDleuCbJg8JoB4cFSaMOTsxTvWArhEuwQjp6ZpfBmnnjuGu69ul/lagID7pnObM+EesFHDI3e1hglFOfm0npyoQDche1YsBJQCpawzME9jaQLBq6OJXfZIxTKejU81UDv+BMd5QdnjcIrKpca8miHjxS9vyMAMW//DZv4J2MJncos3LEZGTXBc532NwzQdskLoAkbLcn+0fln1LyvDHabJtgZwh5xMl8eH8PO4rwFU9a/ZLzhfMgaBBeGpmTtiwkG6DSGDXFI7ILuyy2/Nl1DjPnwwcYcMq8cLsKxVyCQC7w4tMNQdd9tlmNU/W/KiDG8RMTlCVQSI0OjqHveShaPsqvDIbRUjevGYL5BbM3csoAiqHvfCEnRkYts0sI1UPOqqT0NKgMF1Sd9+K7lPDwkwRWatDmEBcgOwSs79nW8WCxsOQbTyhZjbImUfiOGczF/kg2hwCmVmiA9ELpyE6qelzi7pzZCBMUmmH4jE5IsKeAWhA86lpT9q0+O1gZbFSQsLU7JjkDOH/KeWyMWD1vBeiDrMPEek9JjcYiIDLyUSCtcc9Vr6kfLk7EjERH8QNG8JhsAPnsF+1BVE/wexR8pNOJqzSecOD27O89IajfKmnlQpU4DC57wv0V9Zrhx+xdU+qfHT0Wwak0b6uU2MEmvBCnvmaBqX3fESzigBfKsEjL2x0WTOVXRwOQyDVkZcm6Tw3Z57LpfHlYODVjIjJ6kM/J9kGvskXKQJgc5SJ2qOZbESQCJhTOPlCJ/AiVZZa6pvNuoyUtOoeYyGP+t3+OpX+YahA8qkrqSrqyf0BbkgSo6eir1wUiGfgQ0Kklw7f122pFiW27zVH20t8eG4NK0GiGQSQXveOi9/Xo8NuKqFU0oXon1JZOyiBh6D4tQDdiXqE00uWON4nUkNv2u0W0zmnhpVVPy1C7BVkPhbu0qA8SEbYVmbM39WMtmf2AjJLSmSg6Xxz9z5/qhwCK+a8b0UGI7ZHDDtjfQiwpEf+7cs8Z8XkAtnafvGVj3+BQVyy3wXE9M6lK0Jy1yGuoKRglL2++16n2QlxuhZ5uxtHtaN4Mzb022lC7HwqOXer+BUTuPpC5iR2MMfWF20fLAAxyfr/dM2EDqX4QhQ/3FZvHjJahd7m+yQeXID0BmUfS1V7GmJ1NKqxEZj2mRYSxFchbbIqW/5nZ2gs7khsm343HBNtIMtekRtIUnITcmyvl4N6xGKMECH7MhBw75NIeeHRY+FFckyTu6xUXh+5OM4h8tIA==
+    properties :
+     x : 29
+     y : 182
+     width : 566
+     height : 32
+     caption :
+      fr-FR : Adresse Mail
+     data_binding : Contacts.adresseMail
+     accelerator_key : 65535
+     tab_order : 3
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Fonction
+    identifier : 0x29c4f3a337f9c380
+    internal_properties : IQAAACAAAADIGW1pInwFU5lpZhRrXlowqocKqDtRt10uyx6W3tvqSVtngdZdE3lOFN5XRBfQDPda6srdxP49cZAw2ltSK066eT1tSMiH+R/rj5skZKqWmwb/AoHcoZxo3p41yTe6VHmhjezdStbPdl5gYtLjAThQpCKqJKyF7IM/btqXkOWCMt1mzhuZ2HtmCKR5VKV+VnBsjwy2b1HuXAAArtb+BOlPv9pXDCjiEy/fszhuZMHQazqtVP1H8Z0HC+rDctXyQloZfZw3EXfGtRlzWRu+hz9PV5TAxgdpQ1Ufy8FCGcgMBJNNsBddGZfW31EHkL77+NyhOMw7CFYLCnnev6PsWqSflew3cgIBllg42INycADtjc+cLApcfUvkhnp2r5eT+ovRNgFKL44WMoHcQjKPD3QudU6Ant20248/5ic4n/PuPpfWhAbLEYbOkbe31NUKjnRlTHtNj2xGhc32uKpjoKUGQGpmOvWLzg2LVcdgjD4tWsFIqdPDSqVVYx/xtAARYLr+f2lcdl2iuUJulc8tqsX2UrbMoxg3aPZdpB00HBsi6UPZwtPDLIc5sEil6OCKN/BMZWDd6Uow9NueVHpdL4ou81biGnUisDxXyx9mPLYXI07qZcTzoiaahb5e95VCP/3nAACpHmkgPzhjXTQq2JjiUukItQfvqBttV4mXI6V4xjzhw/B9WfTa7llWTAWbZrKI9ZPLZs49fajslKAJt0jpuRqB9vdKoJ+bwF5Gz9l+jobF+7iwJi55DY6cOxZjNYhKudak1vNn+C7hKMUlDovLkUuPsG6qUm44lcEXKgbqTXmg0AsuZ9tUBaPbmg2BfYnvoPcKxY4ZWjUZ58AixRYV4P9NKikQNshK/du4a0oCvDUKjYw5WIQPSCv3PRSGNGbg0OcrtR5398Gvs3G0rdtzbD+3jwegdn316/mJp07tXCg7p15Xnttc74b1+NCTNXkjQ1rp6gQEKbuu5jMl31ttrAbRJ4o0MiABJaWnfIRBwDu8RRKx1MgaecL5myrndqiaYzEi5uJjZZmav8xKnzr10nW1Tr5dUYqg2fQvMFkAS3MnW28wjuCY0rMi2cufAFl3/adw+UvUrybt6G+RAH9jZjNhe334egQCioGYeZlGrsxJlZDNKUup0qaz01M7v4TCVGA2Y3R9ILJWVGBudcjhWojIxLLZjY9+LyiET0je3HJAZddzNiCl3H4TfodVlKt6rHQxJQPHmM8iDJa+l4YKmAWSOxTVWt7bEEEXAqVijpT7nNj3Fk4qtk7OrnECL0mSW+74p71En+0uFNX/PS2s9MRlbiGJ6DGXbUu2ijkAsww6JMECbw+FT8Qn1mGsB3Tsmu2ui5kEZycDnTFiPEXXSg==
+    properties :
+     x : 29
+     y : 222
+     width : 566
+     height : 32
+     caption :
+      fr-FR : "Fonction du contact "
+     data_binding : Contacts.fonction
+     accelerator_key : 65535
+     tab_order : 4
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Commentaire
+    identifier : 0x29c4f3a337fcc390
+    internal_properties : IQAAACAAAACZvdBuVepCiIT5FGf+9mL7IFdJoDs9yUDBJ+kv7WjoGqhkJzxALqMrdqODsLKoMjA13M+/5fIsjdpxO+kv+Ez2bvn+TK+ljg6xg0n8AmYGF9hU7pGc1y+Fut9HFj/ieU4/yeUFaOs0qWQCk//AmA/qB2WBgGqQiOkRzq41LjckeJklfm55qroX86AEu694/4LOHNzuB+iye4kFXtm8ZS430qjcrOlz+Mi6+4TBzZd+JFTvU5Dr0MOqpWaznDVNAwNmDvnUhnNQc09iSLjS52B4MHglHWu5B457iy+pYas1r3suX0weHKfcTmYGxVEsZOE+Y6h7KJB9Nf3ekDc8PxyW4bXOXAcd8e9ZnddYMBAix34zvEeg7W1RuO+o3nBeWMAR4kvsnnDxrul/W/csQW19ZKnWE4FOpdrALOFfjUGypbfY2BSbnnYhEsZS1MCIsTNwMrtAYhQi0GBe9VEycvuV64+0drNhHHO277i4OCRIBm66O3z40Vz9pdldwJDlXmntmuE0Yt0H1DyquWjnDiBqphs0wSByOWmHJPK8xMv4DGMHWwtB3CelIiwHP45JUxZ9Zo3ZNcAAh8Vpe26KkeRkFxQTKY6RQR5NJtCRPLVbNmOPzDvD3DpooX+7MZ+2BuHZ1lhu0AM+WsiU0ETfgSNDEITLLrVBy/ShbT5jbKf4/Rxu+XlJCTYNGT7awxMyHoCbgk1ClpKnttn1csWlIAZ9Iq2noaPiAvRYAaDFD6zcuo/B0JCBme2/m/7buednxu0AzVtsZw4e1pKDYWFeGrbi2RUqYh3n60gEt7oNcQrhnN/GZSdh2CgE6YWAnuj7EDQnkNrUnjks9KlH4gJNFwe+4tskBv6vycY+uaqQrMa3lX/wriz0uZFTQmfObwXCyZ9cjuJh6A/MG/lJbrHF36i0lB/+ZdbFL0UV81gDHpImEUbHDjok1bZaIWocuIeZnNCZ4WMdXXUhO0swq4+6lXwG5IpAh78z2ZT9IQw5iUQ4exOOWNxWw3fSeZhw3beHCWsKz7JSL9V6Z982BG47abGMrFdKaDdoZVtzvWz6UgJJ4yVCPLdh4H49TyRo1NFbd9dgcCTdg7jOaYMDdnbVVt+RLiV8VyUDc6gy6Vhwoo1FfWWwtwHxMd+cxg2ksWzNBGko5Ol8voP0+hj2v1A513l20C5Z9rUhrArQBaeW1geEbJlItzrTY1mszX+fefWqbRPTkrXYrdS2goe72Q9GdAJojt0KXqq/CBrnFznQGGfpClm2kjX0FXnYJolGzkaA7oRU+UlaqFArhsYv0vxlZJ/AUbezPLrUK/HxjnXuZjmbtgjXlRdA9k3ljakRKZar238cLTdOBlRwTPV7AECEstTy3Hg=
+    properties :
+     x : 29
+     y : 262
+     width : 566
+     height : 185
+     caption :
+      fr-FR : Commentaire
+     data_binding : Contacts.commentaire
+     accelerator_key : 65535
+     tab_order : 5
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Fournisseur_id
+    identifier : 0x29c4f3a33800c390
+    internal_properties : IQAAACAAAAASeb81Fk8WdkDODUFN7th9e5YNXAuE9hEzcr5VimXZXmHAOaKMCV/+Vy0I8u5vSzT5//RP0keHbEPgNoN3iwXWvqlxYkOlfhVJPT6ZEjSKql6DwvqucIPzf7SmUcTWSdEI1zuTcu60UtMSn9q9xGFbJV1TrvC/VKQn3vdfy9o/p5sYyH338AGBikeEhf42oGd/nzCYDdz8p811ij12V7XXq4Yv900XWW5a1JRgzFEtOqne5OnQQRQjMJjJy3FcQuC7g1ok4WRctljo/oH9AmyRRimsGO2ibGIe5iu50w+ZgbO1JxXrm2LIpAXT6nxvvpo6JRJkP5yuY+Uz52JtsLMEhUefdqEVuwj3oTWzSrrXHtCDS7mgKKUyOGy47Q94cCicHBV52GmQOsKM8nv1Pjx6vuyUZ9vIM87yKEBU2Qphk3cBmLg9X0Y9zW21ZcjeTMBKKEXBeerEdbmU9dZnTvE+O8zhSf6h6NpmaiqIHNMscw+A4Iqk7HqyQRfqDWaJD67u+XkEraOENQELXLsNtNqFs8ukkFk+J5ZWLJDggQplMD6kBV99AG2CRl9aNqd4v1oDZrhz9u0tlI9jbiR4B0LU6kuS2GnvuUTPqUomgkMqMMYIbVlAkg8AirqXauekN18zu3YGJktK0w7IKq10BWWHEllB14w4mpBKw7jVQuHlbJXwjFlyY2A9SGFJDMOjf6xezr1juxjuiWaIjhTZmAO5il44AyLjxopUojVnkXVpywhMUxLO4QG5eG1onwtj/yPJSztNS5SfnLUGos/SVb7JGO9YLfdyfPW8v85gHd/vLQTYYTKZAzkhJYOEScDAAN0yvNYNpIjBiTGF+JuJjlsLownijxIojAWCp4wHppsnBjTBifz9LREhUbAl4bwIHiy2aiRu/BIfG+JMvtrgO3ny+GBByby0NtDM+nBgSmMwQxxyCaJAXgG6BE9/vIjroXw/CuyNwfgGaaBwvpoW3XgvBRJqvNvbdsbk4kk2rp9IGbf7NHiy5nx+93WZoZMVDp0XgmNe9DeviHKuvd4iBIPlGEn9nlxCMKiXnr5zmCehfNf2ybg6zvmMczs5Lwkj4Lf2vVtKgZZMbg0k316NQBpoWAcxuyKvA0rbw7tSAH+QV3mBmL1HNLkrxUScFRZ9zfpB11is50gqlco3MI6A08ex5NMsW0RKuspLYvOAydZh56eke8RAnAsi68ePZrDszGHV5LnvfSNwkt4mVNYCaw4zbF5D7D8CoTz6Tlfbw0vET0rsODid9nP9MJJ6/8Rn4bhpyFbmqQtAQSRGGhcQbXNw+DHo4OvqS0P7z0XYntl2g70Tu8yLN/FWE2QoSfF55zJtrtsx7StNG8SA0KqFPUEQO0ftuLvMrYUZt0KZvFb2G/IaEA==
+    properties :
+     x : 29
+     y : 455
+     width : 258
+     height : 32
+     state : 4
+     caption :
+      fr-FR : identifiant du fournisseur associé
+     data_binding : Contacts.fournisseur_id
+     accelerator_key : 65535
+     tab_order : 6
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : BTN_Valider
+    identifier : 0x29c4f3bc38132586
+    internal_properties : IQAAACAAAAAcBGLEAmzispSLAwbIlO0NyO34yUYXsJxIY791duYavyPWdFSnL4d9OCGB3z1XKr4YVkdZQkCt4RlOWL34U+3iaH1uMYvLXcm87ZNzR7Fq308P+UGbYI4Cl5a6ocj+vOam7v9LENQUx1M/jjIyelBhIanK1NplPJvQm/IoP6aHc2oqHVGLy6JQDnqNMyibwvg2m/6EkAScqhwL0dS68Cr7I+nADdZIdX1EfZvihKKjBvm2c+r76Se89O6AovDB6IxBt6q+GDJ2NQl1N9ER7rSVK4U5uoKcrJHkp7n/gSE5pqtEF9OZQoDb0vGZr61wL8/aIAnKXG99O3FjDsrDDp6lfF7jVFtXm86IlP00SU7nkneSMj37ghf+gjN3tN6GfJJCNkb1v82dkuQ4DexbpfsfwQq5ARZnb1784EAKFG5Vvkb1jB88g3wwTdfR+vDwzOjm5nJFwBwlhoUkK3jRm+wnzXP6VjIiQCu8T/PtRvekfJSiwC81n//+bS35ZQvZ9C8pg8tQDtEAm5Epxz+2/EC0cok/qRNc9F9w2wP3HdkBNf7vxyM1V9WPtso858vXqJqtvnGdRXefgjKTqqqq/qKxAKiA5csVpfViTpzdF01zlVQirf1e/98t4B2Iv0cK57mbRlBThvOOYLlFVEkH9tOn4QEHtZOMkeuEemLEB4Xmsh6gbIuIb5gIJ9kt6AbwTZJkibOEYpbFV6GfSjB+k9wSuUAGfcW98KQDIOnFjkLDzwluJWW+afjElTnjJPk4nYkYhOAbv0/DSjT3cIoMABCYTW+nenmbo7wvslaUnobhd9oB76PP25xDgmIIL+7uvtLfKd+OpkM3AlVWl7oipAkB6W6OCQ8GPx25W/0Nh/lDkyK45AaL/QE85SDs961dUOLiofZ5fZ9M1rZu
+    properties :
+     x : 492
+     y : 535
+     width : 103
+     height : 30
+     accelerator_key : 65535
+     tab_order : 8
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Bouton en validation
+         
+        type : 14
+      -
+        code : |1-
+         //ESPACE CONTROLE SAISIE CONTACT
+         Si SansEspace(SAI_nom) = "" OU SAI_nom = "" alors
+         	LIB_MessageErreur = "Le nom du contact est obligatoire."
+         	RepriseSaisie(SAI_Nom)
+         FIN
+         
+         SI (SansEspace(SAI_AdresseMail) = "" OU SAI_AdresseMail = "") ET (SansEspace(SAI_Tel) = "" ou SAI_Tel = "" OU taille(SAI_Tel) <> 14) alors
+         	LIB_MessageErreur = "L'adresse mail ou le téléphone est obligatoire"
+         	RepriseSaisie(SAI_AdresseMail)
+         FIN
+         
+         
+         SAI_nom = Majuscule(SAI_nom)
+         EcranVersFichier(FEN_NouveauContact,Contacts)
+         Hajoute(contacts)
+         
+         info("Le nouveau contact " + gPoliceGras() + SAI_Prenom + " " + SAI_nom + gpoliceGras(faux) + " a été ajouté avec succès.")
+         
+         // Retour vers fiche fournisseur et chargement de la liste des contacts à jour
+         ExécuteTraitement(FEN_FicheFournisseur, trtInit)
+         
+         // Fermeture de l'écran
+         ferme(FEN_NouveauContact)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x29c4f3c738264f94
+    internal_properties : IQAAACAAAAAWAh6a8mINRXcv3FWJ0aPH3zgRV4IQae+7QXojTztcXWo9rNRzemARnk0OPhqHw2HGTmdK2WKf/or1phl+fVQptonYADqc9vOi2J9aMl/9qC47LT3cOH4n3SfuPUpzkwWnJfrjRUjZcqoZ1fP3Gr+s4GDzrBAZQiFKdHGz6Dclq3h6Rz9aThrqVNmWoclZ2jEUkOiHWzsZInth6rLnh+2kyK48vY1Wyc0UC4XBWHqFJwqMPRtXE+vUAX8zOjZST7woV4prCZlf7pzImCXHDl31T7zTny3vFhkSQaCWxsEuYo+DIpXe7VNhJ8ASYyx2CGGoBH57e3J5Fg9w25nflLwlaX2J2kxYn7h06pv4p8PDSTA2jshXCm9kguXr94HFvkdCOap09MarQDd1Fqh/OMY9Nf71UV53FsX7cvfaVI/5DeBntI5UNlA0suaX3PmYPuj54xnnXp1BOA+RpOkAc5ki3YNBejmXG443o4uMGWCt8Brk6SZr/+EiV4h02+ZLcrB9m+0ZfBX1p9fzH3NGm4ZisWrV27JCjViBupSpjACOugdvhOolJtHIer9s4SzIZSm7LqFN6UAFQ4BHc0CCvxLwc/7q8zq6ITvORc6aAWCFloxHxDikxICvP/gtxl1wUsrc+St2NYpHxZqVgSrH+Srq2bNmOcBZsHAb6T0HXSASMabyOsliMeCX4us6eAhbqd8dffkbabGNFs7f8u0ratR6zNojiwN/vKyVPlInRJJ3+CQNmm4mrRXbytyKM87XkU/niqHlYYrRvdM8/ouHQWP0vEDUi9pWc3aFk6kCDNye+BkUvam/reZElg6O20Qr0EDw8wtqXS0eCAqRrE1Mqclr1tVlmaxqzrU01cEHxAhmuiaMfKtXhO271Sp+N0bZo8FAz/QWZfNhmic/9w==
+    properties :
+     x : 29
+     y : 535
+     width : 103
+     height : 30
+     take_focus : 0
+     accelerator_key : 65535
+     tab_order : 7
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Bouton en annulation
+         
+        type : 14
+      -
+        code : |1+
+         
+         ExécuteTraitement(FEN_FicheFournisseur,trtInit)
+         
+         ferme(FEN_NouveauContact)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_MessageErreur
+    identifier : 0x29c4f54b41d33940
+    internal_properties : IQAAACAAAAAdP/DyD58voKsLVXTPDLkyYw5CyT1Cm34Qj1XFLnVmPhY/+fIu1PImF8AfF3pvhEE3dcw5PJfTqIdzzzz/uY6prjnMHQAraOhcDs56yGQvX+uhdSCID1QOwoLxP6S1RGGtfS5KKAOAOxcpr4Fg2qA4kdNeaHIxR4g7vRZuwxfAoLWZnyghcqJONWsbtmkVN2Lgu0IzWY2ueRuU163vnAzXEHkGpvDjlm7zbjlZy8kJeR76UKSv0qZIr5p7sKMejKFDY+wOCjiKVUOlWnuoMWGfYRI1RfPQ/nQIHtDokZafMosf2WF++3+lltVnHfNmb8viUR+87naRASygRCBrydXMpiiPZgFL46Ur9OuicTKLp8SxsPs79STqRh6wgbDz8Do1yWJWY25F6osU7kEu8lPQFGMmQz3SbfoiGCQPm4lXi0rKOhjJd8VrI4fB2Rzfjmt6S2xhSoQ2fKXzWMD79MM/bRIe
+    properties :
+     x : 29
+     y : 24
+     width : 566
+     height : 18
+     tab_stop : 0
+     take_focus : 0
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Libellé simple
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : IQAAACAAAACYfnoj3Zaa2aNnqriIjkMmsfGZ34fTjRur+dJY73UIkfAf761y5mLQP1Uw4IjHdYIV780HaLWKBKRQ6NruldNiRLvYqwMlms7S1dUpS4dSY7X6Jr2jWNw99SjHLcY8GfAzfE2fXaJ0EkNZxFFFAj0RCcxWonb3NTqP4+ma2eIPff9hma7IW9q/kvx5kAtRjyaNH3zmUyqTQhOO3/dvVA3koNjrRhKi0BrqF2GZJRQiKb4w4YeaQd24eR5mnfW4I9hZ3HiLjnN22kCf0w0IQixdDn6FfBNrav4N0FQCqdbnWK4XGw==
+  properties : {}
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : IQAAACAAAACVj5ddYvJ30qjdpzs5eNUAsqSCm9SI5d2xI+tTSrbtbUIPdl3QmSH7bsUtsGeDNzY/j1/RIRi/hnefp117YOqtQvkagyVUvACg5hD5u3kOtf4EiB3s1juUxbsOdbBOPETQdA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre(gIdFournisseurEnCours)
+      
+      
+      SAI_Fournisseur_id = gIdFournisseurEnCours
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : IQAAACAAAAA7DJ4vFwXpXFkgSYJm1KBm+pI1Z6cLVUJuN5jUNtC4+Lz8WOmCt+Nxt+v5KGaQfP3CgIz4KNVKfBQVN+ntsJ5byVyLN+EvpKCvjHO7AzOQuXNQ1ssQroXu2TE=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x19c4f35901bfa1b5
+  internal_properties : IQAAACAAAACv91HtDRwIFMbRzFhwbGI4HP1+I8THuHfrcoM7qe9Rg4hoTDFXFcJD8Zyx86/1UHC/BSUHXzk2JGrE
+custom_note :
+ internal_properties : IQAAACAAAAA4zjYLyWv3dktwUyAundgOH3+4/XziLlqiaqgwr4Dmp0Dm3KP264JgDg==
+rad :
+ internal_properties : IQAAACAAAACZM/kb7IvKRWO4ZaUcQrDzKT854FAu0KdYt3OnizA/nBqITcp+
