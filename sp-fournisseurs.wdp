@@ -57,6 +57,12 @@ project :
      internal_properties : IQAAACAAAACaEgYWFFk/NzsW0gkCMnp5Sn+tSK6rkh1EAnD6siIvUwu9ghR/vwevWV+CI/o7CMPAdDRQfOTZU0Xv
      physical_name : .\FEN_NouveauContact.wdw
      type : 2
+   -
+     name : FEN_CatalogueProduit
+     identifier : 0x4a16e4e708087391
+     internal_properties : IQAAACAAAABJ1clZ/zTYZMxBY+KdjUVWUS1O+hIgHSwTtynbs6WY0zVXTtA9MPnd8G79iGeun1Rzp+ctkY+Ohoii
+     physical_name : .\FEN_CatalogueProduit.wdw
+     type : 2
   other_elements : []
   array_of_analysis :
    -
