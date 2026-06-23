@@ -1,0 +1,3 @@
+//MO008-009.TXT ANA00008 TO ANA00009
+Departement		TAR	127	nouvelle taille enregistrement : 127
+Departement	nomDepartement	RUB+		nomDepartement est une nouvelle rubrique

@@ -1,0 +1,7 @@
+//MO006-007.TXT ANA00006 TO ANA00007
+Departement		NFI		nouvelle table
+Region		TAR	119	nouvelle taille enregistrement : 119
+Region	nomRegion	RUB+		nomRegion est une nouvelle rubrique
+Region	codeRegion	RUB+		codeRegion est une nouvelle rubrique
+Departement		FIC-	Departement	Table supprimée Departement
+Contrainte_Departement_Region		NWL	Region (IDRegion) et Departement (IDRegion)	Nouvelle liaison entre les tables Region (IDRegion) et Departement (IDRegion)

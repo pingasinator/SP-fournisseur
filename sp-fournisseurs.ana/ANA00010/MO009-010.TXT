@@ -1,0 +1,6 @@
+//MO009-010.TXT ANA00009 TO ANA00010
+Departement		TAR	178	nouvelle taille enregistrement : 178
+Departement	CodeRegion	RUB+		CodeRegion est une nouvelle clé
+Region	codeRegion	CLEU*		la rubrique codeRegion est maintenant une clé
+Contrainte_Departement_Region		NWL	Region (IDRegion) et Departement (IDRegion)	Nouvelle liaison entre les tables Region (IDRegion) et Departement (IDRegion)
+Contrainte_Departement_Region		DEL	Region (IDRegion) et Departement (IDRegion)	Liaison supprimée entre les tables Region (IDRegion) et Departement (IDRegion)

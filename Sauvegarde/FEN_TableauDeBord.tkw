@@ -1,0 +1,194 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_TableauDeBord
+ major_version : 31
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_TableauDeBord
+ identifier : 0x2a3a700601507089
+ internal_properties : IQAAACAAAAC3RBUwH/z8Y8yOzW98eBJ+POpH5qCBcOfXNjv5lvISTYEjUrVKEm7YFr26xfJToo9kGM6CTYmisUNcLfcYt4SajyHpm9+JBEHRg9V3iWeJEIv11zO3YPMDuTo7tY8/DAtGZS4igy2Q0+7MLh+m0tIRjbS0KFuboYo5LPooqBM1CD8ml6N8x8Ltq/ktt3no2ZV9eOj+/AO169bC2gLi+5RPhkyD5GUK1rM5/mInasOgo2DbfMSuCHYz5Uz7/ZXqBOxzmEPFd7Ggw6AmGYDEEEnnJZkowDh2SIOvpZZJ2uCynU4mJDkD08s+iocVN9ymRqrQcQ6ovxAS+aSzrfuZfi2N0sUn1k1zqhcbFPlfdNGVRM92QlWuB19GGxcy5UyxHiD3+DmyTiy6CLLcM8uhRBu4E+WrhxTUpGkipqCwyJ9BjkoSExmWrGsMleRfDxtpLA2L8g64Ez3lfGQlAqo47Gjwjfjtya21sy4k85mzTNsajlODhGzwQxrljcNLwEtDz01hYCke5EykZT/IOB/KsiIsC6Y0dfgWxzOZItgoPo7IILIDF4YVn7e6OSj+PqLy6PvsmuLcWFEnquIyItji8uZzDovJPvP9DMBWUK2iIF5+hf7GFp40w6T/LmJY+MRrmil8+PjybXQ6RzI7g2M7gC9GNOl0KfiBY86LjkeJNUOKCf54JmIASyqrw5RFYc9htsEyzcgIuzPD+NBgqbDq73aUdIyo9ATnZuK7vLUbWEVsmzfsRJQ6deZlrueVXDjhtrk=
+ properties :
+  width : 819
+  height : 613
+  widthClient : 817
+  heightClient : 560
+ controls : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : IQAAACAAAAB0eJ4EQdr1nAaNNW1qle2U1BSmx5sQkTB5eHqHLx0AoIHlDlSaNX+vNYLwcOs2z49QTM0l8TX7Z0bu4dkKFQzfPWqN28qZKqMw8fpfzNU2p3iGtejb2u3r+8oOpLEUVspNywY4aOBMdK1nWjYyVSC7E5yKCk9vzTI4fqhy9nDLt7jFYW9JsXt7VeR5Hf17uWRuFB92TlYD9jAjjXZV0T/xOdGja/5JWWccG4ETEkPmwOHJaLqXFtQXY4PZX6HA8v49p3QFPSxwhKJhq978hIwMIBDumg2rFzeoBBIrxJmCEFQ5dsiLjy+xSViG3I2f7eMx1Q==
+  properties : {}
+  options :
+   -
+     name : OPT_Menu
+     identifier : 0x2a3a701e0159ced5
+     internal_properties : IQAAACAAAADNYShDQkIgYQIfx5sPxcR/6TDFU8nRzVL7hPSCQ5ASvt330raCFP37vpv6auKOojZZSjWhg7UfPzQH83jaNBkKZEyFltNAw4Fbgjwo9RDYZ7Qe9mHMrq3Oj3j4QronHej37ZaFZED8SKP/zIpJvXEF21fjKFLHsLt+l43ahQzktdYI2cVSCqKsDZLXwwJLlwFReIfIH+EEnshwavgzY2Q0ubgNysKDvGOZr7rrjo8eGvghvY8iT7wVv5QE/Qvhk/BgjbfYnYh0G+ztNiuHjQsjdaRugZGXAjtrZZ0gAKrFo96REJ/InJJDSw5g3Q527KDWleNRnzeDqkwQ5uI31pbxssyViUTN8FEJJQ==
+     properties : {}
+     options :
+      -
+        name : OPT_Quitter
+        identifier : 0x2a3a70fd01923467
+        internal_properties : IQAAACAAAABRUMSzpPhQ8s6Fz5tGisx+fSIJNTg0XD6pZ0GSKuHzYKdjkxWCGE57OECyxWXJ5Mo34iXJ3eJTp5s8mbMOactctT154pCneBjHxHgyK8mYxet41nk7QnioCg5CZi8KEpr7tNXY7IjJ57tzub+387OCWdaK4/nE83U1M1XqTPGwYOzrLd4E+Vc6xSZax4kl8QMUSj2AlsWEltO3Z0XgjS4IyuohNQ7cnlGog7xmfSoWMZ1qAQ1D8SLs/4rQHin4OVItqUM3qiqqLtdT7oHgkDzzX8eRkBfGT20DAvu7sb61JIr1+Tgx4mebXb9w/keGPCuXRl9nRaH8HhY8u7kfGISICoSiolY=
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Ferme()
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+   -
+     name : OPT_Fournisseurs
+     identifier : 0x2a3a704a0166795d
+     internal_properties : IQAAACAAAABGBYUS7+YWqrAraAKbvlE17yHgAas2bl2ozRZayr0ljb0Pp7bA8vGH1GqJNEbxzEUYAdnh3ikYXfKU1TCI5/muLYLMyf+YIUJpMJ2xoXkBlQSMypwVXA01ZL6oHopjaGYHCwZgEB/Ea1YuNtJ10x2F66D6435SeG9aGiwRU1yqJ7QOxMFV0DtVL0MIw50t5YL4/fx3vAJ7LGy3N4ZahL2lseQSU4j2PC8LgzvLYKokbTWbDQAefSfs5YT+B5/oe/f1UP707Ci60ITVFNM/XbbjD7uQXBr9QHLgNGz01ZrvvNLP4+ZQ7c2xa0qNwceSK+cW5Pf66JJK2yzzqnbW+xqcfcgOuzmIuZZMrnBiLjDIv6lLww==
+     properties : {}
+     options :
+      -
+        name : OPT_Liste
+        identifier : 0x2a3a70790175328c
+        internal_properties : IQAAACAAAABxUYdUJ6YhvBCE3JBzBB+MICSkcCvjI8n9XD18RQbdk9opl3z39j+O1ppoUkS+TWumZWAYAkosOdsOYqoSp9ydmojh6qLAQCRBtDMi0By4XdFA9rfL2anUpi4wEtYkx7V6rVd0MFvD5y7zSq5oWA0RCzpdDnlWFf1r9eH1j6xfMMysW1llg9ngICtKrcaAz2WcGGR5BfTPGQHnTlRBrfy4F07fASO2K6gMqRuyo06dnZ18OgeBpNEKCe1cCn7bzzu9eWI4h3kIebnnB1LyGKOW1pwSrYGkMnMA8TI8Ure5v9QzEkGp6wNCyRESaEXe/T1jQajVskRs+CFQ4YYeJ2wCFQzs+w==
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Ouvre(FEN_ListeFournisseurs)
+            type : 32
+      -
+        name : OPT_Nouveau
+        identifier : 0x2a3a709001778b4a
+        internal_properties : IQAAACAAAADczUkMn+EHp21owUawBP+qHG/ArlW3G3TxSAHwCr5WR/FKFj2XIOck/55w6YonK7xnUhnZdG1buDJ1Sl1arzlPuKJmCnb4lZJvN/F/RY9TlAeGpScJD/adIWTBaYRxPVCEAEbdOKTrhItcRYvthj9yNmui97Ov+DoU2FC404ztqf6kRPYWqYBxBPh0JwfuB7BGp45z5meT1v5jDqeKiQplXfEQqo9bk0x/DCl3a2k/CCsIVjahq+n5LKbNs9ZfihA5mQqtuaSKeEHjua3dnvakoQkjRnEuxIyN/EOJvK5sxUJoBrXfcj+hlDdZyZcJo0B6PyysPOketwwy+tb8KXuBBf8lL9s=
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Ouvre(FEN_NouveauFournisseur)
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+   -
+     name : OPT_Catalogue
+     identifier : 0x2a3a705a0168b712
+     internal_properties : IQAAACAAAAAwa0khplU6YUs2SyFGRC90W7mK5v9qqfMV1UpHLEqgqB9RV2qe9IzxEOCB+792Ou5Jr0klZtmLz92NxIDHbfNngX4vGRg4P+u2rEZufR9LhvNX+u40S+L1Xpiz5jwvOhCuvdqTWsCqP4i5eWDSZifaCBmSkP2XbQ3Cqdk3DcpBkFMeV62Q2x/u4VdAVrGJT/vWHlsWkjpAXa4Gv54uUD2DkAVfqLjJTYw9drXkPwnC6EU3WIb6wYZ7L/c9moxLf+8Qdi/SFsj4kIWQ1Cmxt2kzdTgDQ28lPYFmcMbrDkDKuGDOsFvk30urN+w1FK0XF5oNJcWNdj2kA8UVhi0I6F2iVB9qCG4I9AS7MwiJd6tlByIg
+     properties : {}
+     options :
+      -
+        name : OPT_Gérer_le_catalogue
+        identifier : 0x2a3a70a7017de532
+        internal_properties : IQAAACAAAABwP1VSB03/S5xHH/66PCl4VBj0B5SnMQrWAIZV4e2ZNC7oL05irXHibdoqD+KVjhGYR9M80PpfUVzC3W9NYr8oUbP0PJtzPj9rxHzvSMtVuhQz/QwTMatEVnwCJP633aoZxmFljv1PzZEu9siqXqOIQdKn7cB8JZR0tBRheGdopjanuOswmkr0SKtBmpPuhFNXv1MK7hPHugCFGvTv5o56CNspy3y+FIu/aVJ5Fayy+6wPNROj+PWNgArsHM2egShh3babSov9iLJ0YyyGxfsiMXQghPoF9PoSA2XPKGldAiS9C6ZrzUGjHv2+e5TrghmPChHiX1nH1Aw45q9p9BUXQlqv2EL0UMDY4X7shrD1dAvIy+tP
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes : []
+     code_elements :
+      type_code : 26
+      p_codes : []
+   -
+     name : OPT_Commandes
+     identifier : 0x2a3a706a016af729
+     internal_properties : IQAAACAAAABSBwCxcG5jtzl3GUq/cCfSbd8qarFnxA/cwqH3bfEuZTIPeWzxGXecppPt6nKM883FZLip851SU8mChJiWf+ZHzlkiBJ99RXF/IXjYQZucm0d9NDlYdmVYoylZneC5uM0WSAlKhSvssNaIjVrff40syVprwsLx+oTFzEzF7/C4R10ofMeymLzibCwfo35w84BqZcgFciwjmarZLEWfk+UociB6uQ4FlHTZY9il4OzO7Vt8AcGsfXe5T2QaMW8MUxj8+bK7rjIZrt/fObAs2GcYQTFenNHBpL8qIcnkD5vAjfqj2/TYUV5n/b/qW2QMM6FaL5xBq1M3eUE467Wj99uX3AtG+CAkyXBC4yMRmCDdXg==
+     properties : {}
+     options :
+      -
+        name : OPT_Nouveau_Produits
+        identifier : 0x2a3a70b601821ed0
+        internal_properties : IQAAACAAAAD8t3yNwh+S82TKA0aysC3ExF+9THW4pa4ITz/eeMIUxwzQO+rcyuEHiJSI5EABQ5a5aVNkIWrfXA1yGaVMur9MPF9pOhwUmVw4W9qDf/kdTErwSXqAwANbWDzrClVrjksgxUnK/mqh8jF0rlQnUsqvRjxDnarP+DOxytik2+l1iqwkJOqahxsO2R1CPJutqEjUKAjB8ZseJ0OwTAj5bWWEjqxDUiatPU8wOaV94FEM5q/p7zYTlMkoErYHcABu4Xp133aUN7nvOXP0e9MkRClnovxtWmgsi+B6XPpPKOYfsDQbiKJdkcQbbeTJN4rUM229X6xg67dnJ0vOIkyAOvlcv0jRNyUvqLYrNtv2+ChgS+Zs
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Réaprovisionnement
+        identifier : 0x2a3a70c501855b2d
+        internal_properties : IQAAACAAAADSWfvMmdfVYTQusmAq/yCVFN1H8UALDGC48sC7SwNRVFb0NN83oOwbeHLqvjDE2PngfG3CwmePmz4k9qLPYL+gHoFoyRLQwCz8m/3FD9CxZ7U13uTxa9sE1txXjjQFER2LuOy7tW5Y6jqDfw0r1XR0hknZqIZppoPCmrXj45wHe69gUKIk76gSZLdIkbifVA3xRaAh+VwOU2G2P+3k3ZFff8rAeLWB0caSzD3WriAOZQ503OO/cO9TgtRbB4Rv7vWIgkSXaUstQWzU9ubjG7PLY8m5TxLzFJY2qN0X4N0fo2d8Ckixr68PsnE6n/6JZIFndBMsBffJ1kqmDAmrhjpkHQ9ZrdEuzV68jb3oJA4LDqVibUnt
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Séparateur
+        identifier : 0x2a3a70c9018667ef
+        internal_properties : IQAAACAAAAAPnRJre5JqflVEpxDTuIArojb54+FunIs2Mx3HUORxbX9fX9b8oPmaAp/KOTLKrG4cuutflwdeutjLXBsA002ByXEH+pIWiS2BY9T3XhWOvKVkIifgK60smZNj/W0GD7uYC0p5CblnqvnVUMbZGnkeYiUg1ZO7HZXOXDWBJnnw0Da+2kX0bRruL/H/BK0Ts2ndng2BBaC32Ka9P78hEbLGe5epJUNugSpcKWxHZA0wthFcVmuLBq2WojAK55eXT5PuBY9AmRD3fR9D1tdN6fsAAgNMxBXX5e1iXi9BRxdsjP77xxB7GcGhS4EilYEBj7ovZoa4DeGbVuZsmcOjfJxfTcajbkq6fTKfJsvA
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Gérer_les_bons_de_commande
+        identifier : 0x2a3a70d80188a4aa
+        internal_properties : IQAAACAAAAAw5pVBJ/OBpfmPz6NZTWhs18QFdo62A6BVCGMK7tmsuDx53+UKPi50NNXrku045Hyd6OrSdIxYilAm7UvBnx5xrB/g4RwqYqsFzxVuOiNkHK5zGOFWlIbE1tPmg4CZ0XySrYWZ1XJJaHZX5bkNmXIGBMaPKowLnOzh5XDXMQ84rjBPntn57a7o7wDBmhgGY1IV+1up2iGZSSyHNDhh1s45TdfVxDhmUFteK1mAtguXk66ynYDxH8ZC1AUW6nn8F8QpHm4ko2ys7Wi2NopikzGHe9PlTj/GrrT/x+tHsMnlBh4ulhKsBMQKm9OmS/cXHmISSAS3Vc1O7fAtKFOkbhXJjYOYmfyZqUvvPRRviLI9KgqFJPIJGNrVAjYw
+        properties : {}
+        code_elements :
+         type_code : 26
+         p_codes : []
+     code_elements :
+      type_code : 26
+      p_codes : []
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : IQAAACAAAACVj5ddYvJ30qjdpzs5eNUAsqSCm9SI5d2xI+tTSrbtbUIPdl3QmSH7bsUtsGeDNzY/j1/RIRi/hnefp117YOqtQvkagyVUvACg5hD5u3kOtf4EiB3s1juUxbsOdbBOPETQdA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : IQAAACAAAAA7DJ4vFwXpXFkgSYJm1KBm+pI1Z6cLVUJuN5jUNtC4+Lz8WOmCt+Nxt+v5KGaQfP3CgIz4KNVKfBQVN+ntsJ5byVyLN+EvpKCvjHO7AzOQuXNQ1ssQroXu2TE=
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1a3a6ff5000c2ce8
+  internal_properties : IQAAACAAAACv91HtDRwIFMbRzFhwbGI4HP1+I8THuHfrcoM7qe9Rg4hoTDFXFcJD8Zyx86/1UHC/BSUHXzk2JGrE
+custom_note :
+ internal_properties : IQAAACAAAAA4zjYLyWv3dktwUyAundgOH3+4/XziLlqiaqgwr4Dmp0Dm3KP264JgDg==
+rad :
+ internal_properties : IQAAACAAAACZM/kb7IvKRWO4ZaUcQrDzKT854FAu0KdYt3OnizA/nBqITcp+
