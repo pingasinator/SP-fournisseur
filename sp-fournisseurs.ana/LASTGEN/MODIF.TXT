@@ -1,3 +1,2 @@
-//MO010-011.TXT ANA00010 TO ANA00011
-Produits		NFI		nouvelle table
-Contrainte_Fournisseurs_Produits		NWL	Fournisseurs (id) et Produits (Fournisseur_id)	Nouvelle liaison entre les tables Fournisseurs (id) et Produits (Fournisseur_id)
+//MO011-012.TXT ANA00011 TO ANA00012
+Contrainte_Fournisseurs_Produits		MCL	1,1->0,1	
