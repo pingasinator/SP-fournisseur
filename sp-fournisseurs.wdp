@@ -83,6 +83,12 @@ project :
      internal_properties : IQAAACAAAACh/WHxp4xg3FQp24p19R07q5Ey7g8wPdy+2Q/DXRGCkKbDOuyB6UaIGwNlYD/Gh7zbD1+lKTc2LmDK
      physical_name : .\FEN_CommandeProduits.wdw
      type : 2
+   -
+     name : FEN_ListeBonsDeCommande
+     identifier : 0x4a3bcb3d0fad40c2
+     internal_properties : IQAAACAAAAD0ALCs8jfNwVE00HcAMNDBdFFRfJspnCddKmi7NfwFKUG6jRkKa+lTCQtwHfw5CsHeCkJCjoqD/TMd
+     physical_name : .\FEN_ListeBonsDeCommande.wdw
+     type : 2
   other_elements : []
   array_of_analysis :
    -
