@@ -1,0 +1,5 @@
+code_fournisseur;ref_prod_four;designation;quantite;descriptif;prix_unitaire_HT;poids_piece
+2;1004;Test;500;G;99,00 €;0
+2;1006;CHOCOTENDRE;10;P;7,00 €;20
+2;1007;TENDRE FRUIT;500;G;18,00 €;0
+2;1015;CARACAO;500;G;24,50 €;0
