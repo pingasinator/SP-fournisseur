@@ -875,6 +875,24 @@ window :
          
          ListerCommandes(IndiceOptionModifiée)
         type : 17
+  -
+    name : LIB_Message
+    identifier : 0x2a45087b85f56ac5
+    internal_properties : IQAAACAAAABBPP5oJN1qqD6ZKueyROjk1bAJk82p+8R0NjLZqr7dZ/dxMAzzBUrobLWinhBV9zjcqIPjueuls7e8fneRCq6AZUqqsIMehbvvmUZBi2WnatAK0UYbSDjrMFwek/LuthCbYrPSYuGkICFLzyTowdgo9SO+83H3HVWY8jcYMaJChDEGJ7WEB9V6AFYrFfoHkfcxoYU/Mj+/dxEd9llWTUo6STyTHBGk+cDhc+XLAaE0CoJikfj8Wb+3NMFBLYfG11iX4gFznKwOnwxEmTdrmoQPBzcyX1jtSPshKixMArs1x8Rd5i38JFLAbftod99bAFgEIwE7f/RKVYHa5pwG0P0OL/ySIdE0D7AiyALUIkbP62qt836wHQZwlCDEVuclgIJAn13sxVuLNs8FXztFXZTWoaWlpMs5rlCVC0Xi/EsN8ciNzvgqMuziQhgWh26pFpxPWekNC1FgeH2p
+    properties :
+     x : 12
+     y : 26
+     width : 550
+     height : 20
+     visible : 0
+     caption :
+      fr-FR : Libellé
+     tab_stop : 0
+     take_focus : 0
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
@@ -941,7 +959,13 @@ window :
       
       TableSupprimeTout(TABLE_Commandes)
       
-      sql = "SELECT Commandes.id as commande_id, Fournisseurs.raisonSociale as raisonSociale,Commandes.montantTotalHt as montantTotalHT FROM Commandes INNER JOIN Fournisseurs ON Commandes.fournisseur_id = Fournisseurs.id WHERE %1"
+      sql = [
+      		SELECT Commandes.id as commande_id, 
+      		Fournisseurs.raisonSociale as raisonSociale,
+      		Commandes.montantTotalHt as montantTotalHT 
+      		FROM Commandes INNER JOIN Fournisseurs ON Commandes.fournisseur_id = Fournisseurs.id
+      		WHERE %1
+      ]
       
       selon mode
       	CAS 1
@@ -1014,6 +1038,7 @@ window :
       	SAI_Fournisseur_id = sdCommande.fournisseur_id
       	SAI_RaisonSociale = sdCommande.raisonSociale
       	INT_Receptionnee = sdCommande.receptionnee
+      	SAI_MontantTotalHt = sdCommande.montantTotalHT
       	SAI_DateDeReception =  DateVersChaîne(sdCommande.dateDeReception)
       	LIB_FicheCree = "Fiche crée le : " + DateVersChaîne(sdCommande.dateDeCreation)
       	LIB_FicheModifie = "Fiche modifiée le : " + DateVersChaîne(sdCommande.dateDeModification)
@@ -1045,9 +1070,13 @@ window :
       cpt = 0
       
       sql = [
-      		SELECT Produits.reference as reference,
-       		Produits.id as produit_id,
-      		 Produits.designation 		
+      		SELECT Produits.reference AS reference,
+      		Produits.codeProduitFournisseur AS codeProduitFournisseur,
+       		Produits.id AS produit_id,
+      		Produits.designation AS designation,
+      		Produits.quantite AS quantite,
+      		Produits.prixUnitaireHt AS prixUnitaireHt,
+      		LignesCommandes.montantHt AS montantHt
       		FROM LignesCommandes INNER JOIN Produits ON Produits.id = LignesCommandes.produit_id
       		Where commande_id = %1
       ]
@@ -1056,12 +1085,12 @@ window :
       
       si pas HExécuteRequêteSQL(sdLigneCommande,sql) ALORS
       	Erreur("Erreur d'initialisation de la requête" + RC +HErreurInfo())
-      FIN
+      fin
       
       HLitPremier(sdLigneCommande)
       si HTrouve(sdLigneCommande) ALORS
       	tantque HEnDehors(sdLigneCommande) = Faux
-      		TableAjoute(TABLE_LigneCommandes,sdLigneCommande.reference)
+      		TableAjoute(TABLE_LigneCommandes,sdLigneCommande.reference + TAB + sdLigneCommande.codeProduitFournisseur + TAB + sdLigneCommande.designation + TAB + sdLigneCommande.quantite + TAB + sdLigneCommande.quantite + TAB + sdLigneCommande.montantHt)
       		cpt++
       		HLitSuivant(sdLigneCommande)
       	FIN
