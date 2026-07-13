@@ -20,7 +20,7 @@ window :
   -
     name : SAI_DateDeCommande
     identifier : 0x2a4262ea06a0ab22
-    internal_properties : IQAAACAAAACK659/nvra3Lw6b+Y40/xomIN6nSJtfBkc36/PAeni6rs2WO66dZWFHZGoxMO2sbw8mAF7R2u+z1Nlfja7NEkfqMz3v9kmtwblw5V23yY8XaXJteljJ6oN4jtWM7AyM4ka/CuyOQBZnLF/b+OfXTARS/g9joBu29rENso0Z0FVASiWcLqEprxva9l+v3xxZvfpMBc+A7aXWx6UeldR9GIOr2D9Jb2EZcIaSz7CYakjjD+0IY5RVCfOzE2n4Zv72ynlLTIvVPTgIHtm1Q9Ee6cXPkL5KVN9JBVJwPEDPQLIxkaoPHzKUm87GBZ9Ky9LjYozqEsPVJb1W6NtLD5FH7xl7QNK7Ig7LwwobEoCcGvV92QlMsh1bL8NmwQM8J5hYPA9eN4DvAQCEjVU0rCKtCSlphYJIRQCBMbf3pKCZcHbi8v4qdGphEYJeVPf4nIkzE9Up/pbnEEJKE8at2pmClOnDM+QGHCI8XJcSxqYeUm7xLPB6xaXuVdmYici6nBoROxDM83nABNa3NlgxEO0ITjOeCLDB4W5ozACvowgVxrVC77po6R41g6fTdcbdnSgi8uaGNMtg7sKo2NG9k2YTFDzv9S4sahtH8vhrpwKuT1VcyhoYrB6RIgco08LbPyzltlRYWSa7dUDoB2e7oiwzKE8tUMQzBzo8u7mbfeT9Gix9cSMFl+v9KE3R7lDOM79xMC6ViAWjoXaNjKeiJxVPAwEchmkV5umDjgmXk2UZUMM9nrxVPr4VZOq0Mf8EvzUedNM9U1fKQmmeRH/erzGzlVEHE9Epg7otskg1TmPGPm762DrYD5nrrbcMNxe2qffgnFjvPSe2hggYquQ1R47RGOlK+st5CMjeGLgXV9Z8Pk0izEGuAKj8LyHO2frOgIoTYP5IwV0qohzfjbYcyFiqq78df5/FMm+vHKE9oYXqjqTwasyRJwydsz6922KtVyIcktKRO8f+V4BIhUi8LN510rvMk7pDfNJjWgmsI3jp9qcvGTWmKtseQ0r7jg3YXszHl8BMhPRKHUB66JwIjOxmC8dhOFDYOySNuKwHaWcJvIk2e9y4U/hRPOYybYLqAk53MY2GmTD1l6FKpYgC0nq5daIoS0YXWvTabQubk+raiIEVpM0HKDjzKT6SZnlkF8zwBPyMWtEe+v5DgZkearpYAgS166/SqItHz+xj/nYZnptNxdwMR7wz+rt7kv6/b50lVVhEf332nfwBEgYVC7BzBZpfvXKQn6W7GhJfPviqGc9cJJPLTqpieoJkhmgRdtpNESujHuEDhXZb18YyWqwC9osQ4OwCOk400ECoVn4i0nte97bSObAi0oG3JJmGiCTNQ6rRxGrM4qQ1DsLe3PzqwM6oQUbk2u8FebdrGSWM9+ixxJtR3UJ3VG6pCHpGFNMM3UIgW8EXzUaOewxnfmu+kUDP1FDDzQA8geE6DNWqnKJ/sA0PrnAxX0w+FtLr1L6gMAccC/yYuh0E7cActIdS1goqihYSHElRfmRcvwHNgCewEI5MqwGWu/F0N8GC11eIisDCdrG5p/OyaL0t8OjdoateayhmDHWDLDLbpRKE0E4Ay2ptTkgYLWKSOaT7i2JLdpE0x+/O9bblsoFKMlNvDgfaXSI8X9s+axuaMvBR4NIJQ6UQmpyGyAQF9DHE8PSIPZsaMy45ehZuGutsw4hBy9CJLItW609uzy2oc9ecFPNtRInmkSOveTKdR8ITodz6sPN/jPCRapCy0FSJvwvpABth8G4hHE7LulIzr6aG4KEQAk664ppPgEnanaIsxeLVBAHz84jJFfowrb63ajzGeqOjMM0C32NrZWvXg7ZmOo1gFkyh/7K1wTw3MUncTby6m0KXdOHrSlVvuuKygD5FaS4B70hQF6rMB6Kz1Pb/lBQldftud8tpUMyDLAmliwJbkIxK4KsvsCzbiDXW+0I5rtiIzYOtnt3kKUvztDYrl/sAnW9oRWje+d2
+    internal_properties : IQAAACAAAAD5sgpfLgAgD/wXWHwrNZjavuLZAM3QewxQ/yqOIrQ1NsKeiBIylzqTJNqdLtYiSeVZmRYubDlrywQkFzXI+AOm9ldLehYNMTbEFI04Hh61uZ+nZksSM6W+T5F7Oq7N7NbDjt2GjA0kKg6QsUnppgMF7lSZEOdRe+f+LvEwSmDQhS43f9GV7wur+SHowbYuKqpiXfRjNjIC/4v7DYoUbcdOWr2zoX8qM5+8O3DPhBK3+BAvVQQPMgvRA9nkOWP+9kDS9gWFifnJKIkV4st63K+cWSi/nfkWOQWAqhhWHAp5HspUU4/OM1hmCTgBeuTHjL6x+WO3qM+8nvS8q2EXOS4q0b2wCVIEzdLe2WWxqxC8kXxA7NwqcdVBzalLKhOhgBFNL7Q7m6x5cb+WBD5HGYXfjH7BPfWF3h8MxEsJhyyJujnrqG3LOqxMetL5PjuLz2VQVlWx4sosPsIwN4zJSrH3CHhIZ8cZrIQIyX1W8MZnXES6jV1Kt6BxSZYiHmkN3JUrVDIClt/KwWC/j0pLmtvnYKsnjs/KWCFNjBKmYnqioYMZ/OLoQ08E3K1pv49TXshLrBIdckM83mXXP3fjINDgVyPMaFkj6ET6agACBqfe+xmhAvxMucmXwUa+aaUJ+T+I9SnyWADzeqQYd1C6jfAlnj4XmYUxg2a2cONeU8P4CfiLozkMosV93TeQNwYMxkw9vE87jM6EawocSffk7TqGjVp6t0+I9hqjdU903lLz0TL2XeGGGGhOmClDmj5vKWe2+0+QgADDFh5ptfFbGfKSM1IDDwjxCVRTQkzaCgAJNUgsPhlJWfIMT4txWwE8CXoadLYcEXjzEsz/AtisnshUcJFc+Fk9DUWkQvXr0A3/dCQ7d2hi4GztQMOTePUUD1FeQv1/2vtwQqaz+UAzl3YRycq6aWpOKwfDsl0ksakIEeUgXkwoDblsR5EOPgbABXcoLNGZnFqzwKYB7Wxhyc8ZKNv1e7XZ98R8uYS0oBn5ETtlfUan3mRe74kGUcuPYsUt6N+lxMELWVub2e8NWJT2KrbWgwmWpEOeunCOXGZw+4YEcAhvEEArUni7PFBXvOJRvuO0x/2U3Jk7xdeZSOWbeATZfbmdg26KCmoc27FRxSCBlbfOKQ9XtLTjWpFxKptYV3G+C1OJZI1liKSZRLtYAKec2wOwmu2RZat9DMaH9lx9NmuGg3ZDmpLzg/qrkSM1KNkpE4L2ipX5PveoQSVWN/Q588FPIDVcT5vFC94WfECLqT3PbTFtfqOG2ScBNGqbZbmGDqxW/+Ve4gZQyTmyou5GsCxs3DT+l+qxQ17yVfAeZ3nI3tAEM6Lb5tCEK3DvWziaRpJc7zGh7AcfA55Ca05AkmS2ppiiQ4P3/LHEBCGwPJwq2ICBHQP8M+48FAIlK+Hpw7wLWkmdMCRc97O/t5MJ6NTZpVoJa1cKl5npsbueTol5Z7RD/4tK/JU1uUrZfwxyqnjIGauyhUM+vZbEgvZSM0ANF76RXOaoexchXbKV8skblvAJn7zaYb9pn9dzO/d5CdbwcQ==
     properties :
      x : 488
      y : 95
@@ -659,7 +659,7 @@ window :
   -
     name : BTN_Annuler
     identifier : 0x2a4268d20af2bcc6
-    internal_properties : IQAAACAAAABtPoiVm5fJojOZ4e37C8e00TdJIuOvD9/AgIxJNEnuscrzGTwpYcCCOqHnmMUe7u4wBfOPcqOGzQO3CYiONJmIn44tbQbAI0BCtuB6dOtp4TvQ0uWO8WLkmvLKez2a7785okTF5Z2+LtrPbb1g5pG4XJc8lrsnqn+hU2qpuY6aP48r9YEdZtUjHUq9419M/GShKw3K160aeILF81fQOJI/5EpSuShQVTynEqh8nvx/3XNUQLal3OtnpUMQC5hSHHVk/QVD4LvCeS5edKUHoOdZW+NDMAhclebpKlaY739Wl7oWrARUVnN8pFVyPWOU+0PMmwRw/ErlTIs7Ide9PXzHh8C8wEyb4U82UVicfsQO7GxXZA3ZR4FOGakhGpPy2O04H6ecBEmioyMLXo5wifme2zUGVeCiTRS6XQ1Jy1Ieg7j6fbKPWN2a6pyf+SpIT+fvGqHupqyewMKYmpxloBKGrNKDOqokDcyKivjP8QFTiwjeQcBp+FrW4I/3K5xxgOZsbwI7+SK1KGAolS3W7VfEdqSUU1er4T4nTh+gWu2RplAxvnJen1piV7pYNKX5Q3rurLfisiVc8sThKgYh0DX1CVPbaIahrOId0sT2V85Pm+P+rv7ryUhadysmDKBiRaRcG2CBIYcjOyUq42qzK0pneKb3N21jUGEj6OPMPUQe4BhBmKrPjOygrtpZeEOU2CyiOXFNOt7NjjjI6vyjoaqyByxzl1inV/uzLwcK4/dLw3OqRKR0W6p1+Ca/PEMocQt8TTzvoXwT+9jMX5Uxywe7ImzWDPpG02rqCb+bHkFHn8brqyRtSIwsMNAibVZAHJVc2yZRo0IG0noE+pOd2L6g8+VQJF0ZFXCMwwZ7YsjLvDBiwp/CXx4/W293wbuLsgGh34Y8EqwUKFqXmSwHkrk2posGmQTs5AMIwQcLrLrJ+1t9Dcuel2J7CbbmAgBNlsAVsd7fPcJMo7m69jXbR0k++xOGS73ElJr6tdC9/tk=
+    internal_properties : IQAAACAAAACgyu4gV8QfieIgAd5ZqDQNcNlqCMuWqz4Ga1n549XJTLNso+qyujK4QYLlwsGdOl/vss16RKLfpsG9AQN9h4gSr7x2S4i/y/eLgCpH6Trl9CKVu+Zrsd5J1SdPQTyi4ACXbAQ7Aru7P0/jTRF1rYiYOrRdl4jvyanE1t769PVmiDu8EZ5H+SBKH6DbYvpu/OClvxNdPnMg4bqmsfPjg+Pp3aoa6wFGyLtUW9Z3N1gR7jWL6L5GKH4WeMNa3o5EU5SnT9jTNkYTHfrgV8CvdNZizojtz3VNnVWHkjFW30Tw2dLeZ2BSiZgbCpsdgdoHuSuJHJEXXbyUYEtGDTJLDzfKdZYR72VU7mqjju48PGgVd/+Zakb3oD7yZhFlFWJIKkybEssv6IdwoL59lxZgjHhA/lKpNyJuEmkDxmV8R0YFktIe0319XunmVBN+LVEEcwvp2jN7qVdK7Duy/8CmKwXMXqpnjCimYkH4wB2kw8n5eb3awdjSl1VZubdVTam0IRqTlHvW+f6Okk52biJZAxMoIZ6umD6pMj1xrMGTac7Tj+oc+t2NuJ0YPLyyaAP//8tkMUmyTdwTeeHtHYQsGdrfe3UBt8CNEz47LdZtEMQ6pTBFskkTC30i8Xg3UR3Dn0ObIPebrUARItDp+CPi85LCgx3KbKrlz9cOrhNChZD9Wynqjn21+axAP8eDIQCnZ9pyabkoy1dvarU4B5rVL8xHb4xFAvatrGqGDgLbjEYuIfu+bMN1oOL43hpb4A1c5zYmsQewo6t/zgC4EZZXsTfKmUIbGtnDiP+yQzcKnts1ZPmZlk4hTmhLtDM0XjvDFNE20xkTzpmLx0r9x+33Hf4NOjh7lF2YwQnfLi9qoSxhP9Plivx0Hq1DEmvlh7gzNQr44TtJ25JNw3buvpQXQt3bfSDwd+Txv4CWHQeLLTuP4EpZMr/YVKCUsiLk92vc+J2pe3UcZ4qLPTz0Tkb/FwQLmESEe1ABGlVPVSQqXB0KzsKvow==
     properties :
      x : 491
      y : 550
@@ -682,7 +682,9 @@ window :
          
         type : 14
       -
-        internal_properties : IQAAACAAAAAvPwxyIlyiHoyhQjTWU3KqmhtCHWMpvt1JFFhqSVoEVWvLoy7j3NqAh6SAoPBchAcL45moyQqkZrvT/+588Xw9uKzzeO9lSOh3WuU77Duzp4DhiGVdeC31UAkG+7Ccp6olwAw=
+        code : |1-
+         
+         resetBonCommande()
         type : 18
       -
         type : 161
@@ -720,7 +722,7 @@ window :
      x : 25
      y : 26
      width : 411
-     height : 20
+     height : 33
      visible : 0
      caption :
       fr-FR : Libellé
@@ -793,7 +795,7 @@ window :
       //!
       procédure chargerListeProduits()
       
-      TableSupprimeTout(TABLE_Fournisseurs)
+      TABLE_Fournisseurs.SupprimeTout()
       
       sdProduits	est une Source de Données
       sql			est une chaîne
@@ -809,16 +811,16 @@ window :
       	GROUP BY Fournisseurs.id, Fournisseurs.raisonSociale
       ]
       
-      si pas HExécuteRequêteSQL(sdProduits,sql) alors
+      si pas sdProduits.ExécuteRequêteSQL(sql) alors
       	Erreur("Erreur d'initialisation de la requête" + RC +HErreurInfo())
       	retour
       fin
       
-      HLitPremier(sdProduits)
-      si HTrouve(sdProduits) alors
-      	tantque HEnDehors(sdProduits) = Faux
-      		TableAjoute(TABLE_Fournisseurs, sdProduits.id + TAB + sdProduits.raisonSociale + TAB + sdProduits.nbProduits)
-      		HLitSuivant(sdProduits)
+      sdProduits.LitPremier()
+      si sdProduits.Trouve() alors
+      	tantque sdProduits.EnDehors() = Faux
+      		TABLE_Fournisseurs.Ajoute(sdProduits.id + TAB + sdProduits.raisonSociale + TAB + sdProduits.nbProduits)
+      		sdProduits.LitSuivant()
       	fin
       fin
       
@@ -844,7 +846,7 @@ window :
       
       MontantTotalHT = 0
       
-      TableSupprimeTout(TABLE_ligneCommandes)
+      TABLE_ligneCommandes.SupprimeTout()
       
       sql = [
       	SELECT Produits.id AS id,
@@ -862,19 +864,19 @@ window :
       
       sql = ChaîneConstruit(sql,idFournisseur)
       
-      si pas HExécuteRequêteSQL(sdCommande,sql) ALORS
+      si pas sdCommande.ExécuteRequêteSQL(sql) ALORS
       	Erreur("Erreur d'initialisation de la requête" + RC +HErreurInfo())
       	retour
       FIN
       
-      HLitPremier(sdCommande)
-      si HTrouve(sdCommande) ALORS
+      sdCommande.LitPremier()
+      si sdCommande.Trouve() ALORS
       	SAI_Fournisseur_id	= sdCommande.Fournisseur_id
       	SAI_RaisonSociale	= sdCommande.raisonSociale
-      	tantque HEnDehors(sdCommande) = faux
-      		TableAjoute(TABLE_ligneCommandes, sdCommande.id + TAB + sdCommande.reference + TAB + sdCommande.codeProduitFournisseur + TAB + sdCommande.designation + TAB + sdCommande.quantite + TAB + sdCommande.prixUnitaireHt + TAB + sdCommande.montantHt)
+      	tantque sdCommande.EnDehors() = faux
+      		TABLE_ligneCommandes.Ajoute(sdCommande.id + TAB + sdCommande.reference + TAB + sdCommande.codeProduitFournisseur + TAB + sdCommande.designation + TAB + sdCommande.quantite + TAB + sdCommande.prixUnitaireHt + TAB + sdCommande.montantHt)
       		MontantTotalHT += sdCommande.montantHt
-      		HLitSuivant(sdCommande)
+      		sdCommande.LitSuivant()
       	FIN
       sinon
       	Avertissement("Le fournisseur n'a pas de produits")
@@ -887,7 +889,7 @@ window :
      name : validerCommande
      procedure_id : 1892868576427532947
      type_code : 14
-     code : |1-
+     code : |1+
       //!
       //! @brief <indiquez ici ce que fait la procédure>
       //!
@@ -897,26 +899,101 @@ window :
       numLigne est un entier
       numLigne = 1
       
-      ÉcranVersFichier(FEN_CommandeNouveauProduits,Commandes)
+      FEN_CommandeNouveauProduits.VersTable(Commandes)
       
-      Hajoute(Commandes)
+      si verifierBonCommande() ALORS
+      	//Ajoute la commande en base de données
+      	Commandes.Ajoute()
       
+      	//Ajout des lignes de la commande en base de données
+      	pour toute ligne de TABLE_ligneCommandes
+      		LignesCommandes.commande_id	= Commandes.id
+      		LignesCommandes.numeroDeLigne = numLigne
+      		LignesCommandes.quantiteCommandee = COL_Quantite
+      		LignesCommandes.montantHt = COL_Montant_HT
+      		LignesCommandes.produit_id = COL_ProduitID
+      		LignesCommandes.Ajoute()
+      		numLigne++
+      	fin
       
-      pour toute Ligne de TABLE_ligneCommandes
-      	LignesCommandes.commande_id = Commandes.id
-      	LignesCommandes.numeroDeLigne = numLigne
-      	LignesCommandes.quantiteCommandee = COL_Quantite
-      	LignesCommandes.montantHt = COL_Montant_HT
-      	LignesCommandes.produit_id = COL_ProduitID
-      	HAjoute(LignesCommandes)
-      	numLigne++
+      	envoieMessage(1,"Commande effectuée")
+      
+      	resetBonCommande()
+      
+      	chargerListeProduits()
       FIN
+     type : 458752
+   -
+     name : resetBonCommande
+     procedure_id : 1897299324990883630
+     type_code : 14
+     code : |1+
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //!
+      procédure resetBonCommande()
       
-      LIB_Message.Visible = vrai
-      LIB_Message.Couleur = VertFoncé
-      LIB_Message = "Commande effectuée"
+      SAI_DateDeCommande = ""
+      SAI_Fournisseur_id = ""
+      SAI_MontantTotalHt = ""
+      SAI_RaisonSociale = ""
       
-      chargerListeProduits()
+      TABLE_ligneCommandes.SupprimeTout()
+      
+     type : 458752
+   -
+     name : verifierBonCommande
+     procedure_id : 1897302743790562758
+     type_code : 14
+     code : |1-
+      //!
+      //! @brief vérifie les donnée du bon de commande
+      //!
+      //! @return (booléen)  <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //!
+      //!
+      
+      procédure verifierBonCommande()
+      
+      si TABLE_ligneCommandes.Occurrence() = 0 ALORS
+      	retour faux
+      sinon
+      	si SansEspace(SAI_Fournisseur_id) = "0" ou SAI_Fournisseur_id  = "0" alors
+      		envoieMessage(0,"Fournisseur introuvable")
+      		retour Faux
+      	fin
+      fin
+      
+      retour vrai
+     type : 458752
+   -
+     name : envoieMessage
+     procedure_id : 1897303289254354852
+     type_code : 14
+     code : |1+
+      //!
+      //! @brief Envoie un message de validation ou d'erreur à LIB_Message
+      //!
+      //! @param type  Définit le type de méssage (0 = erreur, 1 = Validé)
+      //! @param message  <indiquez ici le rôle de message>
+      //!
+      //!
+      
+      procédure envoieMessage(type,message)
+      
+      LIB_Message = message
+      selon type
+      	cas 0
+      		LIB_Message..Visible = Vrai
+      		LIB_Message..Couleur = RougeClair
+      		LIB_Message..Couleur = RougeClair
+      	cas 1
+      		LIB_Message..Visible = Vrai
+      		LIB_Message..Couleur = VertClair
+      		LIB_Message..Couleur = VertClair
+      fin
+      
      type : 458752
   procedure_templates : []
   property_templates : []
