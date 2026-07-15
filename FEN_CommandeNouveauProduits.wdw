@@ -819,7 +819,9 @@ window :
       sdProduits.LitPremier()
       si sdProduits.Trouve() alors
       	tantque sdProduits.EnDehors() = Faux
-      		TABLE_Fournisseurs.Ajoute(sdProduits.id + TAB + sdProduits.raisonSociale + TAB + sdProduits.nbProduits)
+      		si pas sdProduits.raisonSociale = null et pas sdProduits.id = null ALORS
+      			TABLE_Fournisseurs.Ajoute(sdProduits.id + TAB + sdProduits.raisonSociale + TAB + sdProduits.nbProduits)
+      		FIN
       		sdProduits.LitSuivant()
       	fin
       fin
@@ -853,9 +855,9 @@ window :
       	Produits.reference AS reference,
       	Produits.codeProduitFournisseur AS codeProduitFournisseur,
       	Produits.designation AS designation,
-      	Produits.quantite AS quantite,
+      	120 as quantite,
       	Produits.prixUnitaireHt AS prixUnitaireHt,
-      	(CASE WHEN Produits.descriptif = 'G' THEN 1 ELSE poidsPiece END) * Produits.quantite  * prixUnitaireHt AS montantHt,
+      	120  * prixUnitaireHt AS montantHt,
       	Produits.Fournisseur_id,
       	Fournisseurs.raisonSociale AS raisonSociale
       	FROM Produits LEFT JOIN Fournisseurs ON Fournisseurs.id = Produits.fournisseur_id LEFT OUTER JOIN LignesCommandes ON LignesCommandes.produit_id = Produits.id
@@ -929,7 +931,7 @@ window :
      type_code : 14
      code : |1+
       //!
-      //! @brief <indiquez ici ce que fait la procédure>
+      //! @brief Réinitialise le bon de commande
       //!
       //!
       procédure resetBonCommande()

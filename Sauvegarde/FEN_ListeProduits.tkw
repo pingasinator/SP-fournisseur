@@ -10,7 +10,7 @@ info :
 window :
  name : FEN_ListeProduits
  identifier : 0x2a3a757306f5a0ba
- internal_properties : IQAAACAAAACyZzHYRKxHv6FOiAFE4cUuATAQzQKJCpFD+BScoq7o5r42VnuBgdTz06hr+iCfdZ4WtxwYob0wZpApWIt0OVEulL7IfiYlFYEcWj5f3l9Dc+DEU56q6Xn3W/IZ1Ev4Dgk4vybxlnUlBg7olZdBoRApll5wM19ej3Uc1H9frPSQKd/3B9dDffGyPMMUYZu9WPrYLwnesl0bq6nIExXocUH7o5gYhp5RGNqq2+YCzdPYOcUId8GqnJrIv0NdC1CPXPUUgEbnewi4pUXKVE8rN+ql6AqLNpIOrya1T6/RMkw+ZnrKkRLXMDLSbpyMhb0QeNb38UMeVLMDRDRJ3LXany1ZjWlVDBcleZIHI2NdQNdf2i1yWHcALVbA4A19jOKxp2mk+VYDye1DSP2iNf5YsZGNJwX1QHoP+/th4D7z23rp7tJHViPJRytE9DcIQfWwg1rPwKnZsYGs1MvCWSCAv/JzmWOgi5V3Fs/zcQTONoZjhiiSXgMakwh0FK0MbylUSDKLLw6NmssPS2T73BXTPK8WOFVxXJeUfYc0JrgB50/UikiA+GOF9HWQHhPsrIdG1eP4Up1yPbLAwVbCqxzqh93mm3kwZRlOLhkzFKpHTM8R9GSWs3ZeuxkOzgkXVdmPenbBl1GYEHyFp0D1cgcwldC7gXaVI0PVCRRXqswcd/ucsEmdtK7wBSWKwN10ncRkz73DjblXwXvlwdqJ/8vj7OaMAd0fD0FLIDm2COyHwoycrMa7gR0d89Mublpm66xA0wZZy+0jEw==
+ internal_properties : IQAAACAAAAALUqCUxGiXaQ3xvMDQZg3/4nUtu0whZnwpLcQVI0bLAof5zVz3Ktorcx/GtpiaJatAImO7AuMFErpYjQo7Dr9IHDls0oysmEEu9uVvun0XSCsFPXeovi8+tHc2s6WT6gObkzC8WoomakcvbkmwUIatNiIGtIq8iFfRilge+LAhwPIUXeDqFCeD+fyU9nH06QEKd88nqW1j1WcFgBvaAU3FbptPfKj8srmuNO1MSxG1QeP4umxFGqGWPDgPw3vLwj7uwqCOcIplKNjF1r2FONnhIjp8ALj+fIEzA1Ro/5rW03wXD7dzGltkqe0wqVzqrdvHiShkMAzK5jNYFLOOhfjTZWDHLPR5Wv4Y6mRM0GSZTUA1f1fKWs2NS/zRuM1MxlnY9LkSbZ+YXqytflJS0VxFvmew5x63+icMT7/FqWQ2JNeHfR7vJfRKrVyL+YMslsrQbjBc9+HjTChT3MCkodWzdIOpjEOJKzGwqlPixA6I3hFeY8RoOzdyw8hBy2/w56JYx1WQhnEimykMM6Hv0KI0680o03P0FvHH7SGrq4vvXMtOL7I7QALqE0Q/0ocOEiEbwNLzzep9MbnxNKxcVxCe9H3TnMcGzfVy17/jxkE+yOlAHqFIL4wuS2IWacnRwcBsHQ5hkDD2W1GC+WmcGy9Znui22EXHwAwKYb3sRSMDZlBx9zVO/wQWPYa/EbJ6hL8GLcJkT8Q7159SChPpsiG67Puk2IvPEWdLiX/94kznvgvlNNgf7cBcNYXXG6pq5lyc9+1N7Oc=
  properties :
   width : 819
   height : 613
@@ -62,14 +62,14 @@ window :
          // Ouvre le sélecteur de fichiers
          soit sCheminOuverture = fExtraitChemin(SAI_Fichier,fDisque+fRépertoire)
          soit sFichierInitial = fExtraitChemin(SAI_Fichier,fFichier+fExtension)
-         soit sTitre=<§R1a3a75c90102f05c¤fr-FR¤Sélectionner un fichier...¤en-GB¤Select a file...¤es-ES¤Seleccionar un archivo...¤0§>
+          scTitre=<§R1a3a75c90102f05c¤fr-FR¤Sélectionner un fichier...¤en-GB¤Select a file...¤es-ES¤Seleccionar un archivo...¤0§>
          soit sFiltre=<§R1a3a75c90103f05c¤fr-FR¤Tous fichiers (*.*)¤en-GB¤All files (*.*)¤es-ES¤Todos los archivos (*.*)¤0§>+TAB+"*.*"
          // ouvre le sélecteur
          sFichier = fSélecteur(sCheminOuverture, sFichierInitial, sTitre, sFiltre, "", fselOuvre + fselExiste)
          
-         SI sFichier<>"" ALORS 
+         SI sFichier<>"" ALORS
          	SAI_Fichier =  sFichier
-         	ExécuteTraitement(SAI_Fichier,trtModification)
+         	SAI_Fichier.ExécuteTraitement(trtModification)
          FIN
          
         type : 336
@@ -129,7 +129,7 @@ window :
          	LIB_MessageListeProduits.Couleur = RougeClair
          	LIB_MessageListeProduits.PoliceGras = Vrai
          	LIB_MessageListeProduits = "Veuillez choisir le fichier à importer."
-         	chargeListeProduits()
+         	FEN_ListeProduits.chargeListeProduits()
          	RepriseSaisie(SAI_Fichier)
          
          FIN
@@ -332,11 +332,11 @@ window :
      -
        name : COL_Prix_Unitaire_HT
        identifier : 0x2a3a7ce414f1b138
-       internal_properties : IQAAACAAAADgSFjTBZMpLNgR2LVEPgYtjxUBn54FpZWn59Gr7IEWy9ivWPyEBtb6zAawwCzxUV+0tskvTWNMTjuaqKeCH8zzjuszyowK9zINn2hAsbCJ6LmdzEpolezqS2YmM4XrpZx/ksYZP7Vm9Zs24HCuGbqqQ71iCV6B/6FNZILFhHLAKT2X9+Eo2qbpYX+pr1pcoLDFBla52JtMveJOU/LggiQlKkU1/haD
+       internal_properties : IQAAACAAAACt8dku60mP+++qrlF2vF6v3B/ebl9IRwV8Bsv0XjOHVGccoDeY5TJXKpnOttY0wEcbYIJZI6AE0HgAHC7P8O0m+mSXx6v+NtG2EJbuodacAQILNR7X2UxEWt0upoS/gMlz3Q0oO1EdlMPmOCixKnBBKXyW43iouWGJgL1a6RfsRD9wnpfBSJhJzvxlcZUwjC8/ovQ90tGTSXMum1YBlRrE837ktMJzidiIR2TB1xSYnw==
        properties : {}
        type : 2
        content :
-        internal_properties : IQAAACAAAAANVjaoDBJa3TPS0x5vPzcnmgyyn8jHdQ2+UPvMbXTGUCNhzimGy78jBg9mq+qWGCK11L/Lov/IDdoKY+d5AIcierYmlzOitaefaH6zDcCd4rOGlYX6DQ9l/mG3Hl0u2YS2LAFJBBVAMd9XS3m2jeJAye7JS5b77IQgboCoVD1l/Ul/xegWmtxul5EF7Tgrt79EiAnwG7YZA0g/Hc3o1/lAo6lmu2d1NUa1l9kQ1YTW/SrSrmQdHaoF542wQRVs7x0p1xbholYLYA/A+bDaoGVcWJR60Qj07YknDJaWJUfntTj+aAqWIrj99FghXVuSPaDfReWxYWa3Odg/gX3IbuJEoWu79ibLzYZQRbX8SsGyP2oSxfvvg04jpVo6F4ZlAlZ+Xxv89os5ryo5uerWLJUo0bLBb5wDEHWrs5SrtW+dgrq2vBasHED+YQWpb9j7Zry7MVhvNGxsJGSoN9+6uXcgTDUYfAlO2sYC7/TBW7jicxJYq+V6PU1+MhoHIgSXXz4wJlRa+bgIbKbjk1q0UgfQxiP2rv5ruPdRnpM5Zil8DJ0KUEowaVkUFwq7efrE+bGliNxqFxm+okPBlB8a5Q0wqKlsGK4jXMWEil6kPgallVKmkygwEOw1Z/XcHwwHv7Q5FQVjiy7xgbFO7ZolRXop+V8t6lFNdu6K1r0D3r0y+aEe47n5O79YgzbPbArVWiIkYvaTIWKUrlVQdikQEHGBu6/x/19ywx6NGQb2GpTkh0ixQoOzoa+SKtnVAMVknYSfb/YRM9A4Xxo8t0pWItLAAgKCFjBbPe/UvfKevVg8YKX226NuODzSZ7MnzseNwVTVO0Pj/nV1F7JvoiDSIg+v2MrIo/Cq5gE2Tma0y0YOGfmg8w5XdM5WP1QuIuS1RtY7ozysXGhOgFGszQG37v2W6uJUi/mO9FVslB9e8sozmQg4WggMd5E+tUJ9An0B5V1Lmjyeqg==
+        internal_properties : IQAAACAAAAA+TynWoqhsPJ63uJpZjqH53yunXF1kKD2v2bULgwHUihflkibfIhoke2QwgOZI631//MEXIugkVthOPGPXMp0FEPC821zeBxpOAMyIM/CIIQvlW6Vm7s57iUwt4ubYA1toUy1hjVtRrbgfOIX2rGtblIRq14Sk3Gvq5eWVwkLXlIckgIrG65gMR1fQFC+fICJBNDyhxxouZiBsx2aFZhaGRbBACZLDciiYW8FJi6xxPX3vbSAG/6qX7C4dffgz7eCrOniSQD2j/lZ14N2asfh9invKPlt8wLB/GFoCrK+HuEhZ3Y3zqPBLodPMKYV8oIzm6klgwEGDxTVtUwsDTUb3w3/zLeh1Xo3NO706QIH/qKttEeFraE0ivLdgiBD8tm2TqVGZaExT1PBL2pB5eTHlZkeEQ+1STVfCwDn4UZJTFFadvcDDWh7cOgqdLFR0DUadlqL8C2GBSHPpSLSOdukAQ3dovnvx1utrXQD7ldiUQ2k5wIGYwL7AyVE9rbpb2pgbauzyh8gZkC1qUVt+WoJimd0cwMzvuUumw002Zl01SMbSdLowafoMtIfZsmicCE1AFDSOXftLigzaTkwKH4a6Ra8OmvC7uRHDieQ3jBoa+5tOn2T+YgGzGNbK6uTvzNBAK98tr8DcD1xZq03nt+cnFJO9RsnxMYhbl2eajCnfu2I2d82JiRSI3N8TOfAPNfrrgrKnWcLP1hol+MiqUA4zete1RxOEhDpotOjNzhaVNx2vHJWtR0BMj15tR2MK+Nbyo8YBt3Kha4MFHyk6QG++sdD88Fp3Wh0FHvCXdUalzFCAqZ1ixnk+NpJpY20LkBSGw28T9jWAje9MtF9AqhQtJTBKIQxWA791TVRtqXqHk8KAp+ql7J/QGn8Qh0xFjYj6eU6+alJ7EnDLa03ddOObHK2S64/TQLB8jdoaz0XzLpGIwKXEU2L7jhuPnqhUlCodaofiGDWsaT2VYfcD6FIycdbHTV1vH3wfhNFsrQo=
         properties :
          accelerator_key : 65535
         type : 2
@@ -675,24 +675,24 @@ window :
       nCpt = 0
       sTxtEpuise = " - "
       
-      TableSupprimeTout(TABLE_ListeProduits)
+      TABLE_ListeProduits.SupprimeTout()
       
-      si pas HExécuteRequêteSQL(sdReqCatalogue,sQL) alors
+      si pas sdReqCatalogue.ExécuteRequêteSQL(sQL) alors
       	Erreur("Erreur d'initialisation de la requête" + RC +HErreurInfo())
       	retour
       fin
       
       // Début
-      HLitPremier(sdReqCatalogue)
-      si HTrouve(sdReqCatalogue) ALORS
-      	tantque  HEnDehors(sdReqCatalogue) = faux
+      sdReqCatalogue.LitPremier()
+      si sdReqCatalogue.Trouve() ALORS
+      	tantque  sdReqCatalogue.EnDehors() = faux
       		si sdReqCatalogue.epuise = 1 alors
       			sTxtEpuise = "Epuisé"
       		fin
-      	TableAjoute(TABLE_ListeProduits,sdReqCatalogue.codeProduit + TAB + sdReqCatalogue.reference + TAB + sdReqCatalogue.designation + TAB + sdReqCatalogue.prixUnitaireHt +TAB + sTxtEpuise + TAB  + sdReqCatalogue.codeProduitFournisseur + TAB + sdReqCatalogue.codeFournisseur + TAB + sdReqCatalogue.raisonSociale)
+      	TABLE_ListeProduits.Ajoute(sdReqCatalogue.codeProduit + TAB + sdReqCatalogue.reference + TAB + sdReqCatalogue.designation + TAB + sdReqCatalogue.prixUnitaireHt +TAB + sTxtEpuise + TAB  + sdReqCatalogue.codeProduitFournisseur + TAB + sdReqCatalogue.codeFournisseur + TAB + sdReqCatalogue.raisonSociale)
       	nCpt++
       	sTxtEpuise = " - "
-      	HLitSuivant(sdReqCatalogue)
+      	sdReqCatalogue.LitSuivant()
       	fin
       	LIB_NombreProduits = "Nombre de Produits : " + nCpt
       sinon

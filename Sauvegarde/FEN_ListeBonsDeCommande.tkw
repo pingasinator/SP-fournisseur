@@ -739,14 +739,21 @@ window :
       -
         code : |1+
          
-         INT_Receptionnee..Etat = Actif
-         INT_Livree..Etat = actif
+         si SAI_IDCommande <> "0" ou pas SansEspace(SAI_IDCommande) <> "0" ALORS
+         	selon BS_Frequence.Valeur
+         		cas 1
+         			INT_Receptionnee..Etat			= Actif
+         			SAI_DateDeReception..EnSaisie	= Vrai
          
-         SAI_DateDeReception..EnSaisie = VRAI
-         SAI_DateDeLivraison..EnSaisie = vrai
+         		cas 2
+         			INT_Livree..Etat				= Actif
+         			SAI_DateDeLivraison..EnSaisie	= Vrai
+         	fin
          
-         BTN_Valider..Visible = VRAI
-         BTN_Modifier..Visible = Faux
+         	BTN_Valider..Visible	= Vrai
+         	BTN_Modifier..Visible	= Faux
+         FIN
+         
         type : 18
       -
         type : 161
@@ -1072,7 +1079,7 @@ window :
       sdCommande est une source de données
       sql est une chaîne
       
-      TableSupprimeTout(TABLE_Commandes)
+      TABLE_Commandes.SupprimeTout()
       
       sql = [
       		SELECT Commandes.id as commande_id, 
@@ -1094,17 +1101,17 @@ window :
       		sql =  ChaîneConstruit(sql,"Commandes.receptionnee = 1 AND Commandes.livree = 1 ")
       FIN
       
-      si pas HExécuteRequêteSQL(sdCommande,sql) alors
+      si pas sdCommande.ExécuteRequêteSQL(sql) alors
       	Erreur("Erreur d'initialisation de la requête" + RC +HErreurInfo())
       	retour
       fin
       
-      HLitPremier(sdCommande)
-      si HTrouve(sdCommande) alors
-      	tantque  HEnDehors(sdCommande) = Faux
+      sdCommande.LitPremier()
+      si sdCommande.Trouve() alors
+      	tantque  sdCommande.EnDehors() = Faux
       
-      		TableAjoute(TABLE_Commandes,sdCommande.commande_id + TAB + sdCommande.raisonSociale + TAB + sdCommande.montantTotalHT)
-      		HLitSuivant(sdCommande)
+      		TABLE_Commandes.Ajoute(sdCommande.commande_id + TAB + sdCommande.raisonSociale + TAB + sdCommande.montantTotalHT)
+      		sdCommande.LitSuivant()
       	fin
       sinon
       	envoieMessage(0,"Aucune commande trouvée.")
@@ -1131,21 +1138,21 @@ window :
       	SELECT raisonSociale FROM Fournisseurs WHERE id = %1
       ]
       
-      TableSupprimeTout(TABLE_LigneCommandes)
+      TABLE_LigneCommandes.SupprimeTout()
       
-      HLitRecherchePremier(Commandes,id,commande_id)
-      si HTrouve(Commandes) ALORS
-      	FichierVersEcran(FEN_ListeBonsDeCommande,Commandes)
+      Commandes.LitRecherchePremier(id,commande_id)
+      si Commandes.Trouve() ALORS
+      	FEN_ListeBonsDeCommande.DepuisTable(Commandes)
       	LIB_IDCommande = "Bon de commande N° : " + Commandes.id
       	LIB_FicheCree		= "Fiche crée le : " + DateVersChaîne(Commandes.dateDeCreation)
       	LIB_FicheModifie	= "Fiche modifiée le : " + DateVersChaîne(Commandes.dateDeDerniereModification)
       	sql = ChaîneConstruit(sql,SAI_Fournisseur_id)
-      	si pas HExécuteRequêteSQL(sdCommande,sql) alors
+      	si pas sdCommande.ExécuteRequêteSQL(sql) alors
       		Erreur("Erreur d'initialisation de la requête" + RC + HErreurInfo())
       		retour
       	fin
-      	HLitPremier(sdCommande)
-      	si HTrouve(sdCommande) alors
+      	sdCommande.LitPremier()
+      	si sdCommande.Trouve() alors
       		SAI_RaisonSociale = sdCommande.raisonSociale
       	sinon
       		Erreur("Impossible de charger les informations du fournisseur")
@@ -1174,7 +1181,7 @@ window :
       sql est une chaine
       sdLigneCommande est une source de données
       
-      TableSupprimeTout(TABLE_LigneCommandes)
+      TABLE_LigneCommandes.SupprimeTout()
       
       cpt = 0
       
@@ -1183,7 +1190,7 @@ window :
       		Produits.codeProduitFournisseur AS codeProduitFournisseur,
        		Produits.id AS produit_id,
       		Produits.designation AS designation,
-      		Produits.quantite AS quantite,
+      		LignesCommandes.quantiteCommandee AS quantite,
       		Produits.prixUnitaireHt AS prixUnitaireHt,
       		LignesCommandes.montantHt AS montantHt
       		FROM LignesCommandes INNER JOIN Produits ON Produits.id = LignesCommandes.produit_id
@@ -1192,16 +1199,16 @@ window :
       
       sql = ChaîneConstruit(sql,commande_id)
       
-      si pas HExécuteRequêteSQL(sdLigneCommande,sql) ALORS
+      si pas sdLigneCommande.ExécuteRequêteSQL(sql) ALORS
       	Erreur("Erreur d'initialisation de la requête" + RC +HErreurInfo())
       fin
       
-      HLitPremier(sdLigneCommande)
-      si HTrouve(sdLigneCommande) ALORS
-      	tantque HEnDehors(sdLigneCommande) = Faux
-      		TableAjoute(TABLE_LigneCommandes,sdLigneCommande.reference + TAB + sdLigneCommande.codeProduitFournisseur + TAB + sdLigneCommande.designation + TAB + sdLigneCommande.quantite + TAB + sdLigneCommande.prixUnitaireHt + TAB+ sdLigneCommande.montantHt)
+      sdLigneCommande.LitPremier()
+      si sdLigneCommande.Trouve() ALORS
+      	tantque sdLigneCommande.EnDehors() = Faux
+      		TABLE_LigneCommandes.Ajoute(sdLigneCommande.reference + TAB + sdLigneCommande.codeProduitFournisseur + TAB + sdLigneCommande.designation + TAB + sdLigneCommande.quantite + TAB + sdLigneCommande.prixUnitaireHt + TAB+ sdLigneCommande.montantHt)
       		cpt++
-      		HLitSuivant(sdLigneCommande)
+      		sdLigneCommande.LitSuivant()
       	FIN
       	SAI_NBCommande = cpt
       sinon
@@ -1234,9 +1241,9 @@ window :
       	INT_Livree = Vrai
       fin
       
-      HLitRecherchePremier(Commandes,id,SAI_IDCommande)
-      EcranVersFichier(FEN_ListeBonsDeCommande,Commandes)
-      HModifie(Commandes)
+      Commandes.LitRecherchePremier(id,SAI_IDCommande)
+      FEN_ListeBonsDeCommande.VersTable(Commandes)
+      Commandes.Modifie()
       
       envoieMessage(1,"Commande modifiée")
       
@@ -1260,17 +1267,17 @@ window :
       //!
       procédure supprimerCommande()
       
-      HLitRecherchePremier(Commandes,id,SAI_IDCommande)
-      si HTrouve(Commandes) alors
-      	HLitRecherchePremier(LignesCommandes,commande_id,SAI_IDCommande)
-      	si HTrouve(LignesCommandes) alors
-      		tantque HEnDehors(LignesCommandes) = Faux
-      			HSupprime(LignesCommandes)
-      			HLitSuivant(LignesCommandes)
+      Commandes.LitRecherchePremier(id,SAI_IDCommande)
+      si Commandes.Trouve() alors
+      	LignesCommandes.LitRecherchePremier(commande_id,SAI_IDCommande)
+      	si LignesCommandes.Trouve() alors
+      		tantque LignesCommandes.EnDehors() = Faux
+      			LignesCommandes.Supprime()
+      			LignesCommandes.LitSuivant()
       		fin
       	fin
-      	HSupprime(Commandes)
-      	envoieMessage(1,"Message supprimé avec succès")
+      	Commandes.Supprime()
+      	INfo("Message supprimé avec succès")
       fin
       
       ListerCommandes(BS_Frequence.Valeur)
@@ -1303,7 +1310,7 @@ window :
       LIB_FicheCree = "Fiche créée le : "
       LIB_FicheModifie = "Fiche modifiée le : "
       
-      TableSupprimeTOUT(TABLE_LigneCommandes)
+      TABLE_LigneCommandes.SupprimeTout()
      type : 458752
    -
      name : envoieMessage

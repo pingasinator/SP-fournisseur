@@ -40,7 +40,7 @@ project :
    -
      name : FEN_NouveauFournisseur
      identifier : 0x49a5ae3300a22e40
-     internal_properties : IQAAACAAAACods7Fyglog0+H7Qph088Z8roY9ZkSyHYvlFOSOKVqZ/UxUq17SDduvhf2pfw54xrVPSOu3Vhg0C2rpw==
+     internal_properties : IQAAACAAAAAl/VlQQZD3AMgEbIviUk6YcyWHCBjhT4e4loB2k8nam3fA4R7017jxPZZ1Jn24YptUvKIvXt/pW7gmIg==
      physical_name : .\FEN_NouveauFournisseur.wdw
      type : 2
    -
@@ -70,7 +70,7 @@ project :
    -
      name : FEN_ListeProduits
      identifier : 0x4a3a757301c1a0ba
-     internal_properties : IQAAACAAAADkshoRhlW03yPzOfb9T2zu5Kak5zeVksp7Bm++PATV7Fi2MVTCwh+YsMWifEjNV46pCXfaoZysnPnnYw==
+     internal_properties : IQAAACAAAABa0sZW1Bn/d/tWkslC8ho5wh9zJq3Psr1/9swVcYIf0/36gVW6n73n4f9iYzr7yAOAtPQQvKSZk4Wv
      physical_name : .\FEN_ListeProduits.wdw
      type : 2
    -

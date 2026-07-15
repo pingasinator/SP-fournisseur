@@ -10,7 +10,7 @@ info :
 window :
  name : FEN_NouveauContact
  identifier : 0x29c4f37237ce0253
- internal_properties : IQAAACAAAADWdDXi8A+Ck+EwexY/Sqo22WIOgLBUR6FDyg2rNgJri0zGTfZS4nYxQA9nWjg49ecr9/wqi07qBp5ny0b4i1xQ5UMYMTA41WtByPPkCkJVhioguSKAiQj6CNXlcNLlO2KCDrUVytxO2P3B7g0xQzaGl5jwIi1vMLAHhezW/DD8wrtGlGO0J1tq9PZeSivwJEDMBm9LuD3wAS0IQUfBNaYFNkXMhp7Xxh82Fh6Y6qZnsopTkk+0joCwxMvlilSWL1HSIqZVj9K4aqrHeDBYLSpdM2f2stbUligi0K2exavDXKlgsBUHDt6/ZmIsTUf1wHyLtuhnjS1WD/kwCFkDHMCq+5+KUBwrmkTyR+UVF6mxocXdU8ITpYyIB+fEf9tURp7OKo3iRVXAtbx2mwyLej+vWaQ1UvdM6YkOPLTiuYVXTOKHCgbXTaLttEoAxwRCKTttANg1wFzsrLklRXdCJ+5EFjOHW0P2yE3uUZ3GCURdmLgSi5hqEx5rrkH6/ypWQqG6pGrgeoYCufHWPNYVzmm6AyH50Ytqekvd94cqmW8GDyeBt4PTVYmt79ddlXYuA1iiO4PHQsHdo6uWqu3GPcQqFYiiprvTszMvvlESNYuJyD4zmo2uP5jOESWbwp81YDMLLAOfTzOBRvH65eqU8TeRE801VigUiJmCfmb9nXQ5OuZQgLVNbgk5fDKGLZb7BXbUX8g5MnQCxI5rRNX6HULMILNDnfCYt984NFQvZCAWSmsoCUcud7VpyW+/vz2VA6YcXQhL8TWB7bm7m1uMRW0FtNlV
+ internal_properties : IQAAACAAAABlbIr4MzHuLGmR5jt5UVB6ogMXd0sjZwuXXxA4WJq58a7JZxHwOcffLVihFH/YybG2P6u6yvXAWnhkG5sYwDWxAki7Tk0wTXUCf6eqH/9i9Kzb3Zfu9CvT0z4FBe/Skaawox1jNkIRXRMCfSDGPEgPa1NuZF161zQ00UcXmpplgJGASneOVVU967yT4OLYSmnYpYiVVmcvMDGlgvuWupu2WPzG3hfAYrUnEH4sx/C8oMBLu8crE9y3rKnJIQZtDxlIpDJ6pFrnlnMmDYcQWxvtD3VOVX7uoBfPiLeqXHlnsf+NC2ueUFUQZKvmfcMs2Hgp0cx0Rwszaw5I5cxFugz+Pnj05SJSWhN6LY7h5Aq7BII1jcgJl5TMNNuFVkMGDTJ8iC2xpRnnkOWymiNfPb1svWqi62Efd4tuEfl3u1blsX4Vq/Ej1IZ9fjk16CJlLfL7mGGWyGdiDoGS9KCYmi5XqI8mJH996nPaMLqhXYlj59gI9skC9IpzVHIPJuIJIq6G0nGDaEUeyff7pe2Ry0fhUYFORJOjHBmJKgBbjVT4yGerdiYVpIE5vY7AcPJ3aWVGeao0yj7/8d/jv8p23uab99x5vbXuI1dBhbSTJZpFYTAveWJejpBa04ZYz2kmNCSFUDh+q855Wj8/3PuobGEExaliT77PvoPqMwvIcTNZfWI+/eYli9MndJnd1iSYcR/MuXWSQKeUOuZYcY4C1EYNSFWA0gbcUuxXZDrdQS5tWM5ZPanDNQzizF9hBdZR3iYFvJqVjJc6UN7VQ//dzVAkjcdmHQ==
  properties :
   width : 518
   height : 509
@@ -286,16 +286,16 @@ window :
          
          
          SAI_nom = Majuscule(SAI_nom)
-         EcranVersFichier(FEN_NouveauContact,Contacts)
-         Hajoute(contacts)
+         FEN_NouveauContact.VersTable(Contacts)
+         contacts.Ajoute()
          
          info("Le nouveau contact " + gPoliceGras() + SAI_Prenom + " " + SAI_nom + gpoliceGras(faux) + " a été ajouté avec succès.")
          
          // Retour vers fiche fournisseur et chargement de la liste des contacts à jour
-         ExécuteTraitement(FEN_FicheFournisseur, trtInit)
+         FEN_FicheFournisseur.ExécuteTraitement(trtInit)
          
          // Fermeture de l'écran
-         ferme(FEN_NouveauContact)
+         FEN_NouveauContact.Ferme()
         type : 18
       -
         type : 161
@@ -326,9 +326,9 @@ window :
       -
         code : |1+
          
-         ExécuteTraitement(FEN_FicheFournisseur,trtInit)
+         FEN_FicheFournisseur.ExécuteTraitement(trtInit)
          
-         ferme(FEN_NouveauContact)
+         FEN_NouveauContact.Ferme()
         type : 18
       -
         type : 161
