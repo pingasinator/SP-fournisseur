@@ -739,14 +739,21 @@ window :
       -
         code : |1+
          
-         INT_Receptionnee..Etat = Actif
-         INT_Livree..Etat = actif
+         si SAI_IDCommande <> "0"  ALORS
+         	selon BS_Frequence.Valeur
+         		cas 1
+         			INT_Receptionnee..Etat			= Actif
+         			SAI_DateDeReception..EnSaisie	= Vrai
          
-         SAI_DateDeReception..EnSaisie = VRAI
-         SAI_DateDeLivraison..EnSaisie = vrai
+         		cas 2
+         			INT_Livree..Etat				= Actif
+         			SAI_DateDeLivraison..EnSaisie	= Vrai
+         	fin
          
-         BTN_Valider..Visible = VRAI
-         BTN_Modifier..Visible = Faux
+         	BTN_Valider..Visible	= Vrai
+         	BTN_Modifier..Visible	= Faux
+         FIN
+         
         type : 18
       -
         type : 161
@@ -1174,7 +1181,7 @@ window :
       sql est une chaine
       sdLigneCommande est une source de données
       
-      TableSupprimeTout(TABLE_LigneCommandes)
+      TABLE_LigneCommandes.SupprimeTout()
       
       cpt = 0
       
@@ -1192,16 +1199,16 @@ window :
       
       sql = ChaîneConstruit(sql,commande_id)
       
-      si pas HExécuteRequêteSQL(sdLigneCommande,sql) ALORS
+      si pas sdLigneCommande.ExécuteRequêteSQL(sql) ALORS
       	Erreur("Erreur d'initialisation de la requête" + RC +HErreurInfo())
       fin
       
-      HLitPremier(sdLigneCommande)
-      si HTrouve(sdLigneCommande) ALORS
-      	tantque HEnDehors(sdLigneCommande) = Faux
-      		TableAjoute(TABLE_LigneCommandes,sdLigneCommande.reference + TAB + sdLigneCommande.codeProduitFournisseur + TAB + sdLigneCommande.designation + TAB + sdLigneCommande.quantite + TAB + sdLigneCommande.prixUnitaireHt + TAB+ sdLigneCommande.montantHt)
+      sdLigneCommande.LitPremier()
+      si sdLigneCommande.Trouve() ALORS
+      	tantque sdLigneCommande.EnDehors() = Faux
+      		TABLE_LigneCommandes.Ajoute(sdLigneCommande.reference + TAB + sdLigneCommande.codeProduitFournisseur + TAB + sdLigneCommande.designation + TAB + sdLigneCommande.quantite + TAB + sdLigneCommande.prixUnitaireHt + TAB+ sdLigneCommande.montantHt)
       		cpt++
-      		HLitSuivant(sdLigneCommande)
+      		sdLigneCommande.LitSuivant()
       	FIN
       	SAI_NBCommande = cpt
       sinon
@@ -1234,11 +1241,17 @@ window :
       	INT_Livree = Vrai
       fin
       
-      HLitRecherchePremier(Commandes,id,SAI_IDCommande)
-      EcranVersFichier(FEN_ListeBonsDeCommande,Commandes)
-      HModifie(Commandes)
+      Commandes.LitRecherchePremier(id,SAI_IDCommande)
+      si pas Commandes.livree et INT_Livree alors
+      	Info("Mise à jour du stock")
+      	miseAJourStock()
+      fin
+      FEN_ListeBonsDeCommande.VersTable(Commandes)
+      Commandes.Modifie()
       
       envoieMessage(1,"Commande modifiée")
+      
+      
       
       BTN_Valider.Visible = faux
       BTN_Modifier.Visible = vrai
@@ -1260,13 +1273,13 @@ window :
       //!
       procédure supprimerCommande()
       
-      HLitRecherchePremier(Commandes,id,SAI_IDCommande)
-      si HTrouve(Commandes) alors
-      	HLitRecherchePremier(LignesCommandes,commande_id,SAI_IDCommande)
-      	si HTrouve(LignesCommandes) alors
-      		tantque HEnDehors(LignesCommandes) = Faux
-      			HSupprime(LignesCommandes)
-      			HLitSuivant(LignesCommandes)
+      Commandes.LitRecherchePremier(id,SAI_IDCommande)
+      si Commandes.Trouve() alors
+      	LignesCommandes.LitRecherchePremier(commande_id,SAI_IDCommande)
+      	si LignesCommandes.Trouve() alors
+      		tantque LignesCommandes.EnDehors() = Faux
+      			LignesCommandes.Supprime()
+      			LignesCommandes.LitSuivant()
       		fin
       	fin
       	Commandes.Supprime()
@@ -1330,6 +1343,34 @@ window :
       		LIB_Message..Visible	= Vrai
       		LIB_Message..Couleur	= VertClair
       		LIB_Message..Couleur	= VertClair
+      FIN
+     type : 458752
+   -
+     name : miseAJourStock
+     procedure_id : 1898420560671536898
+     type_code : 14
+     code : |1-
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //!
+      procédure miseAJourStock()
+      
+      data est une chaine
+      data = TABLE_LigneCommandes.versJSON()
+      
+      url est une chaine
+      url = "https://sp-vendeurs.yajil.dev-campus.fr/mvc-sp/"
+      
+      sParametrePost est une chaîne
+      sParametrePost = ChaîneConstruit("action=%1&data=%2", "Update_stock", data)
+      
+      Info(data)
+      
+      si HTTPRequête(url,"","",sParametrePost) ALORS
+      	HTMLVersTexte(HTTPDonneRésultat(httpRésultat))
+      sinon
+      	Erreur(ErreurInfo())
       FIN
      type : 458752
   procedure_templates : []

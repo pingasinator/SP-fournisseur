@@ -739,7 +739,7 @@ window :
       -
         code : |1+
          
-         si SAI_IDCommande <> "0" ou pas SansEspace(SAI_IDCommande) <> "0" ALORS
+         si SAI_IDCommande <> "0"  ALORS
          	selon BS_Frequence.Valeur
          		cas 1
          			INT_Receptionnee..Etat			= Actif
@@ -1242,10 +1242,21 @@ window :
       fin
       
       Commandes.LitRecherchePremier(id,SAI_IDCommande)
+      si pas Commandes.livree et INT_Livree alors
+      
+      	si miseAJourStock() ALORS
+      		Info("Mise à jour du stock terminé!")
+      	sinon
+      		retour
+      
+      	FIN
+      fin
       FEN_ListeBonsDeCommande.VersTable(Commandes)
       Commandes.Modifie()
       
       envoieMessage(1,"Commande modifiée")
+      
+      
       
       BTN_Valider.Visible = faux
       BTN_Modifier.Visible = vrai
@@ -1254,6 +1265,7 @@ window :
       INT_Livree..Etat			= Inactif
       SAI_DateDeLivraison..EnSaisie	= Faux
       
+      resetSaisie()
       ListerCommandes(BS_Frequence.Valeur)
      type : 458752
    -
@@ -1338,6 +1350,41 @@ window :
       		LIB_Message..Couleur	= VertClair
       		LIB_Message..Couleur	= VertClair
       FIN
+     type : 458752
+   -
+     name : miseAJourStock
+     procedure_id : 1898420560671536898
+     type_code : 14
+     code : |1-
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //! @return (booléen)  <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //!
+      //!
+      
+      procédure miseAJourStock()
+      
+      data est une chaine
+      data = TABLE_LigneCommandes.versJSON()
+      
+      url est une chaine
+      url = "https://sp-vendeurs.yajil.dev-campus.fr/mvc-sp/api/Windev.php"
+      
+      sParametrePost est une chaîne
+      sParametrePost = ChaîneConstruit("action=%1&data=%2", "update_stock", data)
+      
+      si HTTPRequête(url,"","",sParametrePost) ALORS
+      	si HTMLVersTexte(HTTPDonneRésultat(httpRésultat)) <> "1" alors
+      				Info("Le stock n'a pas été mit à jour : ")
+      		retour Faux
+      	FIN
+      sinon
+      	Erreur(ErreurInfo())
+      	retour Faux
+      FIN
+      
+      retour vrai
      type : 458752
   procedure_templates : []
   property_templates : []
