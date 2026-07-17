@@ -1,0 +1,4 @@
+//MO027-028.TXT ANA00027 TO ANA00028
+Departement		FIC-	Departement	Table supprimée Departement
+Region		FIC-	Region	Table supprimée Region
+Contrainte_Departement_Region		DEL	Region (IDRegion) et Departement (IDRegion)	Liaison supprimée entre les tables Region (IDRegion) et Departement (IDRegion)

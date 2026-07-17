@@ -10,7 +10,7 @@ info :
 window :
  name : FEN_FicheContact
  identifier : 0x29c514f1b1fbd9b0
- internal_properties : IQAAACAAAAAc9ayqQbNBtD+tvBnbSfIknKHXvdk+1KMMWQOyJqMVr0+BqqsAsRP7zjiA26e4D4888tNkgOqkYlXfPMOD+F2Jr1FrOzL1/fLDWzLmXwJzS3V6URgYLxtMUnX25YgOUCfXQtUdS6pvc2NNE7FfMKZXPfW0puHf3UfYeAKeWkhYkNQJpKg9jmE/mMOtAtW4Y9eR4n1AzESHBF5VWrxNB0vuP3VeUrnsBgVNitbTW2gf4FlHNBObIKwm/JgejFvuD4mvFNgPaN8ae7UNooC1grzIgx1AMmja0IrbfCWWDnM7RLpytP3W83OnkYSkxa3QeBPWz6Mc4TrRUG0rcjqfNiEXldjuDh6e/RPzotAwWODuHi3+m7iK3AelLAB+INtiVPjYMeavdHfIJadJAwuyTzHFhm3TPgcjrtBoWzEqTNZqUt00TLMpCYt4SPkDOSy4xEsCHyq8UtixH6c2jvd858cuXbwN2DXyOcAkfPikfV4WROGx2QEeo3EQIhIX0whW27VFqYIvvmZxWnEbNXYb1JjgahLVji3ul4qddEoWFy1Fy1j0LSSR6f70+cyW5UT0UC7FYOX1dIdCqiNCFE88Z0iIo3JFqO+VWMrF+qQKa7QFz/VCNTnHikjA4r0ZZ7EkosjJ9dK/A2g6j6TKHhUNvryYmrTiNcVqxO46XI+LhghcTTyL4X7LXLLDcNzQym82tGTlWYoe8drqEFgQDedcGYpXqE7ejsIud7/JJcHvitFmPM/xnwG+vlSg6YhSEUt2g2OggfpTBkQ77XUqQwiUeS54TCYHo4jA0cB+9znJdHR3Tvic99QSZN/2BCOf+XcESTz2p4XxRToWzk+JStZvCA==
+ internal_properties : IQAAACAAAAC2nbhSae2LHdyj8ibYW050fc9cRtKw8lRHrmecHYrMybG2StNnhS90B5RBzmMZLy0zAN921JuVH13BnMQv7GimLf8XRpBS9IdJzIucfaU3sB0nNIQ8u1Hj7HoFsFRz2RQyKZ7wJW9hCW6EcRoThgbNo9d8jQU96LDY6BZjB6ixK4WULzAIkg4iqg4prMtzLF8AmLx6PiTFUstEyn8RTAh/oOX2UmuLLJBTJ+WAYVRLFUSR2rg5IMIda0UV9KAXR70cliuAB28mwNE0wXi1N8rpv9hmCXUCkBF2OQjKTihctcBF9RjkuWhecu0WRd3qp/dVkCAtmw65mXusG4J2GHR0Vz7DroF623Yg2isRdYABh6yZ8eXV5XVn7+EowEh5owXsKpVC5TYy9xZNs7bImhrgaRROyRMaSU0MmohknfYQD6ah0lsMDeltc7gmehY5uqglJtC8Hy5p5vSneYi0BmeZ4hWBrt40cWklKR+ZjemgN56SKTdZLyEXi9/otkLJk072zlolh7TlR7q43jHJ28DfR1uP0qRQC5X0L/0HpZQ9wleHvcau+a69DqXTnBwNtG2eLWmDFTG8U4SvHcoWnto/jI/VupwTehuOR2eLFelljnqj62WQ2lJBZUy2Rjuh7jVq6lr1nMImBuFzw9w3t2Y3FwUeqw5kQsX7kTyqhN0kRDFkhUS8WuC+LyeB7XEzlhn0XAAu7trKoVH1ZoraTOyGV0lc1h+CjcBYkJJ6cDSEbaAmheHBslYV+Iv/OMEjUb7TGCCPdeBnBq739pmCYpK+6qBaKlTZymZmAyOzQbh84BKSrFl0m/J+XN8/xVg8QDSIpeaGJR9rDP0LFvZ9crm6
  properties :
   width : 613
   height : 613
@@ -224,7 +224,7 @@ window :
   -
     name : SAI_Commentaire
     identifier : 0x29c51526b21ba9b2
-    internal_properties : IQAAACAAAABBHHIKkxQbK7dpJ6TWL0CnZ1zwxBGhvrVxVHhnwak5nbKHk5+vWDvDgkJLIsukdyyydmOrVC/JY5GTSmqbAS4O7Rtm0McYVBTjSTTGjs4andZFovENy3oDFGfdaR2n5FUp2djfuxClfQ1RmBaKL9BIwsHfGRjUncZKuSfQwzWbQbBolGU1w0CDbeKl+Tj772uaRD0BrMpW30Ldo4uqHWhlSfPYR91PaPM3kipmdOJXVPwRsdoErMzvJE5IDkkw4wBFqDnH8syGHHrvw1HIX7ebKFAczTSqgDt0NjOdxle1sek6CWDfZTCpTLHi82ea9GomPx7UiSs46Unis7G3MLHwF67ItzM9c2mNyofLXd2EOIbdnmHeEkWoi3nocasEOvrlD1qZ+pJ0vdAsh69zdW7Qo2OfqftwktS24g1MgLfp1THCbTrERdo8Zk0V6XXnfTKgeECsqnl1a7yY/pjZT6ZdU/FDtKnd3Mx42gRkG1pS0JG8nGEKxxTu/71N/zzn+dMYGySUIIuFkITYE0YIbR3nYME+BaTjMRisphq0q66ibMUPwLCd/0Bfvldqh4hOAADLfSNCLYfySZNgclw+xM9ArRmtA9UwDnUxPgd78Ap6x1zF06ALuAr+QFLsum/9kUz/0dH92MK/Ep0yLFNZ4i9jv2giTFHUtQ+xOoXJIvRDQMLNaBL44i9uXLpMpWId/HUHeJ/RoYmbw/rrmULRz3CQyyv1I6Q7GoNi05l3I0OcogcLrUcB1eDcnbPs05FRjto1zDXI0RU/bGp/gmk5vZCkrl13kzROJjEgH24Yh0A17WeNdt4U9ukROvuWosShwB97SZWy5O66N5O2XFPmEwL1oZmW1Sf8RirkoeuwGMlpcbSqDABB6s4bFB9e31N3NerQehkuUZltjaIRPKhcsb9940qEoKVVSv8EkV28TofKcJSu/dlIepZqkWPCfCWVJwkFQ88wQqA15uwx6tcq7nQH0iWdywS0RS+6wpqbwPHng38yFM7oGQOOvP4dog7v/AODenzvCZqF9be1l73f5x/fx0NOqkBi34vLntMfn9lttXo9UML8v9YSU7yN3GqZZe92eOBqtz4KpawhLy4bBCfDOKDad2zg+ya25Io7+D9ffDdTsNx9UIk6QxI6pdl0iyV+EZMxP9BA2PvN2ZEifvBAS+XEAoJmzAGWu3splSBQfEV/Fean8ExQAnJZPYPlkjXsH0x/oztfvxOtISDLgIR8jiOTm7cd6j4xGjdJZGpCB/lOM+Qwgj43JVkmlAiYXERZwHnwYZ8pdXWtbTexUkUiv7sGcxeIse9L5l3FLjM0SqVDacbsqL+OSniQXNgQAV+r9ogAVafB09TfbSpo+G5XFmYG3EjSOAzs/RezqczLzHi82bvhQwTSH91sTBsZHIc/LooRs8Y3yeTJ6L/rOPpCyrFNt6iphzyScdZkOY/SzAH+WdpK9x0KqtMgsg27IWqJe1j3OUgnpWFCs+wb7E1Nx9Y7bLKI1gpbN4Ir1+qyXZBnvdYPNHCyn2MZTTsqBDA2bf4/57wTX3sxVh0WocOp+hMWaKCHPZ+bVVJ4MX0B29SfktPSEsJX6c49g0IMiq0JVlqlBnArTRgNcgJcgXhRGOP2rwFIpRzMhoUChGwUfLGa3OYod+kA6A==
+    internal_properties : IQAAACAAAADTm4W6hO6cXbBFT60SQTdF3oJ1SbnUDFUkGZqJMuPSi66jhNIRczLFuoRye/8py63RKJHI34zZL2DTHZtouKGKx6G3Mq35fWmugsaG//oln+ZNpQnEOhF9kTg16fDwvjgx7615GaE4jV780bfexES1oxEYcHqg8AEY9rL8Pm+a3cOwMcyc/ULy4cS8wkx8mOY2stZeaOk184oi2tZbipR0/GqJz8yJ+++Z002cGw7vIUmck1LwlB16+pnWXVenNZ/aidfIrjtZc0/Gk8sByjbgZOhvNMTUWHxf7wpufoJT0uQ2eteHPHyhLyXO8Q75MSa3NNuHnY2Y76JY2+m9ZJZ3732wFX8HrRmuC9i0lydZm/JdNbrLt4DbDIGz+5pWYzfaqivsXCC0mFZCOsQlKPLCmViN27qA3rr+1bFsoHzwrgc05kNZtkUODfgmPamQtPp8HTmfi0tSDmEma8/xVcNjw0JNibsw5d34Fq9iSzGQf9+ttUll6eefFBi+FmfAn2qznAJMuQXDZ2Y0aCWOSeYJbdrf9T6uY0HIjVrabUM/nvYZ0ofaagRzDrnvjrUluVrU+StpaECcOujRZC9Xy8N+1QVjq5duacQ2/0xYlo3U/Hf0IwYAx5al595eyp3wWiUd5KoZdOSmmk7W8hxTuYHPndM/ySosFEW0/it021i9znTnELpHpDyTZuoJPBKDLDFeHGA4HK6WR0G/IXM3HrbGVp+1kMSJLM3tPBGEjUqVJow7Ib/ADdnc+5yFCUMzXJEWmsDx4W97OLh1jwvBGTQic9z/3GovOf4nVri6VrNd+j8HZxq6EsWDTp257phT2s7gOnfAwvc1XKxiZNxLFJwCZp/NehDkmPrZH/ybq5kyalMwxKHzntJlHt7pHnVkghqP9uGvYCnAc/P7cyPYUjNKo1HHuIkXFdNlk28CoRylAtxPfUvmc0hgWfWPl8Qdm/Ve7z8CvHhc3L0VVRGRBhDVF8k9+bufv+dzzNG90ftDIHdNoawsP8cryfrT2Yp0GGbfjja9rpTqjkVgxnEfRePKQQwpMJYAnsS+HU9n5xvptIpTrDNRIIUi6I+z7NlmTrVFyjOAscJVQApO+UJggrYCInEHLCNhfE8dFRVCWXtK/smS6oYx1axTmPHfQjxAcn1wtqMNsqleo9PSuF8QRcdLiArplEdOP6rqXbxFAxDzMwHG3pznIWd5Dui+/sQJLUl9ZVjOw74kuJmDcU9VAoN/Wu38DcFruAJkOIH8k75EN/8etoDMEtJR9exl5rRuBtZgF3k7AaqmW2XF79JbQDAsTbFJ+3wUSD4pUVLp/xnlsj9Tr4GWco7sUaNNl0z4sKA+NU9KvXju6IAgBozFogZMGZ6fs000KJLX3a3bsIJJCW2EOBg3C/WQmzOZqZd7DgLAQA==
     properties :
      x : 32
      y : 254
@@ -388,8 +388,8 @@ window :
          	RepriseSaisie(SAI_Nom)
          fin
          
-         ECRANVersFichier(FEN_FicheContact,Contacts)
-         HModifie(Contacts)
+         FEN_FicheContact.VersTable(Contacts)
+         Contacts.Modifie()
          afficherConsultation()
          chargementFicheContact()
          FEN_FicheFournisseur.chargementListeContacts()
@@ -424,12 +424,12 @@ window :
       -
         code : |1+
          
-         HLitRecherchePremier(Contacts,id,gIdContactEnCours)
+         Contacts.LitRecherchePremier(id,gIdContactEnCours)
          
-         si HTrouve(Contacts) = vrai alors
+         si Contacts.Trouve() = vrai alors
          	HSupprime();
          	FEN_FicheFournisseur.chargementListeContacts();
-         	Ferme(FEN_FicheContact);
+         	FEN_FicheContact.Ferme();
          FIN
          
         type : 18
@@ -622,9 +622,9 @@ window :
       //!
       procédure chargementFicheContact()
       
-      HLitRecherchePremier(Contacts,id,gIdContactEnCours)
-      si HTrouve(Contacts) = Vrai alors
-      	FichierVersEcran(FEN_FicheContact)
+      Contacts.LitRecherchePremier(id,gIdContactEnCours)
+      si Contacts.Trouve() = Vrai alors
+      	FEN_FicheContact.DepuisTable()
       sinon
       	Info("Enregistrement non trouvé")
       FIN
