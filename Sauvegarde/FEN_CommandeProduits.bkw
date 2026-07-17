@@ -907,15 +907,40 @@ window :
       
       		sdFournisseurs	est une Source de Données
       		sql				est une chaîne
+      
+      		sdCheck est une source de données
+      
+      
+      		// Vérifie que le produit n'est pas déjà commandé
       		sql = [
-      			SELECT Fournisseurs.id as idFournisseur, 
-      			Produits.id as idProduits, 
-      			raisonSociale 
-      			FROM Fournisseurs 
-      			RIGHT JOIN Produits ON Produits.Fournisseur_id = Fournisseurs.id 
-      			LEFT OUTER JOIN	LignesCommandes	ON LignesCommandes.produit_id = Produits.id
+        	  	  	 SELECT
+       				COUNT(Commandes.id) AS nbCommandes
+      			 FROM Produits
+      				LEFT OUTER JOIN	LignesCommandes	ON LignesCommandes.produit_id = Produits.id
+      				RIGHT JOIN Commandes ON Commandes.id = LignesCommandes.commande_id
+      			 WHERE
+      				Commandes.receptionnee = 0 AND
+      				Produits.codeProduitFournisseur = %1
+      		]
+      
+      		sql = ChaîneConstruit(sql,valeurs[2])
+      		sdCheck.ExécuteRequêteSQL(sql)
+      		sdCheck.LitPremier()
+      		si sdCheck.Trouve() ALORS
+      
+      			si sdCheck.nbCommandes > 0 ALORS
+      				continuer
+      			FIN
+      		FIN
+      
+      		// initialise les données dans la table
+      		sql = [
+      			SELECT Fournisseurs.id as idFournisseur,
+      			Produits.id as idProduits,
+      			raisonSociale
+      			FROM Fournisseurs
+      			RIGHT JOIN Produits ON Produits.Fournisseur_id = Fournisseurs.id
       			WHERE
-      			LignesCommandes.produit_id IS NULL AND 
       			Produits.codeProduitFournisseur = %1
       		]
       
@@ -963,7 +988,6 @@ window :
       numLigne = 1
       
       FEN_CommandeProduits.VersTable(Commandes)
-      info(Commandes.dateDeReception)
       
       si verifierBonCommande() alors
       	//Ajoute la commande en base de données
