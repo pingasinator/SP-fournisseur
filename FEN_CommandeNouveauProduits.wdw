@@ -767,10 +767,12 @@ window :
   type_code : 1
   p_codes :
    -
-     code : |1-
+     code : |1+
       PROCEDURE MaFenêtre()
       
       chargerListeProduits()
+      
+      HExécuteRequêteSQL("DROP PROCEDURE REQ_SansNom_sp_fournisseurs2")
    -
      code : |1+
       
@@ -921,6 +923,10 @@ window :
       numLigne = 1
       
       FEN_CommandeNouveauProduits.VersTable(Commandes)
+      Commandes.dateDeLivraison = ""
+      Commandes.dateDeReception = ""
+      Commandes.receptionnee = faux
+      Commandes.livree = faux
       
       si verifierBonCommande() ALORS
       	//Ajoute la commande en base de données

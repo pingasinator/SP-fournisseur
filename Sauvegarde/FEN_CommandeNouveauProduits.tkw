@@ -721,9 +721,9 @@ window :
     identifier : 0x2a450936869f452d
     internal_properties : IQAAACAAAACS2cysqszvJ1PROsP8UqEG/hYrgMpe1orXktMGtVJYtY1SeAYKbXl9fC42rYFPzPggCITWJaTu/6z0L5ZBIuHJPNRkMvD6d7dTmTUhvbYzcp0/TNJSe8P/fJHmVpbMtwwHN53ILfDyKWXIHzG0f4ImKM1CCz3q7EAqGGLdP4IGa14nhCX7VeNS6KolViqM+VghA/KRUmCZXb9zDD0WoDSOOZ470FfxRcGWBpYWE5l3mlYNbUNm5X7FFXC+2H5saQZE+6ZqQXc4LfFeYx9KxDU7FYF2Kir3DopPXm0p01BmpsFrA3rx/djismVU9zB8BF+0azU7EGnejztAojUsNJmOEZjrLj4pGMfSHYhmOchsqp4nAc/LZAe7PDbNg5WeSs5/QB1rZf02y13m3dXB8rynWjLTDKat+RNnFgmdYC2XEwzWoqh7skk6ShUJ2U4WvhI9UDCGZW4=
     properties :
-     x : 25
+     x : 136
      y : 26
-     width : 411
+     width : 300
      height : 33
      visible : 0
      caption :
@@ -733,6 +733,23 @@ window :
     type : 3
     code_elements :
      type_code : 2
+     p_codes : []
+  -
+    name : IMG_Sp_fournisseur1
+    identifier : 0x2a5a21204b70ab74
+    internal_properties : IQAAACAAAACydrd3K7yN1byKNrs+Sl0d+an63goQ4vS2weXPp+w0wHZejx0SZaTJFv85n+GO2rQqF7ZgWjcK0IQK3Wn+/RiqqujpOjz1yvlaRtuocukLqxnls9uBQAPcf9MD7gr2yt/E8ays5ZG9VTG17kdPbejvu0CniuG/5oP0zcnP4qxBMeknLKyvDZpIdxRjDN3YhNn0SJU0ckrL5hlofW8YHkX0Ym8FOl3YWJzk9ZKvz8I26296YRzvu0rI0gm0ah1R8g5vjebWWXXZaheLvIcjKd8w964ZV+paKUtCCxdmSoepZzGt97ro61500vweiHV1LIa0h1p7M0JdMxRyESVRpA6Bk6OzisQ9A4YggyMO/O6Q4rXV9dlH6TRX7VHH4zScqppQmeyks1HrnewDppBv1iXAnzxDjKflY8czvV8/53MLOSwQh2Bm+xXXvz4km3RYsPIh6SMUO92l0pPnom3LUOY6WW8MCciVpNjtrqwStPDhfs26XyZ62kXuH/FapL/jzhj6SSR9oohuNQYaNVEh6CeaEu4i5/J7SqGerOMb1VlqJuaOjEHUH5vkj804FPEe8I7qhVc/y68SVU7pfCE7AvKd3Ry5/5Kn71qaUPbe3V6/d2Cow3tf1q+kEKlDdexAVYJIm6QIa5rSxh7aC/4u4fZk+lFZmiZTnC9ygadv3z3uCacvHGNiJN/LTMx5LA0V3b8pGRDS6cmZISL4n28cw4/Xy7lv/aDHR1eb7IKg9GzqlIvpLkvQkueYlWDGMgFxHBIuqH6eh/l5NhAtu3WMQyoN8SEo7e1sYFXm1hGSclXA77pjuH8ZjKobXY9pa6415W7ANeJpeXQrzwLk4Zlq9ZnlXff5R7HYIww2/61YkGCcDsP/pU/Yu/mTxQErc2PBmit0YX7fRWxqumTyE2XftvIZlluSA8hzwzjtw82/Jw==
+    properties :
+     x : 25
+     y : 6
+     width : 97
+     height : 75
+     initial_value :
+      fr-FR : .\sp-fournisseur.png
+     tab_stop : 0
+     take_focus : 0
+    type : 8
+    code_elements :
+     type_code : 8
      p_codes : []
  menu :
   name : _Menu
@@ -750,10 +767,12 @@ window :
   type_code : 1
   p_codes :
    -
-     code : |1-
+     code : |1+
       PROCEDURE MaFenêtre()
       
       chargerListeProduits()
+      
+      HExécuteRequêteSQL("DROP PROCEDURE REQ_SansNom_sp_fournisseurs1")
    -
      code : |1+
       
@@ -904,6 +923,10 @@ window :
       numLigne = 1
       
       FEN_CommandeNouveauProduits.VersTable(Commandes)
+      Commandes.dateDeLivraison = ""
+      Commandes.dateDeReception = ""
+      Commandes.receptionnee = faux
+      Commandes.livree = faux
       
       si verifierBonCommande() ALORS
       	//Ajoute la commande en base de données

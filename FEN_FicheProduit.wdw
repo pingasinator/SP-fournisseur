@@ -371,17 +371,17 @@ window :
       -
         code : |1+
          
-         HLitRecherchePremier(Produits,id,id)
-         si Htrouve(Produits) ALORS
-         	ÉcranVersFichier(FEN_FicheProduit,Produits)
-         	si HSupprime(Produits) ALORS
+         Produits.LitRecherchePremier(id,id)
+         si Produits.Trouve() ALORS
+         	FEN_FicheProduit.VersTable(Produits)
+         	si Produits.Supprime() ALORS
          		Info("Le produit " + SAI_Designation + " à été correctement supprimé")
          	sinon
          		Avertissement("Le produit avec l'ID " + id + " n'a pas été trouvé")
          	FIN
          
          	FEN_ListeProduits.chargeListeProduits()
-         	Ferme(FEN_FicheProduit)
+         	FEN_FicheProduit.Ferme()
          
          sinon
          	Avertissement("Le produit avec l'ID " + id + " n'a pas été trouvé")
